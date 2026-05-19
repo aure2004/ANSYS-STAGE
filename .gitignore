@@ -1,0 +1,33 @@
+# Fichiers ANSYS trop lourds ou inutiles
+*.rst
+*.rth
+*.err
+*.log
+*.out
+*.dat
+*.BIN
+*.mntr
+*.esav
+*.emat
+*.osav
+*.stat
+*.db
+dp0/
+SYS/
+solve.out
+file.page
+*.lock
+*.tmp
+~*
+
+# Résultats de simulation (gros fichiers)
+*.cas
+*.cas.h5
+*.dat.h5
+
+# Fichiers Excel temporaires
+~$*.xlsx
+
+# Dossiers Windows inutiles
+Thumbs.db
+desktop.ini
