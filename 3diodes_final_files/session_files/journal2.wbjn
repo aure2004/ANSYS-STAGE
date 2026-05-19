@@ -1,0 +1,48 @@
+# encoding: utf-8
+# 2025 R2
+SetScriptVersion(Version="25.2.170")
+system1 = GetSystem(Name="SYS")
+results1 = system1.GetContainer(ComponentName="Results")
+results1.Edit()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Exit()
+Save(Overwrite=True)
+geometry1.Exit()
+Update()
+model1.Edit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1.Edit()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="PLA NOIR")
+matlProp1 = material1.GetProperty(Name="Thermal Conductivity")
+matlProp1.SetVariableProperty(
+    VariableName="Thermal Conductivity",
+    Property="Unit",
+    Value="W m^-1 K^-1")
+matlProp1.SetData(
+    Variables=["Thermal Conductivity"],
+    Values=[["0.13 [W m^-1 K^-1]"]])
+matlProp1.SetData(
+    Variables=["Thermal Conductivity"],
+    Values=[["0.205 [W m^-1 K^-1]"]])
+matlProp2 = material1.GetProperty(Name="Specific Heat")
+matlProp2.SetVariableProperty(
+    VariableName="Specific Heat",
+    Property="Unit",
+    Value="J kg^-1 K^-1")
+matlProp2.SetData(
+    Variables=["Specific Heat"],
+    Values=[["1800 [J kg^-1 K^-1]"]])
+matlProp2.SetData(
+    Variables=["Specific Heat"],
+    Values=[["2100 [J kg^-1 K^-1]"]])
+model1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
