@@ -12,8 +12,6 @@
 *.osav
 *.stat
 *.db
-dp0/
-SYS/
 solve.out
 file.page
 *.lock
