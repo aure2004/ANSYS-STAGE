@@ -47,6 +47,7 @@ dp0/SYS-2/MECH/solve.out
 dp0/SYS-3/DM/SYS-3.scdocx
 dp0/SYS-3/MECH/CAERep.xml
 dp0/SYS-3/MECH/cleanup-ansys-Zephyrus_Aurel-14016.bat
+dp0/SYS-3/MECH/cleanup-ansys-Zephyrus_Aurel-7720.bat
 dp0/SYS-3/MECH/ds.dat
 dp0/SYS-3/MECH/file.aapresults
 dp0/SYS-3/MECH/file.DSP
@@ -60,6 +61,7 @@ dp0/SYS-3/MECH/solve.out
 dp0/act.dat
 dp0/designPoint.wbdp
 session_files/journal1.wbjn
+session_files/journal10.wbjn
 session_files/journal2.wbjn
 session_files/journal3.wbjn
 session_files/journal4.wbjn
