@@ -88,7 +88,7 @@
               <Qualifier name="Field Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
             <Qualifier name="Localized Name">Density</Qualifier>
@@ -156,7 +156,7 @@
               <Qualifier name="Localized Name">Compressive Ultimate Strength</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Compressive Yield Strength</Qualifier>
             <ParameterValue parameter="pa9" format="float">
@@ -165,7 +165,7 @@
               <Qualifier name="Localized Name">Compressive Yield Strength</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
             <Qualifier name="Localized Name">Density</Qualifier>
@@ -624,11 +624,11 @@
         </PropertyDetails>
         <PropertyDetails id="pr4">
           <Unitless />
-          <Name>Density</Name>
+          <Name>Compressive Yield Strength</Name>
         </PropertyDetails>
         <PropertyDetails id="pr5">
           <Unitless />
-          <Name>Compressive Yield Strength</Name>
+          <Name>Density</Name>
         </PropertyDetails>
         <PropertyDetails id="pr6">
           <Unitless />

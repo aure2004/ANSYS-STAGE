@@ -1,0 +1,41 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+system1 = GetSystem(Name="SYS 1")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+system2 = GetSystem(Name="SYS 3")
+system2.DisplayText = "3_plateau_75"
+system1.DisplayText = "3_plateau_100"
+template1 = GetTemplate(
+    TemplateName="Transient Thermal",
+    Solver="ANSYS")
+engineeringDataComponent1 = system1.GetComponent(Name="Engineering Data")
+system3 = template1.CreateSystem(
+    ComponentsToShare=[engineeringDataComponent1],
+    Position="Right",
+    RelativeTo=system1)
+geometry2 = system3.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsDiscoveryGeometry=True)
+geometry2.Exit()
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometryComponent1 = system3.GetComponent(Name="Geometry")
+geometryComponent1.Reset()
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+modelComponent1 = system3.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system3.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
