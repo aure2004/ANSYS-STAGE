@@ -95,7 +95,6 @@ dp0/SYS-6/MECH/MatML.xml
 dp0/SYS-6/MECH/solve.out
 dp0/SYS-7/DM/SYS-7.scdocx
 dp0/SYS-7/MECH/CAERep.xml
-dp0/SYS-7/MECH/cleanup-ansys-Zephyrus_Aurel-22740.bat
 dp0/SYS-7/MECH/ds.dat
 dp0/SYS-7/MECH/file.aapresults
 dp0/SYS-7/MECH/file.cnd
@@ -116,6 +115,8 @@ session_files/journal12.wbjn
 session_files/journal13.wbjn
 session_files/journal14.wbjn
 session_files/journal15.wbjn
+session_files/journal16_crashed.wbjn
+session_files/journal17.wbjn
 session_files/journal2.wbjn
 session_files/journal3.wbjn
 session_files/journal4.wbjn
