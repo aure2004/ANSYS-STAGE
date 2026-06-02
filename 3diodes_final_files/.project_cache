@@ -10,6 +10,8 @@ dp0/global/MECH/SYS-7.engd
 dp0/global/MECH/SYS-7.mechdb
 dp0/global/MECH/SYS-8.engd
 dp0/global/MECH/SYS-8.mechdb
+dp0/global/MECH/SYS-9.engd
+dp0/global/MECH/SYS-9.mechdb
 dp0/global/MECH/SYS.engd
 dp0/global/MECH/SYS.mechdb
 dp0/SYS/DM/SYS.scdocx
@@ -140,6 +142,8 @@ session_files/journal17.wbjn
 session_files/journal18.wbjn
 session_files/journal19.wbjn
 session_files/journal2.wbjn
+session_files/journal20_crashed.wbjn
+session_files/journal21.wbjn
 session_files/journal3.wbjn
 session_files/journal4.wbjn
 session_files/journal5_crashed.wbjn
@@ -159,10 +163,12 @@ dp0/SYS-5/
 dp0/SYS-6/
 dp0/SYS-7/
 dp0/SYS-8/
+dp0/SYS-9/
 dp0/global/MECH/
 dp0/global/MECH/SYS-6/
 dp0/global/MECH/SYS-7/
 dp0/global/MECH/SYS-8/
+dp0/global/MECH/SYS-9/
 dp0/SYS/DM/
 dp0/SYS/ENGD/
 dp0/SYS/MECH/
@@ -179,6 +185,7 @@ dp0/SYS-7/DM/
 dp0/SYS-7/MECH/
 dp0/SYS-8/DM/
 dp0/SYS-8/MECH/
+dp0/SYS-9/MECH/
 dpall/global/
 dpall/global/ACT/
 dpall/global/ACT/extensions/
