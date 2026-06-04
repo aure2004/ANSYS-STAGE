@@ -16,6 +16,7 @@ solve.out
 file.page
 *.lock
 *.tmp
+*.mechdb
 ~*
 
 # Résultats de simulation (gros fichiers)
