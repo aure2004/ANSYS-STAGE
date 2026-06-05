@@ -42,7 +42,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa5" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>0.205</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Thermal Conductivity</Qualifier>
@@ -150,7 +150,7 @@
           <PropertyData property="pr2">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Compressive Ultimate Strength</Qualifier>
-            <ParameterValue parameter="pa6" format="float">
+            <ParameterValue parameter="pa5" format="float">
               <Data>0</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Compressive Ultimate Strength</Qualifier>
@@ -298,7 +298,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa5" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>114,144,165,175</Data>
               <Qualifier name="Variable Type">Dependent,Dependent,Dependent,Dependent</Qualifier>
               <Qualifier name="Localized Name">Thermal Conductivity</Qualifier>
@@ -446,7 +446,7 @@
           <Name>Options Variable</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa5">
+        <ParameterDetails id="pa6">
           <Name>Thermal Conductivity</Name>
           <Units name="Thermal Conductivity">
             <Unit>
@@ -468,7 +468,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa6">
+        <ParameterDetails id="pa5">
           <Name>Compressive Ultimate Strength</Name>
           <Units name="Stress">
             <Unit>
