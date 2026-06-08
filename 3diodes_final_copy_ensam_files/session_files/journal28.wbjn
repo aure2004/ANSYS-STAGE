@@ -1,0 +1,19 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+system1 = GetSystem(Name="SYS 12")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+system1.Delete()
+system2 = GetSystem(Name="SYS 11")
+model1 = system2.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+system2.Copy(KeepConnections=True)
+system3 = GetSystem(Name="SYS 12")
+system3.DisplayText = "10 COUCHES 40x0.2x0.2/T_p=50/h_conv=70/h=800"
+model2 = system3.GetContainer(ComponentName="Model")
+model2.Edit()
+model2.Exit()
+system3.DisplayText = "10 COUCHES 40x0.2x0.2/T_p=50/h_conv=25/h=800"
+model2.Edit()
