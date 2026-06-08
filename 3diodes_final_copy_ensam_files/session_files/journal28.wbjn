@@ -17,3 +17,7 @@ model2.Edit()
 model2.Exit()
 system3.DisplayText = "10 COUCHES 40x0.2x0.2/T_p=50/h_conv=25/h=800"
 model2.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+model2.Exit()
+Save(Overwrite=True)
