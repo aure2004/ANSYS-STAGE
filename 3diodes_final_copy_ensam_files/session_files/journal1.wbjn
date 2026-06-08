@@ -1,0 +1,74 @@
+# encoding: utf-8
+# 2025 R2
+SetScriptVersion(Version="25.2.170")
+Save(Overwrite=True)
+template1 = GetTemplate(
+    TemplateName="Transient Thermal",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.CreateMaterial(Name="PLA NOIR")
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+material1.SetSuppression(Suppressed=True)
+matlProp1 = matl1.CreateProperty(
+    Name="Thermal Conductivity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp1.SetData(
+    Index=-1,
+    Variables=["Thermal Conductivity"],
+    Values=[["0.14 [W m^-1 C^-1]"]])
+matlProp1.SetData(
+    Variables=["Thermal Conductivity"],
+    Values=[["0.13 [W m^-1 C^-1]"]])
+matlProp2 = matl1.CreateProperty(
+    Name="Thermal Conductivity",
+    Behavior="Orthotropic",
+    Qualifiers={"Definition": "", "Behavior": "Orthotropic"})
+matlProp2.Delete(Behavior="Orthotropic")
+matlProp3 = matl1.CreateProperty(
+    Name="Specific Heat",
+    Definition="Constant Pressure",
+    Qualifiers={"Definition": "Constant Pressure", "Behavior": ""})
+materialPropertyData1 = matlProp2.GetPropertyData(
+    Name="Thermal Conductivity",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+materialPropertyData1.SetSuppression(Suppressed=False)
+matlProp3.SetData(
+    Index=-1,
+    Variables=["Specific Heat"],
+    Values=[["1800 [J kg^-1 C^-1]"]])
+matlProp4 = matl1.CreateProperty(
+    Name="Density",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp4.SetData(
+    Index=-1,
+    Variables=["Density"],
+    Values=[["1250 [kg m^-3]"]])
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="ANSYS GRANTA Materials Data for Simulation (Sample)",
+    Source="Granta_Design_Typical_Materials.xml")
+library2 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+matl2 = engineeringData1.ImportMaterial(
+    Name="Aluminum Alloy",
+    Source="General_Materials.xml")
+matlProp5 = matl2.CreateProperty(
+    Name="Enthalpy",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp5.Delete()
+matlProp6 = matl2.CreateProperty(
+    Name="Melting Temperature",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp6.Delete()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
