@@ -93,7 +93,7 @@
           </PropertyData>
           <PropertyData property="pr5">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>250000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -437,7 +437,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa9" format="float">
               <Data>0.205</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [W m^-1 K^-1]</Qualifier>
@@ -610,7 +610,7 @@
           </PropertyData>
           <PropertyData property="pr5">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>280000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -893,7 +893,7 @@
           <Name>Temperature</Name>
           <Units name="Temperature" />
         </ParameterDetails>
-        <ParameterDetails id="pa9">
+        <ParameterDetails id="pa10">
           <Name>Tensile Yield Strength</Name>
           <Units name="Stress" />
         </ParameterDetails>
@@ -970,7 +970,7 @@
         <ParameterDetails id="pa32">
           <Name>Relative Permeability</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa10">
+        <ParameterDetails id="pa9">
           <Name>Thermal Conductivity</Name>
           <Units name="Thermal Conductivity" />
         </ParameterDetails>
