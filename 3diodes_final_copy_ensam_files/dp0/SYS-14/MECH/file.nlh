@@ -1,0 +1,14 @@
+<SOLUTION>
+<HEADER>
+ <COLUMN ID="        1">Time</COLUMN>
+ <COLUMN ID="        2" NODE="        0" ITEM="TEMP" COMP="MAX ">MAX_TEMP                        </COLUMN>
+ <COLUMN ID="        3" NODE="        0" ITEM="TEMP" COMP="MIN ">MIN_TEMP                        </COLUMN>
+ <UNITS>MKS</UNITS>
+</HEADER>
+<COLDATA>
+   0.1000000E-03     210.0000       -0.2258740E-03
+   0.2000000E-03     210.0000       -0.2258740E-03
+   0.5000000E-03     210.0000       -0.2258740E-03
+   0.1000000E-02     210.0000       -0.2258740E-03
+</COLDATA>
+</SOLUTION>
