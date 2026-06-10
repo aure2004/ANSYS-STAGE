@@ -80,11 +80,13 @@ dp0/SYS-14/MECH/cleanup-ansys-Zephyrus_Aurel-15476.bat
 dp0/SYS-14/MECH/cleanup-ansys-Zephyrus_Aurel-20468.bat
 dp0/SYS-14/MECH/cleanup-ansys-Zephyrus_Aurel-23860.bat
 dp0/SYS-14/MECH/ds.dat
+dp0/SYS-14/MECH/file.aapresults
 dp0/SYS-14/MECH/file.cnd
 dp0/SYS-14/MECH/file.DSP
 dp0/SYS-14/MECH/file.gst
 dp0/SYS-14/MECH/file.mntr
 dp0/SYS-14/MECH/file.nlh
+dp0/SYS-14/MECH/file.rth
 dp0/SYS-14/MECH/file0.err
 dp0/SYS-14/MECH/MatML.xml
 dp0/SYS-14/MECH/solve.out
@@ -189,6 +191,7 @@ session_files/journal30.wbjn
 session_files/journal31.wbjn
 session_files/journal32.wbjn
 session_files/journal33.wbjn
+session_files/journal34.wbjn
 session_files/journal4.wbjn
 session_files/journal5_crashed.wbjn
 session_files/journal6.wbjn
