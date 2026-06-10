@@ -1,0 +1,18 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+system1 = GetSystem(Name="SYS 13")
+results1 = system1.GetContainer(ComponentName="Results")
+results1.Edit()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Exit()
+system1.Copy(KeepConnections=True)
+system2 = GetSystem(Name="SYS 14")
+system2.DisplayText = "S2"
+model2 = system2.GetContainer(ComponentName="Model")
+model2.Edit()
+model2.Exit()
+system2.DisplayText = "ETUDE PARAMETRIQUE"
+model2.Edit()
+model2.Exit()
+Save(Overwrite=True)
