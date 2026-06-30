@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="25.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">43069</timestamp-max>
+    <timestamp-max valType="Int64">43523</timestamp-max>
     <framework-build-version valType="String">26.1.174.0</framework-build-version>
     <external-version-string valType="String">2026 R1</external-version-string>
-    <last-saved-utc valType="String">06/30/2026 07:31:36</last-saved-utc>
+    <last-saved-utc valType="String">06/30/2026 12:57:00</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -180,7 +180,6 @@
 "651e0a3f-22f9-4b78-a51a-fe8c747ad16b": "/Schematic/Component:Setup 11",
 "43419375-c055-45f5-9504-d05fdf1626d4": "/Schematic/Component:Solution 11",
 "09fbbcad-9638-4bdf-81a3-5b35ba0f9215": "/Schematic/Component:Results 11",
-"6211b4d9-68fc-42aa-888e-9643399f1385": "/FileContainer/FileReference:F57",
 "27d31ec2-cc40-4348-9d7d-ba7442e1eea0": "/FileContainer/FileReference:F59",
 "92e92d4e-13fb-4b98-a119-4cd399f7e608": "/FileContainer/FileReference:F58",
 "ffe39010-7bd1-4e76-a9b9-3a232de4f55c": "/Schematic/System:SYS 15",
@@ -189,7 +188,8 @@
 "a8b0fa88-2a56-4d97-8631-0957098205be": "/Schematic/Component:Model 15",
 "c2d55d11-5578-4381-8720-e3752ab2683e": "/Schematic/Component:Setup 15",
 "d57bb1b3-e2ac-4007-9512-8498ee776027": "/Schematic/Component:Solution 15",
-"f5ebf236-991b-4cc1-a6e2-9baa3363804d": "/Schematic/Component:Results 15"
+"f5ebf236-991b-4cc1-a6e2-9baa3363804d": "/Schematic/Component:Results 15",
+"7a13075c-794a-4911-9dd8-a63583897db1": "/FileContainer/FileReference:F60"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -545,7 +545,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 42764, "Input": 1500, "Output": 1500}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 43335, "Input": 1500, "Output": 1500}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F1" Version="1.0">
@@ -556,7 +556,7 @@
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F2</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$3a95d2ab-8b7d-4cff-91de-d48edfec81c3, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 67}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$3a95d2ab-8b7d-4cff-91de-d48edfec81c3, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 70}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F9" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -773,9 +773,9 @@
         <object-name valType="String">F56</object-name>
         <member-data valType="String">{"DisplayText": "SYS-16.mechdb", "FileType": $$187ea782-7fc8-4537-8ea1-8707c4ee5a0f, "DependentFiles": [], "ContainerAssociations": ["Setup 11", "Model 11"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-16.mechdb", "ReferenceCount": 1}</member-data>
       </Object>
-      <Object Name="/FileContainer/FileReference:F57" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F60" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F57</object-name>
+        <object-name valType="String">F60</object-name>
         <member-data valType="String">{"DisplayText": "SYS-17.scdocx", "FileType": $$2d3f98fc-e752-4092-83f2-2934cf276b49, "DependentFiles": [], "ContainerAssociations": ["Geometry 15"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS-17\DM\SYS-17.scdocx", "ReferenceCount": 1}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F58" Version="1.0">
@@ -794,7 +794,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 42975, "Input": 1501, "Output": 1501}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 43129, "Input": 1501, "Output": 1501}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/Messages/StoredMessage:Message" Version="1.0">
@@ -867,6 +867,13 @@ C:\github project\ANSYS-STAGE\3diodes_final_copy_ensam_files\dp0\SYS-13\MECH\fil
         <object-name valType="String">Message 12</object-name>
         <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Update failed for the Model component in autre.  Error updating cell Model in system autre. View the messages in the Mechanical editor for more details.", "Details": None, "Association": "", "DateTimeStamp": 06/29/2026 10:09:47, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$a8b0fa88-2a56-4d97-8631-0957098205be, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
       </Object>
+      <Object Name="/Messages/StoredMessage:Message 13" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 13</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Warning", "MessageCategory": "None", "Summary": r"""The following project session files and/or folders are no longer part of the project:
+C:\github project\ANSYS-STAGE\3diodes_final_copy_ensam_files\session_files\journal37.wbjn
+""", "Details": None, "Association": "", "DateTimeStamp": 06/30/2026 09:59:00, "Visibility": "Warning", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
     </Container>
     <Container Name="Parameters" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:parameters</container-type>
@@ -875,7 +882,7 @@ C:\github project\ANSYS-STAGE\3diodes_final_copy_ensam_files\dp0\SYS-13\MECH\fil
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 43037, "Input": 31411, "Output": 1504}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 43466, "Input": 31411, "Output": 1504}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
@@ -897,7 +904,7 @@ C:\github project\ANSYS-STAGE\3diodes_final_copy_ensam_files\dp0\SYS-13\MECH\fil
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 42972, "Input": 42954, "Output": 1507}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 42972, "Input": 43425, "Output": 1507}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:SYS" Version="1.0">
