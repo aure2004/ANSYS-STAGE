@@ -1,0 +1,13 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+system1 = GetSystem(Name="SYS 11")
+system1.Copy(KeepConnections=True)
+system2 = GetSystem(Name="SYS 15")
+system2.DisplayText = "autre"
+model1 = system2.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
