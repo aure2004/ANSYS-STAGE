@@ -98,13 +98,6 @@ dp0/SYS-16/MECH/file.gst
 dp0/SYS-16/MECH/file.nlh
 dp0/SYS-16/MECH/MatML.xml
 dp0/SYS-17/DM/SYS-17.scdocx
-dp0/SYS-17/MECH/CAERep.xml
-dp0/SYS-17/MECH/file.aapresults
-dp0/SYS-17/MECH/file.cnd
-dp0/SYS-17/MECH/file.DSP
-dp0/SYS-17/MECH/file.gst
-dp0/SYS-17/MECH/file.nlh
-dp0/SYS-17/MECH/MatML.xml
 dp0/SYS-2/DM/SYS-2.scdocx
 dp0/SYS-2/MECH/CAERep.xml
 dp0/SYS-2/MECH/file.aapresults
@@ -218,6 +211,8 @@ session_files/journal41.wbjn
 session_files/journal42.wbjn
 session_files/journal43.wbjn
 session_files/journal44.wbjn
+session_files/journal44_crashed.wbjn
+session_files/journal45.wbjn
 session_files/journal5_crashed.wbjn
 session_files/journal6.wbjn
 session_files/journal7.wbjn
@@ -246,6 +241,7 @@ dp0/SYS-9/
 dp0/global/MECH/
 dp0/global/MECH/SYS-13/
 dp0/global/MECH/SYS-14/
+dp0/global/MECH/SYS-17/
 dp0/SYS/DM/
 dp0/SYS/ENGD/
 dp0/SYS/MECH/
