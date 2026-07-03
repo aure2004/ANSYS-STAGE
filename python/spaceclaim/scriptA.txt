@@ -1,0 +1,147 @@
+# Script SpaceClaim Python - SCRIPT A : Geometrie + Renommage uniquement
+# Sauvegarder manuellement le fichier apres execution avant de lancer Script B
+# API V261
+
+N_SEGMENTS = 100          # ajuster selon RAM disponible
+SEGMENT_LENGTH_MM = 0.4   # LAYER_LENGTH_MM / N_SEGMENTS
+LAYER_LENGTH_MM = 40.0
+LAYER_WIDTH_MM = 0.2
+LAYER_HEIGHT_MM = 0.2
+N_LAYERS = 10
+TOTAL_HEIGHT_MM = LAYER_HEIGHT_MM * N_LAYERS
+TOL_MM = 0.001
+
+root = GetRootPart()
+
+# ============================================================
+# NETTOYAGE PREALABLE
+# ============================================================
+for b in list(root.GetAllBodies()):
+    b.Delete()
+for p in list(root.DatumPlanes):
+    p.Delete()
+print("Nettoyage termine. Corps:", len(list(root.GetAllBodies())), "Plans:", len(list(root.DatumPlanes)))
+
+def get_bb(obj):
+    return obj.Shape.GetBoundingBox(Matrix.Identity)
+
+def find_face_by_center(body, axis, target_value_mm, tol_mm=TOL_MM):
+    target_m = MM(target_value_mm)
+    tol_m = MM(tol_mm)
+    axis_idx = {'X': 0, 'Y': 1, 'Z': 2}[axis]
+    for f in body.Faces:
+        bb = get_bb(f)
+        center = bb.Center
+        coord = [center.X, center.Y, center.Z][axis_idx]
+        if abs(coord - target_m) < tol_m:
+            return f
+    return None
+
+def get_body_center(body):
+    return get_bb(body).Center
+
+# ============================================================
+# ETAPE 1 - CREATION DU BLOC UNIQUE
+# ============================================================
+sectionPlane = Plane.PlaneZX
+result = ViewHelper.SetSketchPlane(sectionPlane, None)
+
+point1 = Point2D.Create(MM(0), MM(0))
+point2 = Point2D.Create(MM(LAYER_LENGTH_MM), MM(0))
+point3 = Point2D.Create(MM(LAYER_LENGTH_MM), MM(LAYER_WIDTH_MM))
+result = SketchRectangle.Create(point1, point2, point3)
+
+mode = InteractionMode.Solid
+result = ViewHelper.SetViewMode(mode, None)
+
+body = root.GetAllBodies()[0]
+top_face = max(body.Faces, key=lambda f: f.Shape.Area)
+face_selection = FaceSelection.Create(top_face)
+options = ExtrudeFaceOptions()
+result = ExtrudeFaces.Execute(face_selection, MM(TOTAL_HEIGHT_MM), options, None)
+
+print("Etape 1 terminee : bloc extrude")
+print("Corps :", len(list(root.GetAllBodies())))
+
+# ============================================================
+# ETAPE 2 - SPLIT EN Z sur bloc unique (1 corps constant)
+# ============================================================
+body_ref = root.GetAllBodies()[0]
+face_z0 = find_face_by_center(body_ref, 'Z', 0.0)
+if face_z0 is None:
+    raise Exception("Face Z=0 introuvable")
+face_selection_z0 = FaceSelection.Create(face_z0)
+
+for k in range(1, N_SEGMENTS):
+    z_pos_mm = k * SEGMENT_LENGTH_MM
+    result = DatumPlaneCreator.Create(face_selection_z0, False, None)
+    current_datum = root.DatumPlanes[root.DatumPlanes.Count - 1]
+    current_datum_selection = Selection.Create(current_datum)
+    result = Move.Translate(current_datum_selection, Direction.DirZ, MM(z_pos_mm), MoveOptions(), None)
+    all_bodies = list(root.GetAllBodies())
+    body_selection = BodySelection.Create(all_bodies)
+    result = SplitBody.ByCutter(body_selection, current_datum_selection, None)
+    ViewHelper.SetObjectVisibility(current_datum_selection, VisibilityType.Hide, False, False)
+    if k % 20 == 0:
+        print("Split Z {}/{} - {} corps".format(k, N_SEGMENTS - 1, len(list(root.GetAllBodies()))))
+
+print("Etape 2 terminee : {} corps (attendu {})".format(len(list(root.GetAllBodies())), N_SEGMENTS))
+
+# ============================================================
+# ETAPE 3 - SPLIT EN Y sur N_SEGMENTS corps constants (19 plans)
+# ============================================================
+body_y_ref = root.GetAllBodies()[0]
+face_y0 = find_face_by_center(body_y_ref, 'Y', 0.0)
+if face_y0 is None:
+    raise Exception("Face Y=0 introuvable")
+face_selection_y0 = FaceSelection.Create(face_y0)
+
+y_positions_mm = [round(0.1 * i, 1) for i in range(1, 2 * N_LAYERS)]
+
+for y_pos in y_positions_mm:
+    result = DatumPlaneCreator.Create(face_selection_y0, False, None)
+    current_datum = root.DatumPlanes[root.DatumPlanes.Count - 1]
+    current_datum_selection = Selection.Create(current_datum)
+    result = Move.Translate(current_datum_selection, Direction.DirY, MM(y_pos), MoveOptions(), None)
+    all_bodies = list(root.GetAllBodies())
+    body_selection = BodySelection.Create(all_bodies)
+    result = SplitBody.ByCutter(body_selection, current_datum_selection, None)
+    ViewHelper.SetObjectVisibility(current_datum_selection, VisibilityType.Hide, False, False)
+    print("Split Y a {} mm - {} corps total".format(y_pos, len(list(root.GetAllBodies()))))
+
+print("Etape 3 terminee : {} corps (attendu {})".format(
+    len(list(root.GetAllBodies())), N_SEGMENTS * N_LAYERS * 2))
+
+# ============================================================
+# ETAPE 4 - RENOMMAGE AUTOMATIQUE
+# ============================================================
+all_bodies_final = list(root.GetAllBodies())
+
+def classify_by_y(center_y_m):
+    y_mm = center_y_m / 0.001
+    layer_idx = int(y_mm // LAYER_HEIGHT_MM) + 1
+    y_in_layer = y_mm - (layer_idx - 1) * LAYER_HEIGHT_MM
+    half = 'B' if y_in_layer < (LAYER_HEIGHT_MM / 2.0) else 'H'
+    return layer_idx, half
+
+groups = {}
+for b in all_bodies_final:
+    center = get_body_center(b)
+    layer_idx, half = classify_by_y(center.Y)
+    key = (layer_idx, half)
+    groups.setdefault(key, []).append(b)
+
+for (layer_idx, half), bodies_list in groups.items():
+    bodies_list.sort(key=lambda b: get_body_center(b).Z)
+    for idx, b in enumerate(bodies_list, start=1):
+        new_name = "couche{}{}_S{:03d}".format(layer_idx, half, idx)
+        b.SetName(new_name)
+
+print("Renommage termine : {} groupes, {} corps".format(len(groups), len(all_bodies_final)))
+
+# ============================================================
+# SAUVEGARDE FINALE
+# ============================================================
+doc = Window.ActiveWindow.Document
+doc.Save()
+print("Fichier sauvegarde. Lancer Script B pour les named selections.")

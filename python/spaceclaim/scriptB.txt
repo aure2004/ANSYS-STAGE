@@ -1,0 +1,150 @@
+# Script SpaceClaim Python - SCRIPT B v2 : Named Selections avec reprise automatique
+# Si SpaceClaim crash en cours d'execution, relancer ce script :
+# il detecte les NS deja creees et reprend la ou il s'etait arrete.
+# API V261
+
+SAVE_INTERVAL = 200   # sauvegarde toutes les X NS creees dans cette session
+
+import re
+
+root = GetRootPart()
+doc = Window.ActiveWindow.Document
+
+def get_bb(obj):
+    return obj.Shape.GetBoundingBox(Matrix.Identity)
+
+def get_body_center(body):
+    return get_bb(body).Center
+
+# ============================================================
+# LECTURE DES NS DEJA EXISTANTES (pour reprise apres crash)
+# ============================================================
+existing_ns_names = set()
+for group in root.Groups:
+    existing_ns_names.add(group.GetName())
+
+print("NS deja existantes detectees : {}".format(len(existing_ns_names)))
+
+# ============================================================
+# LECTURE DE LA GEOMETRIE
+# ============================================================
+all_bodies = list(root.GetAllBodies())
+print("Corps detectes :", len(all_bodies))
+
+pattern = re.compile(r"^couche(\d+)([BH])_S(\d+)$")
+
+structure = {}
+for b in all_bodies:
+    name = b.GetName()
+    m = pattern.match(name)
+    if m is None:
+        continue
+    layer_idx = int(m.group(1))
+    half = m.group(2)
+    seg_idx = int(m.group(3))
+    key = (layer_idx, seg_idx)
+    structure.setdefault(key, {})[half] = b
+
+n_layers_detected = max(k[0] for k in structure.keys())
+n_segments_detected = max(k[1] for k in structure.keys())
+print("Structure detectee : {} couches x {} segments".format(n_layers_detected, n_segments_detected))
+
+ns_created_this_session = 0
+ns_skipped = 0
+
+# ============================================================
+# ETAPE 5a - Named selections par segment de couche (B+H)
+# ============================================================
+print("--- Debut NS couches ---")
+ns_count_couches = 0
+
+for (layer_idx, seg_idx) in sorted(structure.keys()):
+    target_name = "couche{}_S{:03d}".format(layer_idx, seg_idx)
+
+    # Reprise : sauter si NS deja existante
+    if target_name in existing_ns_names:
+        ns_skipped += 1
+        continue
+
+    halves = structure[(layer_idx, seg_idx)]
+    bodies_to_group = [v for v in halves.values() if v is not None]
+    if not bodies_to_group:
+        continue
+
+    sel = BodySelection.Create(bodies_to_group)
+    result_ns = NamedSelection.Create(sel, sel)
+    if not result_ns.Success:
+        print("ECHEC NS {}".format(target_name))
+        continue
+
+    old_name = result_ns.CreatedNamedSelection.GetName()
+    NamedSelection.Rename(old_name, target_name)
+    existing_ns_names.add(target_name)
+    ns_count_couches += 1
+    ns_created_this_session += 1
+
+    if ns_created_this_session % SAVE_INTERVAL == 0:
+        doc.Save()
+        print("Sauvegarde - {} NS creees cette session (total existantes : {})".format(
+            ns_created_this_session, len(existing_ns_names)))
+
+print("NS couches terminees : {} creees, {} sautees".format(ns_count_couches, ns_skipped))
+
+# ============================================================
+# ETAPE 5b - Named selections face superieure laser (couches 1 a N-1)
+# ============================================================
+print("--- Debut NS laser ---")
+ns_count_laser = 0
+ns_skipped_laser = 0
+
+for (layer_idx, seg_idx) in sorted(structure.keys()):
+    if layer_idx >= n_layers_detected:
+        continue
+
+    target_name = "laser_C{}_S{:03d}".format(layer_idx, seg_idx)
+
+    # Reprise : sauter si NS deja existante
+    if target_name in existing_ns_names:
+        ns_skipped_laser += 1
+        continue
+
+    body_h = structure[(layer_idx, seg_idx)].get('H')
+    if body_h is None:
+        print("ATTENTION : pas de corps H pour couche{}_S{:03d}".format(layer_idx, seg_idx))
+        continue
+
+    bbox = get_bb(body_h)
+    y_max = bbox.MaxCorner.Y
+    top_faces = [f for f in body_h.Faces if abs(get_bb(f).Center.Y - y_max) < MM(0.001)]
+
+    if not top_faces:
+        print("ATTENTION : face superieure introuvable pour couche{}_S{:03d}".format(layer_idx, seg_idx))
+        continue
+
+    face_sel = FaceSelection.Create(top_faces)
+    result_ns = NamedSelection.Create(face_sel, face_sel)
+    if not result_ns.Success:
+        print("ECHEC NS {}".format(target_name))
+        continue
+
+    old_name = result_ns.CreatedNamedSelection.GetName()
+    NamedSelection.Rename(old_name, target_name)
+    existing_ns_names.add(target_name)
+    ns_count_laser += 1
+    ns_created_this_session += 1
+
+    if ns_created_this_session % SAVE_INTERVAL == 0:
+        doc.Save()
+        print("Sauvegarde - {} NS creees cette session (total existantes : {})".format(
+            ns_created_this_session, len(existing_ns_names)))
+
+print("NS laser terminees : {} creees, {} sautees".format(ns_count_laser, ns_skipped_laser))
+
+# ============================================================
+# SAUVEGARDE FINALE
+# ============================================================
+doc.Save()
+print("SCRIPT B TERMINE.")
+print("NS couches : {} | NS laser : {} | NS creees cette session : {} | NS sautees : {}".format(
+    ns_count_couches, ns_count_laser, ns_created_this_session,
+    ns_skipped + ns_skipped_laser))

@@ -1,0 +1,27 @@
+from Ansys.Core.Units import Quantity
+
+group_couche1_plateau = connections.AddConnectionGroup()
+
+created = 0
+failed = []
+
+for j in range(1, 101):
+    seg = "S{0:03d}".format(j)
+    name_c1b = "couche1B_{0}".format(seg)
+    body_c1b = get_body_by_name(name_c1b)
+
+    if body_c1b is None:
+        failed.append(name_c1b)
+        continue
+
+    contact = group_couche1_plateau.AddContactRegion()
+    contact.SourceLocation = make_selection(body_c1b.GetGeoBody())
+    contact.TargetLocation = make_selection(body_plateau.GetGeoBody())
+    contact.ContactType = ContactType.Bonded
+    contact.AutomaticThermalConductance = False
+    contact.ThermalConductanceValue = Quantity(200, "W m^-2 C^-1")
+    created += 1
+
+print("Créés :", created)
+print("Échecs :", len(failed), failed)
+print("Total dans le groupe :", len(list(group_couche1_plateau.Children)))

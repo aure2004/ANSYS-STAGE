@@ -1,0 +1,61 @@
+group_BB_c2 = connections.AddConnectionGroup()
+group_BB_c2.Name = "Couche2_Contacts_B-B_adjacents"
+group_HH_c2 = connections.AddConnectionGroup()
+group_HH_c2.Name = "Couche2_Contacts_H-H_adjacents"
+group_HB_c2 = connections.AddConnectionGroup()
+group_HB_c2.Name = "Couche2_Contacts_H-B_meme_segment"
+
+created_bb = 0
+created_hh = 0
+created_hb = 0
+failed = []
+
+for j in range(1, 100):
+    seg_a = "S{0:03d}".format(j)
+    seg_b = "S{0:03d}".format(j + 1)
+
+    name_b_a = "couche2B_{0}".format(seg_a)
+    name_b_b = "couche2B_{0}".format(seg_b)
+    body_b_a = get_body_by_name(name_b_a)
+    body_b_b = get_body_by_name(name_b_b)
+    if body_b_a is None or body_b_b is None:
+        failed.append((name_b_a, name_b_b))
+    else:
+        contact = group_BB_c2.AddContactRegion()
+        contact.SourceLocation = make_selection(body_b_a.GetGeoBody())
+        contact.TargetLocation = make_selection(body_b_b.GetGeoBody())
+        contact.ContactType = ContactType.Bonded
+        created_bb += 1
+
+    name_h_a = "couche2H_{0}".format(seg_a)
+    name_h_b = "couche2H_{0}".format(seg_b)
+    body_h_a = get_body_by_name(name_h_a)
+    body_h_b = get_body_by_name(name_h_b)
+    if body_h_a is None or body_h_b is None:
+        failed.append((name_h_a, name_h_b))
+    else:
+        contact = group_HH_c2.AddContactRegion()
+        contact.SourceLocation = make_selection(body_h_a.GetGeoBody())
+        contact.TargetLocation = make_selection(body_h_b.GetGeoBody())
+        contact.ContactType = ContactType.Bonded
+        created_hh += 1
+
+for j in range(1, 101):
+    seg = "S{0:03d}".format(j)
+    name_h = "couche2H_{0}".format(seg)
+    name_b = "couche2B_{0}".format(seg)
+    body_h = get_body_by_name(name_h)
+    body_b = get_body_by_name(name_b)
+    if body_h is None or body_b is None:
+        failed.append((name_h, name_b))
+    else:
+        contact = group_HB_c2.AddContactRegion()
+        contact.SourceLocation = make_selection(body_h.GetGeoBody())
+        contact.TargetLocation = make_selection(body_b.GetGeoBody())
+        contact.ContactType = ContactType.Bonded
+        created_hb += 1
+
+print("B-B créés :", created_bb)
+print("H-H créés :", created_hh)
+print("H-B créés :", created_hb)
+print("Échecs :", len(failed), failed)
