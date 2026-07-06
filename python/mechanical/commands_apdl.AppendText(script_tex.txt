@@ -1,0 +1,1 @@
+commands_apdl.AppendText(script_text)

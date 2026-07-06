@@ -1,0 +1,163 @@
+N_LAYERS = 3
+N_SEG = 20
+LAYER_HEIGHT_Y = 0.0002
+WIDTH_X = 0.0002
+X_MIN = 0.0
+X_MAX = 0.0002
+DELAY = 7
+FIFO_LEN = 4
+H_CONV = 10
+T_AMB = 63
+FLUX = 131000
+EMISSIVITY = 0.92
+DT = 0.02
+
+lines = []
+step_counter = [0]
+
+def cmd(s):
+    lines.append(s)
+
+def seg_name(seg):
+    return "S{0:03d}".format(seg)
+
+def layer_seg_ns(layer, seg):
+    return "couche{0}_{1}".format(layer, seg_name(seg))
+
+def y_top(layer):
+    return layer * LAYER_HEIGHT_Y
+
+def convection_segment(layer, seg, top_active):
+    ns = layer_seg_ns(layer, seg)
+    cmd("! Convection {0}".format(ns))
+    cmd("CMSEL,S,{0}".format(ns))
+    cmd("NSLE,S")
+    cmd("NSEL,R,LOC,X,{0},{0}".format(X_MIN))
+    cmd("SF,ALL,CONV,H_CONV,T_AMB")
+    cmd("SF,ALL,RAD,{0},T_AMB".format(EMISSIVITY))
+    cmd("ALLSEL,ALL")
+    cmd("CMSEL,S,{0}".format(ns))
+    cmd("NSLE,S")
+    cmd("NSEL,R,LOC,X,{0},{0}".format(X_MAX))
+    cmd("SF,ALL,CONV,H_CONV,T_AMB")
+    cmd("SF,ALL,RAD,{0},T_AMB".format(EMISSIVITY))
+    cmd("ALLSEL,ALL")
+    if top_active:
+        cmd("CMSEL,S,{0}".format(ns))
+        cmd("NSLE,S")
+        cmd("NSEL,R,LOC,Y,{0},{0}".format(y_top(layer)))
+        cmd("SF,ALL,CONV,H_CONV,T_AMB")
+        cmd("SF,ALL,RAD,{0},T_AMB".format(EMISSIVITY))
+        cmd("ALLSEL,ALL")
+    cmd("")
+
+def remove_top_convection(layer, seg):
+    ns = layer_seg_ns(layer, seg)
+    cmd("! Retrait convection top {0} (recouvert par couche {1})".format(ns, layer + 1))
+    cmd("CMSEL,S,{0}".format(ns))
+    cmd("NSLE,S")
+    cmd("NSEL,R,LOC,Y,{0},{0}".format(y_top(layer)))
+    cmd("SFDELE,ALL,CONV")
+    cmd("SFDELE,ALL,RAD")
+    cmd("ALLSEL,ALL")
+    cmd("")
+
+def ealive_segment(layer, seg):
+    ns = layer_seg_ns(layer, seg)
+    cmd("! Depot {0}".format(ns))
+    cmd("CMSEL,S,{0}".format(ns))
+    cmd("EALIVE,ALL")
+    cmd("NSLE,S")
+    cmd("D,ALL,TEMP,210")
+    cmd("ALLSEL,ALL")
+    cmd("")
+
+def ddele_segment(layer, seg):
+    ns = layer_seg_ns(layer, seg)
+    cmd("! Liberation contrainte temp {0}".format(ns))
+    cmd("CMSEL,S,{0}".format(ns))
+    cmd("NSLE,S")
+    cmd("DDELE,ALL,TEMP")
+    cmd("ALLSEL,ALL")
+    cmd("")
+
+def laser_on(layer, seg):
+    cmd("! Laser ON couche{0} {1}".format(layer, seg_name(seg)))
+    cmd("CMSEL,S,laser_C{0}_{1}".format(layer, seg_name(seg)))
+    cmd("SF,ALL,HFLUX,{0}".format(FLUX))
+    cmd("ALLSEL,ALL")
+    cmd("")
+
+def laser_off(layer, seg):
+    cmd("! Laser OFF couche{0} {1}".format(layer, seg_name(seg)))
+    cmd("CMSEL,S,laser_C{0}_{1}".format(layer, seg_name(seg)))
+    cmd("SFDELE,ALL,HFLUX")
+    cmd("ALLSEL,ALL")
+    cmd("")
+
+def time_solve():
+    step_counter[0] += 1
+    t_val = round(step_counter[0] * DT, 6)
+    cmd("TIME,{0}".format(t_val))
+    cmd("KBC,1")
+    cmd("SOLVE")
+    cmd("")
+    return t_val
+
+def constrain_all_dead_initially():
+    cmd("! Contrainte initiale sur tous les segments morts (evite pivot nul)")
+    for layer in range(1, N_LAYERS + 1):
+        for seg in range(1, N_SEG + 1):
+            ns = layer_seg_ns(layer, seg)
+            cmd("CMSEL,S,{0}".format(ns))
+            cmd("NSLE,S")
+            cmd("D,ALL,TEMP,210")
+            cmd("ALLSEL,ALL")
+    cmd("")
+
+cmd("H_CONV={0}".format(H_CONV))
+cmd("T_AMB={0}".format(T_AMB))
+cmd("NROPT,FULL")
+cmd("")
+cmd("EKILL,ALL")
+cmd("CMSEL,U,PLATEAU")
+cmd("ALLSEL,ALL")
+cmd("")
+
+constrain_all_dead_initially()
+
+cmd("! ===== COUCHE 1 : depot sans laser =====")
+for seg in range(1, N_SEG + 1):
+    ealive_segment(1, seg)
+    convection_segment(1, seg, top_active=True)
+    time_solve()
+for seg in range(1, N_SEG + 1):
+    ddele_segment(1, seg)
+
+for layer in range(2, N_LAYERS + 1):
+    cmd("! ===== COUCHE {0} : FIFO laser sur couche {1} =====".format(layer, layer - 1))
+    prev = layer - 1
+
+    for front in range(1, DELAY + 1):
+        laser_on(prev, front)
+        if front - FIFO_LEN >= 1:
+            laser_off(prev, front - FIFO_LEN)
+        time_solve()
+
+    for seg in range(1, N_SEG + 1):
+        front = seg + DELAY
+        ealive_segment(layer, seg)
+        remove_top_convection(prev, seg)
+        convection_segment(layer, seg, top_active=True)
+        if front <= N_SEG:
+            laser_on(prev, front)
+        if front - FIFO_LEN >= 1 and front - FIFO_LEN <= N_SEG:
+            laser_off(prev, front - FIFO_LEN)
+        time_solve()
+
+    for seg in range(1, N_SEG + 1):
+        ddele_segment(layer, seg)
+
+script_text = "\n".join(lines)
+print(len(lines), "lignes generees")
+print("t final:", step_counter[0] * DT)
