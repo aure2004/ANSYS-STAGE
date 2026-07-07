@@ -55,6 +55,8 @@ for j in range(1, 101):  # H-B même segment : S001 à S100
         contact.SourceLocation = make_selection(body_h.GetGeoBody())
         contact.TargetLocation = make_selection(body_b.GetGeoBody())
         contact.ContactType = ContactType.Bonded
+        contact.AutomaticThermalConductance = False
+        contact.ThermalConductanceValue = Quantity(10000, "W m^-2 C^-1")
         created_hb += 1
 
 print("B-B créés :", created_bb)

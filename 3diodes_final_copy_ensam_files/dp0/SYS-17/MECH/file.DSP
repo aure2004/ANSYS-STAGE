@@ -2,7 +2,7 @@
 
 
 
-  Performance statistics for DSP solver: icalls =   1741
+  Performance statistics for DSP solver: icalls =  14800
 
  ===========================
  = multifrontal statistics =
@@ -32,8 +32,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.000338
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.001021
+     time (cpu & wall) for value input       =        0.000000        0.000451
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.001026
 
      no input or output performed
 

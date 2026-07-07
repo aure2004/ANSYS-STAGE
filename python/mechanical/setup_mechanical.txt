@@ -1,7 +1,6 @@
 model = ExtAPI.DataModel.Project.Model
 geo = model.Geometry
 connections = ExtAPI.DataModel.Project.Model.Connections
-
 bodies = list(geo.GetChildren(DataModelObjectCategory.Body, True))
 
 def get_body_by_name(name):
@@ -19,5 +18,12 @@ def make_selection(geo_body):
 body_couche1B = get_body_by_name("couche1B_S001")
 body_plateau = get_body_by_name("Solid")
 
+commands_apdl = None
+for c in ExtAPI.DataModel.Project.Model.Analyses[0].Children:
+    if c.Name == "Commands (APDL)":
+        commands_apdl = c
+        break
+
 print("Setup OK :", len(bodies), "corps trouvés")
 print(body_couche1B, body_plateau)
+print(commands_apdl)
