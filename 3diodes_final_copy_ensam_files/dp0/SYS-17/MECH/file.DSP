@@ -2,7 +2,7 @@
 
 
 
-  Performance statistics for DSP solver: icalls =  14800
+  Performance statistics for DSP solver: icalls =    148
 
  ===========================
  = multifrontal statistics =
@@ -20,7 +20,7 @@
      no. of floating point ops for factor    =      2.8438D+05
      no. of floating point ops for solve     =      1.4411D+05
      ratio of flops for factor (min/max)     =          0.9943
-     ratio of allocated memory (max/min)     =          1.3659
+     ratio of allocated memory (max/min)     =          1.4146
      number of positive pivots               =            2568
      number of negative pivots               =               0
      number of near-zero pivots              =               0
@@ -32,14 +32,14 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.000451
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.001026
+     time (cpu & wall) for value input       =        0.000000        0.000301
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.000548
 
      no input or output performed
 
-  Solver Memory allocated on core    0       =        0.891 MB
-  Solver Memory allocated on core    1       =        0.652 MB
-  Solver Memory allocated on core    2       =        0.666 MB
-  Solver Memory allocated on core    3       =        0.659 MB
-  Total Solver Memory allocated by all cores =        2.869 MB
+  Solver Memory allocated on core    0       =        0.919 MB
+  Solver Memory allocated on core    1       =        0.649 MB
+  Solver Memory allocated on core    2       =        0.663 MB
+  Solver Memory allocated on core    3       =        0.657 MB
+  Total Solver Memory allocated by all cores =        2.888 MB
 
