@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="25.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">65653</timestamp-max>
+    <timestamp-max valType="Int64">70796</timestamp-max>
     <framework-build-version valType="String">26.1.174.0</framework-build-version>
     <external-version-string valType="String">2026 R1</external-version-string>
-    <last-saved-utc valType="String">07/08/2026 13:00:57</last-saved-utc>
+    <last-saved-utc valType="String">07/09/2026 13:30:23</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -171,8 +171,6 @@
 "651e0a3f-22f9-4b78-a51a-fe8c747ad16b": "/Schematic/Component:Setup 11",
 "43419375-c055-45f5-9504-d05fdf1626d4": "/Schematic/Component:Solution 11",
 "09fbbcad-9638-4bdf-81a3-5b35ba0f9215": "/Schematic/Component:Results 11",
-"27d31ec2-cc40-4348-9d7d-ba7442e1eea0": "/FileContainer/FileReference:F59",
-"92e92d4e-13fb-4b98-a119-4cd399f7e608": "/FileContainer/FileReference:F58",
 "ffe39010-7bd1-4e76-a9b9-3a232de4f55c": "/Schematic/System:SYS 15",
 "4fc76229-7b4c-45a1-aa4d-9ab6a2fb56e3": "/Schematic/Component:Engineering Data 15",
 "fab75ac1-70ce-4874-8507-82e3ee95ce43": "/Schematic/Component:Geometry 15",
@@ -180,7 +178,9 @@
 "c2d55d11-5578-4381-8720-e3752ab2683e": "/Schematic/Component:Setup 15",
 "d57bb1b3-e2ac-4007-9512-8498ee776027": "/Schematic/Component:Solution 15",
 "f5ebf236-991b-4cc1-a6e2-9baa3363804d": "/Schematic/Component:Results 15",
-"7a13075c-794a-4911-9dd8-a63583897db1": "/FileContainer/FileReference:F60"
+"7a13075c-794a-4911-9dd8-a63583897db1": "/FileContainer/FileReference:F60",
+"91342189-5c98-4208-8a83-44b4e4246ea2": "/FileContainer/FileReference:F62",
+"d3d05b71-3797-489c-9a5b-ab190a4368fd": "/FileContainer/FileReference:F61"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -489,17 +489,16 @@
 "30071112-ab7f-450c-a068-a49e60aaea34": "/Geometry 11/Geometry:GeometryDataObject",
 "7a13d0e8-19ec-46bc-ba6b-a482a0ff6ca9": "/Results 11/SimulationResultsStlZip:SimulationResultsStlZip",
 "c4c66fbb-634d-4339-a85f-18a25243fab6": "/Results 11/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB",
-"6f858af4-1fce-4d92-9a39-9cd009434100": "/Results 15/SimulationResults:ResultsObject for Thermal|Transient|ANSYS",
-"cc3126e4-7e7a-4452-8793-ab272203e059": "/Model 15/MechanicalModel:MechanicalModel",
-"7aa83905-ba78-4fae-82d3-9c20599556f4": "/Setup 15/SimulationSetup:SetupObject for Thermal|Transient|ANSYS",
-"faf3e67f-0b97-432e-9620-5c3b083e969d": "/Solution 15/SimulationSolution:SolutionObject for Thermal|Transient|ANSYS",
 "6508739f-a8cd-4812-97b9-ad068ef5ba4e": "/Model 15/SimulationEngineeringData:SimulationEngineeringDataObject",
 "13c001f6-8d79-435a-a267-a6578b531cb8": "/Model 15/SimulationModelGeneratedMesh:SimulationModelGeneratedMesh",
 "f8b8c07f-79e4-4a4e-8200-f2c47418fe5f": "/Model 15/SimulationModelGeneratedPMDB:SimulationModelGeneratedPMDB",
 "4a752a3b-48fb-4462-a520-10dabf49a14f": "/Model 15/SimulationGeneratedSolidMesh:SimulationGeneratedSolidMesh",
 "c24719b3-067a-4804-bbf0-46ceb5bbd9db": "/Geometry 15/Geometry:GeometryDataObject",
-"3a2f5f66-b1e7-4ae4-8db9-e1044de6f78c": "/Results 15/SimulationResultsStlZip:SimulationResultsStlZip",
-"97ff0d43-e2b8-4c71-8750-524a7c0d5c69": "/Results 15/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB"
+"97ff0d43-e2b8-4c71-8750-524a7c0d5c69": "/Results 15/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB",
+"5ac82fff-f057-4f92-89be-5535e8d534d4": "/Model 15/MechanicalModel:MechanicalModel",
+"abbbce12-4ab4-40a5-9235-7256c97bc317": "/Setup 15/SimulationSetup:SetupObject for Thermal|Transient|ANSYS",
+"2c220f38-5cb0-4d14-8dfb-91a608b0d4db": "/Solution 15/SimulationSolution:SolutionObject for Thermal|Transient|ANSYS",
+"66cf6f65-f822-471a-b032-d7071c8d8cdd": "/Results 15/SimulationResults:ResultsObject for Thermal|Transient|ANSYS"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -526,7 +525,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 45397, "Input": 1500, "Output": 1500}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 67416, "Input": 1500, "Output": 1500}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F1" Version="1.0">
@@ -537,7 +536,7 @@
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F2</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$3a95d2ab-8b7d-4cff-91de-d48edfec81c3, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 87}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$3a95d2ab-8b7d-4cff-91de-d48edfec81c3, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 88}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F9" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -749,15 +748,15 @@
         <object-name valType="String">F60</object-name>
         <member-data valType="String">{"DisplayText": "SYS-17.scdocx", "FileType": $$2d3f98fc-e752-4092-83f2-2934cf276b49, "DependentFiles": [], "ContainerAssociations": ["Geometry 15"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS-17\DM\SYS-17.scdocx", "ReferenceCount": 1}</member-data>
       </Object>
-      <Object Name="/FileContainer/FileReference:F58" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F61" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F58</object-name>
+        <object-name valType="String">F61</object-name>
         <member-data valType="String">{"DisplayText": "SYS-17.engd", "FileType": $$55406f54-75ce-43f1-8c35-11d86b27a4bd, "DependentFiles": [], "ContainerAssociations": ["Model 15"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-17.engd", "ReferenceCount": 1}</member-data>
       </Object>
-      <Object Name="/FileContainer/FileReference:F59" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F62" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F59</object-name>
-        <member-data valType="String">{"DisplayText": "SYS-17.mechdb", "FileType": $$187ea782-7fc8-4537-8ea1-8707c4ee5a0f, "DependentFiles": [], "ContainerAssociations": ["Setup 15", "Model 15"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-17.mechdb", "ReferenceCount": 1}</member-data>
+        <object-name valType="String">F62</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-17.mechdb", "FileType": $$187ea782-7fc8-4537-8ea1-8707c4ee5a0f, "DependentFiles": [], "ContainerAssociations": ["Model 15"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-17.mechdb", "ReferenceCount": 1}</member-data>
       </Object>
     </Container>
     <Container Name="Messages" Version="1.0">
@@ -859,7 +858,7 @@ C:\Users\ay1776\Documents\ANSYS-STAGE\3diodes_final_copy_ensam_files\dp0\SYS-17\
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 65569, "Input": 31411, "Output": 1504}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 70768, "Input": 31411, "Output": 1504}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
@@ -881,7 +880,7 @@ C:\Users\ay1776\Documents\ANSYS-STAGE\3diodes_final_copy_ensam_files\dp0\SYS-17\
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 50769, "Input": 56034, "Output": 1507}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 67328, "Input": 65712, "Output": 1507}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:SYS" Version="1.0">

@@ -89,6 +89,9 @@ dp0/SYS-16/MECH/file.nlh
 dp0/SYS-16/MECH/MatML.xml
 dp0/SYS-17/DM/SYS-17.scdocx
 dp0/SYS-17/MECH/CAERep.xml
+dp0/SYS-17/MECH/cleanup-ansys-PA-LIFSE-F011-11424.bat
+dp0/SYS-17/MECH/cleanup-ansys-PA-LIFSE-F011-12612.bat
+dp0/SYS-17/MECH/cleanup-ansys-PA-LIFSE-F011-680.bat
 dp0/SYS-17/MECH/ds.dat
 dp0/SYS-17/MECH/file.aapresults
 dp0/SYS-17/MECH/file.cnd
@@ -218,6 +221,8 @@ session_files/journal47.wbjn
 session_files/journal48.wbjn
 session_files/journal49.wbjn
 session_files/journal50.wbjn
+session_files/journal50_crashed.wbjn
+session_files/journal51.wbjn
 session_files/journal5_crashed.wbjn
 session_files/journal6.wbjn
 session_files/journal7.wbjn
@@ -243,6 +248,7 @@ dp0/SYS-6/
 dp0/SYS-7/
 dp0/SYS-8/
 dp0/global/MECH/
+dp0/global/MECH/SYS-16/
 dp0/global/MECH/SYS-17/
 dp0/SYS/DM/
 dp0/SYS/ENGD/
