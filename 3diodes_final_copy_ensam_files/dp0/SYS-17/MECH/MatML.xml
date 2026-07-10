@@ -72,7 +72,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa7" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>2100</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Specific Heat</Qualifier>
@@ -150,7 +150,7 @@
           <PropertyData property="pr3">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Compressive Ultimate Strength</Qualifier>
-            <ParameterValue parameter="pa8" format="float">
+            <ParameterValue parameter="pa7" format="float">
               <Data>0</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Compressive Ultimate Strength</Qualifier>
@@ -269,7 +269,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa7" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>875</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Specific Heat</Qualifier>
@@ -468,7 +468,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa7">
+        <ParameterDetails id="pa8">
           <Name>Specific Heat</Name>
           <Units name="Specific Heat Capacity">
             <Unit>
@@ -482,18 +482,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa10">
-          <Name>Density</Name>
-          <Units name="Density">
-            <Unit>
-              <Name>kg</Name>
-            </Unit>
-            <Unit power="-3">
-              <Name>m</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa8">
+        <ParameterDetails id="pa7">
           <Name>Compressive Ultimate Strength</Name>
           <Units name="Stress">
             <Unit>
@@ -506,6 +495,17 @@
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa10">
+          <Name>Density</Name>
+          <Units name="Density">
+            <Unit>
+              <Name>kg</Name>
+            </Unit>
+            <Unit power="-3">
+              <Name>m</Name>
             </Unit>
           </Units>
         </ParameterDetails>
