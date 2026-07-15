@@ -500,7 +500,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.4200000                   21                1               21    0.2000000E-01     15.75418         15.75418         4.120023         0.000000                  602             TEMP                0             UX       0.000000                    0             ROTX  
+   0.4200000                   21                1               21    0.2000000E-01     15.70090         15.70090         4.106089         0.000000                  619             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -524,7 +524,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.4400000                   22                1               22    0.2000000E-01     15.76017         15.76017         4.121590         0.000000                  631             TEMP                0             UX       0.000000                    0             ROTX  
+   0.4400000                   22                1               22    0.2000000E-01     15.62176         15.62176         4.085391         0.000000                  660             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -548,7 +548,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.4600000                   23                1               23    0.2000000E-01     15.76693         15.76693         4.123357         0.000000                  661             TEMP                0             UX       0.000000                    0             ROTX  
+   0.4600000                   23                1               23    0.2000000E-01     15.53361         15.53361         4.062340         0.000000                  679             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -572,7 +572,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.4800000                   24                1               24    0.2000000E-01     15.77353         15.77353         4.125082         0.000000                  720             TEMP                0             UX       0.000000                    0             ROTX  
+   0.4800000                   24                1               24    0.2000000E-01     15.44905         15.44905         4.040226         0.000000                  692             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -596,7 +596,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.5000000                   25                1               25    0.2000000E-01     15.77949         15.77949         4.126642         0.000000                  722             TEMP                0             UX       0.000000                    0             ROTX  
+   0.5000000                   25                1               25    0.2000000E-01     15.37415         15.37415         4.020636         0.000000                  739             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -620,7 +620,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.5200000                   26                1               26    0.2000000E-01     15.78465         15.78465         4.127991         0.000000                  780             TEMP                0             UX       0.000000                    0             ROTX  
+   0.5200000                   26                1               26    0.2000000E-01     15.31099         15.31099         4.004120         0.000000                  752             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -644,7 +644,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.5400000                   27                1               27    0.2000000E-01     15.78899         15.78899         4.129125         0.000000                  782             TEMP                0             UX       0.000000                    0             ROTX  
+   0.5400000                   27                1               27    0.2000000E-01     15.25956         15.25956         3.990669         0.000000                  810             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -668,7 +668,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.5600000                   28                1               28    0.2000000E-01     15.79256         15.79256         4.130059         0.000000                  813             TEMP                0             UX       0.000000                    0             ROTX  
+   0.5600000                   28                1               28    0.2000000E-01    -28.97259         28.97259         7.576892         0.000000                  626             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -692,7 +692,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.5800000                   29                1               29    0.2000000E-01     15.79546         15.79546         4.130818         0.000000                  842             TEMP                0             UX       0.000000                    0             ROTX  
+   0.5800000                   29                1               29    0.2000000E-01    -28.22535         28.22535         7.381473         0.000000                  631             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -716,7 +716,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.6000000                   30                1               30    0.2000000E-01     15.79779         15.79779         4.131428         0.000000                  871             TEMP                0             UX       0.000000                    0             ROTX  
+   0.6000000                   30                1               30    0.2000000E-01    -27.44740         27.44740         7.178025         0.000000                  663             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -740,7 +740,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.6200000                   31                1               31    0.2000000E-01     15.79965         15.79965         4.131914         0.000000                  919             TEMP                0             UX       0.000000                    0             ROTX  
+   0.6200000                   31                1               31    0.2000000E-01    -26.64647         26.64647         6.968567         0.000000                  692             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -764,7 +764,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.6400000                   32                1               32    0.2000000E-01     15.80113         15.80113         4.132301         0.000000                  931             TEMP                0             UX       0.000000                    0             ROTX  
+   0.6400000                   32                1               32    0.2000000E-01    -25.82889         25.82889         6.754754         0.000000                  723             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -788,7 +788,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.6600000                   33                1               33    0.2000000E-01     15.80230         15.80230         4.132606         0.000000                  990             TEMP                0             UX       0.000000                    0             ROTX  
+   0.6600000                   33                1               33    0.2000000E-01    -24.99975         24.99975         6.537918         0.000000                  769             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -812,7 +812,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.6800000                   34                1               34    0.2000000E-01     15.80321         15.80321         4.132846         0.000000                  993             TEMP                0             UX       0.000000                    0             ROTX  
+   0.6800000                   34                1               34    0.2000000E-01    -24.16312         24.16312         6.319122         0.000000                  783             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -836,7 +836,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.7000000                   35                1               35    0.2000000E-01     15.80393         15.80393         4.133034         0.000000                 1022             TEMP                0             UX       0.000000                    0             ROTX  
+   0.7000000                   35                1               35    0.2000000E-01    -23.32220         23.32220         6.099205         0.000000                  812             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -860,7 +860,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.7200000                   36                1               36    0.2000000E-01     15.80450         15.80450         4.133181         0.000000                 1051             TEMP                0             UX       0.000000                    0             ROTX  
+   0.7200000                   36                1               36    0.2000000E-01    -22.47950         22.47950         5.878823         0.000000                  870             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -884,7 +884,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.7400000                   37                1               37    0.2000000E-01     15.80494         15.80494         4.133296         0.000000                 1081             TEMP                0             UX       0.000000                    0             ROTX  
+   0.7400000                   37                1               37    0.2000000E-01    -21.63699         21.63699         5.658490         0.000000                  873             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -908,7 +908,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.7600000                   38                1               38    0.2000000E-01     15.80528         15.80528         4.133385         0.000000                 1129             TEMP                0             UX       0.000000                    0             ROTX  
+   0.7600000                   38                1               38    0.2000000E-01    -20.79617         20.79617         5.438601         0.000000                  903             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -932,7 +932,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.7800000                   39                1               39    0.2000000E-01     15.80554         15.80554         4.133454         0.000000                 1141             TEMP                0             UX       0.000000                    0             ROTX  
+   0.7800000                   39                1               39    0.2000000E-01    -19.95823         19.95823         5.219462         0.000000                  933             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -956,7 +956,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.8000000                   40                1               40    0.2000000E-01     15.80575         15.80575         4.133508         0.000000                 1200             TEMP                0             UX       0.000000                    0             ROTX  
+   0.8000000                   40                1               40    0.2000000E-01    -19.12404         19.12404         5.001307         0.000000                  963             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -980,7 +980,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.8200000                   41                1               41    0.2000000E-01     12.88154         12.88154         3.368770         0.000000                 1173             TEMP                0             UX       0.000000                    0             ROTX  
+   0.8200000                   41                1               41    0.2000000E-01    -18.29431         18.29431         4.784314         0.000000                  993             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1004,7 +1004,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.8400000                   42                1               42    0.2000000E-01     10.80450         10.80450         2.825586         0.000000                 1189             TEMP                0             UX       0.000000                    0             ROTX  
+   0.8400000                   42                1               42    0.2000000E-01    -17.46953         17.46953         4.568618         0.000000                 1039             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1028,7 +1028,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.8600000                   43                1               43    0.2000000E-01     9.305524         9.305524         2.433574         0.000000                 1173             TEMP                0             UX       0.000000                    0             ROTX  
+   0.8600000                   43                1               43    0.2000000E-01    -16.65009         16.65009         4.354320         0.000000                 1051             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1052,7 +1052,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.8800000                   44                1               44    0.2000000E-01    -7.596613         7.596613         1.986661         0.000000                 1196             TEMP                0             UX       0.000000                    0             ROTX  
+   0.8800000                   44                1               44    0.2000000E-01    -15.83629         15.83629         4.141496         0.000000                 1110             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1076,7 +1076,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.9000000                   45                1               45    0.2000000E-01    -5.505386         5.505386         1.439765         0.000000                 1199             TEMP                0             UX       0.000000                    0             ROTX  
+   0.9000000                   45                1               45    0.2000000E-01    -15.02833         15.02833         3.930199         0.000000                 1113             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1100,7 +1100,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.9200000                   46                1               46    0.2000000E-01    -4.055833         4.055833         1.060679         0.000000                 1173             TEMP                0             UX       0.000000                    0             ROTX  
+   0.9200000                   46                1               46    0.2000000E-01    -14.22637         14.22637         3.720469         0.000000                 1159             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1124,7 +1124,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.9400000                   47                1               47    0.2000000E-01    -3.028750         3.028750        0.7920766         0.000000                 1171             TEMP                0             UX       0.000000                    0             ROTX  
+   0.9400000                   47                1               47    0.2000000E-01    -13.43049         13.43049         3.512333         0.000000                 1189             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1148,7 +1148,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.9600000                   48                1               48    0.2000000E-01     16.07847         16.07847         4.204829         0.000000                 1826             TEMP                0             UX       0.000000                    0             ROTX  
+   0.9600000                   48                1               48    0.2000000E-01     15.73256         15.73256         4.114367         0.000000                 1826             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1172,7 +1172,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-   0.9800000                   49                1               49    0.2000000E-01     16.07856         16.07856         4.204854         0.000000                 1832             TEMP                0             UX       0.000000                    0             ROTX  
+   0.9800000                   49                1               49    0.2000000E-01     15.70948         15.70948         4.108331         0.000000                 1849             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1196,7 +1196,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.000000                   50                1               50    0.2000000E-01     16.07866         16.07866         4.204880         0.000000                 1861             TEMP                0             UX       0.000000                    0             ROTX  
+    1.000000                   50                1               50    0.2000000E-01     15.68396         15.68396         4.101659         0.000000                 1862             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1220,7 +1220,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.020000                   51                1               51    0.2000000E-01     16.07876         16.07876         4.204906         0.000000                 1909             TEMP                0             UX       0.000000                    0             ROTX  
+    1.020000                   51                1               51    0.2000000E-01     15.65957         15.65957         4.095280         0.000000                 1893             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1244,7 +1244,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.040000                   52                1               52    0.2000000E-01     16.07885         16.07885         4.204930         0.000000                 1922             TEMP                0             UX       0.000000                    0             ROTX  
+    1.040000                   52                1               52    0.2000000E-01     15.63793         15.63793         4.089619         0.000000                 1939             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1268,7 +1268,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.060000                   53                1               53    0.2000000E-01     16.07894         16.07894         4.204953         0.000000                 1952             TEMP                0             UX       0.000000                    0             ROTX  
+    1.060000                   53                1               53    0.2000000E-01     15.61949         15.61949         4.084799         0.000000                 1969             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1292,7 +1292,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.080000                   54                1               54    0.2000000E-01     16.07902         16.07902         4.204974         0.000000                 1981             TEMP                0             UX       0.000000                    0             ROTX  
+    1.080000                   54                1               54    0.2000000E-01     15.60416         15.60416         4.080788         0.000000                 1983             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1316,7 +1316,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.100000                   55                1               55    0.2000000E-01     16.07910         16.07910         4.204995         0.000000                 2040             TEMP                0             UX       0.000000                    0             ROTX  
+    1.100000                   55                1               55    0.2000000E-01    -29.71858         29.71858         7.771982         0.000000                 1801             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1340,7 +1340,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.120000                   56                1               56    0.2000000E-01     16.07917         16.07917         4.205014         0.000000                 2070             TEMP                0             UX       0.000000                    0             ROTX  
+    1.120000                   56                1               56    0.2000000E-01    -29.33773         29.33773         7.672382         0.000000                 1849             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1364,7 +1364,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.140000                   57                1               57    0.2000000E-01     16.07924         16.07924         4.205033         0.000000                 2073             TEMP                0             UX       0.000000                    0             ROTX  
+    1.140000                   57                1               57    0.2000000E-01    -28.94976         28.94976         7.570920         0.000000                 1879             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1388,7 +1388,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.160000                   58                1               58    0.2000000E-01     16.07931         16.07931         4.205051         0.000000                 2119             TEMP                0             UX       0.000000                    0             ROTX  
+    1.160000                   58                1               58    0.2000000E-01    -28.55703         28.55703         7.468214         0.000000                 1893             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1412,7 +1412,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.180000                   59                1               59    0.2000000E-01     16.07938         16.07938         4.205069         0.000000                 2149             TEMP                0             UX       0.000000                    0             ROTX  
+    1.180000                   59                1               59    0.2000000E-01    -28.16132         28.16132         7.364729         0.000000                 1939             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1436,7 +1436,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.200000                   60                1               60    0.2000000E-01     16.07945         16.07945         4.205086         0.000000                 2190             TEMP                0             UX       0.000000                    0             ROTX  
+    1.200000                   60                1               60    0.2000000E-01    -27.76391         27.76391         7.260799         0.000000                 1953             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1460,7 +1460,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.220000                   61                1               61    0.2000000E-01     16.07952         16.07952         4.205104         0.000000                 2191             TEMP                0             UX       0.000000                    0             ROTX  
+    1.220000                   61                1               61    0.2000000E-01    -27.36563         27.36563         7.156640         0.000000                 1999             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1484,7 +1484,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.240000                   62                1               62    0.2000000E-01     16.07958         16.07958         4.205121         0.000000                 2250             TEMP                0             UX       0.000000                    0             ROTX  
+    1.240000                   62                1               62    0.2000000E-01    -26.96691         26.96691         7.052369         0.000000                 2029             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1508,7 +1508,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.260000                   63                1               63    0.2000000E-01     16.07965         16.07965         4.205138         0.000000                 2280             TEMP                0             UX       0.000000                    0             ROTX  
+    1.260000                   63                1               63    0.2000000E-01    -26.56790         26.56790         6.948019         0.000000                 2059             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1532,7 +1532,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.280000                   64                1               64    0.2000000E-01     16.07971         16.07971         4.205155         0.000000                 2310             TEMP                0             UX       0.000000                    0             ROTX  
+    1.280000                   64                1               64    0.2000000E-01    -26.16844         26.16844         6.843553         0.000000                 2071             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1556,7 +1556,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.300000                   65                1               65    0.2000000E-01     16.07977         16.07977         4.205171         0.000000                 2329             TEMP                0             UX       0.000000                    0             ROTX  
+    1.300000                   65                1               65    0.2000000E-01    -25.76816         25.76816         6.738870         0.000000                 2130             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1580,7 +1580,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.320000                   66                1               66    0.2000000E-01     16.07984         16.07984         4.205188         0.000000                 2370             TEMP                0             UX       0.000000                    0             ROTX  
+    1.320000                   66                1               66    0.2000000E-01    -25.36647         25.36647         6.633823         0.000000                 2160             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1604,7 +1604,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.340000                   67                1               67    0.2000000E-01     16.07990         16.07990         4.205205         0.000000                 2389             TEMP                0             UX       0.000000                    0             ROTX  
+    1.340000                   67                1               67    0.2000000E-01    -24.96267         24.96267         6.528220         0.000000                 2190             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1628,7 +1628,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.360000                   68                1               68    0.2000000E-01     13.68771         13.68771         3.579601         0.000000                 2400             TEMP                0             UX       0.000000                    0             ROTX  
+    1.360000                   68                1               68    0.2000000E-01    -24.55589         24.55589         6.421840         0.000000                 2209             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1652,7 +1652,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.380000                   69                1               69    0.2000000E-01     12.21249         12.21249         3.193802         0.000000                 2389             TEMP                0             UX       0.000000                    0             ROTX  
+    1.380000                   69                1               69    0.2000000E-01    -24.14525         24.14525         6.314450         0.000000                 2239             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1676,7 +1676,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.400000                   70                1               70    0.2000000E-01     11.30158         11.30158         2.955581         0.000000                 2400             TEMP                0             UX       0.000000                    0             ROTX  
+    1.400000                   70                1               70    0.2000000E-01    -23.72986         23.72986         6.205816         0.000000                 2269             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1700,7 +1700,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.420000                   71                1               71    0.2000000E-01    -5.395852         5.395852         1.411119         0.000000                 2391             TEMP                0             UX       0.000000                    0             ROTX  
+    1.420000                   71                1               71    0.2000000E-01    -23.30895         23.30895         6.095740         0.000000                 2299             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1724,7 +1724,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.440000                   72                1               72    0.2000000E-01    -3.370863         3.370863        0.8815457         0.000000                 2398             TEMP                0             UX       0.000000                    0             ROTX  
+    1.440000                   72                1               72    0.2000000E-01    -22.88208         22.88208         5.984105         0.000000                 2329             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1748,7 +1748,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.460000                   73                1               73    0.2000000E-01    -2.125733         2.125733        0.5559203         0.000000                 2373             TEMP                0             UX       0.000000                    0             ROTX  
+    1.460000                   73                1               73    0.2000000E-01    -22.44950         22.44950         5.870977         0.000000                 2359             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1772,7 +1772,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.480000                   74                1               74    0.2000000E-01    -1.361791         1.361791        0.3561347         0.000000                 2371             TEMP                0             UX       0.000000                    0             ROTX  
+    1.480000                   74                1               74    0.2000000E-01    -22.02283         22.02283         5.759394         0.000000                 2389             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 <LOADSTEPDATA>
@@ -1796,7 +1796,7 @@
  <UNITS>SI</UNITS>
 </HEADER>
 <COLDATA>
-    1.480100                   75                1               75    0.1000000E-03   -0.6789917E-02    0.6789917E-02    0.1775694E-02     0.000000                 2400             TEMP                0             UX       0.000000                    0             ROTX  
+    1.480100                   75                1               75    0.1000000E-03    0.4855999E-01    0.4855999E-01    0.1269937E-01     0.000000                 2977             TEMP                0             UX       0.000000                    0             ROTX  
 </COLDATA>
 </LOADSTEPDATA>
 </SOLUTION>

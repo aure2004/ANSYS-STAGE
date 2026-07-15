@@ -482,6 +482,17 @@
             </Unit>
           </Units>
         </ParameterDetails>
+        <ParameterDetails id="pa10">
+          <Name>Density</Name>
+          <Units name="Density">
+            <Unit>
+              <Name>kg</Name>
+            </Unit>
+            <Unit power="-3">
+              <Name>m</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
         <ParameterDetails id="pa7">
           <Name>Compressive Ultimate Strength</Name>
           <Units name="Stress">
@@ -495,17 +506,6 @@
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa10">
-          <Name>Density</Name>
-          <Units name="Density">
-            <Unit>
-              <Name>kg</Name>
-            </Unit>
-            <Unit power="-3">
-              <Name>m</Name>
             </Unit>
           </Units>
         </ParameterDetails>
