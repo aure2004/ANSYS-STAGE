@@ -32,8 +32,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001012
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002419
+     time (cpu & wall) for value input       =        0.000000        0.000977
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002236
 
      no input or output performed
 
@@ -74,13 +74,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.000878
-     time (cpu & wall) for ordering          =        0.015625        0.013250
-     time (cpu & wall) for other matrix prep =        0.000000        0.003291
-     time (cpu & wall) for value input       =        0.000000        0.001200
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002795
-     time (cpu & wall) for numeric factor    =        0.015625        0.016722
-     computational rate (gflops) for factor  =        1.401673        1.309697
+     time (cpu & wall) for structure input   =        0.000000        0.000890
+     time (cpu & wall) for ordering          =        0.015625        0.015107
+     time (cpu & wall) for other matrix prep =        0.000000        0.003366
+     time (cpu & wall) for value input       =        0.000000        0.001479
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002936
+     time (cpu & wall) for numeric factor    =        0.015625        0.022344
+     computational rate (gflops) for factor  =        1.401673        0.980184
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -134,13 +134,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001518
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002744
-     time (cpu & wall) for numeric factor    =        0.015625        0.011725
-     computational rate (gflops) for factor  =        1.401673        1.867869
-     time (cpu & wall) for numeric solve     =        0.015625        0.001700
-     computational rate (gflops) for solve   =        0.308426        2.834964
-     effective I/O rate (GB/sec) for solve   =        1.149068       10.561904
+     time (cpu & wall) for value input       =        0.000000        0.001377
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002777
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -194,10 +189,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001413
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002807
-     time (cpu & wall) for numeric factor    =        0.015625        0.012570
-     computational rate (gflops) for factor  =        1.401673        1.742279
+     time (cpu & wall) for value input       =        0.000000        0.001083
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002663
+     time (cpu & wall) for numeric factor    =        0.015625        0.013436
+     computational rate (gflops) for factor  =        1.401673        1.629986
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -251,10 +246,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001414
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002866
-     time (cpu & wall) for numeric factor    =        0.015625        0.011608
-     computational rate (gflops) for factor  =        1.401673        1.886777
+     time (cpu & wall) for value input       =        0.000000        0.001680
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002776
+     time (cpu & wall) for numeric factor    =        0.015625        0.011782
+     computational rate (gflops) for factor  =        1.401673        1.858927
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -308,8 +303,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001171
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002826
+     time (cpu & wall) for value input       =        0.000000        0.001086
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003474
+     time (cpu & wall) for numeric factor    =        0.015625        0.014313
+     computational rate (gflops) for factor  =        1.401673        1.530136
+     time (cpu & wall) for numeric solve     =        0.015625        0.001644
+     computational rate (gflops) for solve   =        0.308426        2.931360
+     effective I/O rate (GB/sec) for solve   =        1.149068       10.921034
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -363,8 +363,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001530
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002745
+     time (cpu & wall) for value input       =        0.000000        0.001403
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002603
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -418,10 +418,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001785
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002773
-     time (cpu & wall) for numeric factor    =        0.015625        0.011728
-     computational rate (gflops) for factor  =        1.401673        1.867423
+     time (cpu & wall) for value input       =        0.000000        0.002300
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002661
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -475,10 +473,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001437
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002807
-     time (cpu & wall) for numeric factor    =        0.015625        0.012087
-     computational rate (gflops) for factor  =        1.401673        1.811988
+     time (cpu & wall) for value input       =        0.000000        0.001285
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003157
+     time (cpu & wall) for numeric factor    =        0.015625        0.018514
+     computational rate (gflops) for factor  =        1.401673        1.182925
+     time (cpu & wall) for numeric solve     =        0.015625        0.001548
+     computational rate (gflops) for solve   =        0.308426        3.113552
+     effective I/O rate (GB/sec) for solve   =        1.149068       11.599806
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -532,10 +533,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001411
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002913
-     time (cpu & wall) for numeric factor    =        0.015625        0.011971
-     computational rate (gflops) for factor  =        1.401673        1.829562
+     time (cpu & wall) for value input       =        0.000000        0.001057
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002617
+     time (cpu & wall) for numeric factor    =        0.015625        0.012033
+     computational rate (gflops) for factor  =        1.401673        1.820165
+     time (cpu & wall) for numeric solve     =        0.015625        0.001544
+     computational rate (gflops) for solve   =        0.308426        3.122024
+     effective I/O rate (GB/sec) for solve   =        1.149068       11.631368
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -589,8 +593,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001314
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002826
+     time (cpu & wall) for value input       =        0.000000        0.001632
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002783
+     time (cpu & wall) for numeric factor    =        0.015625        0.015236
+     computational rate (gflops) for factor  =        1.401673        1.437450
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -644,8 +650,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001406
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002739
+     time (cpu & wall) for value input       =        0.000000        0.001266
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002704
+     time (cpu & wall) for numeric factor    =        0.031250        0.018263
+     computational rate (gflops) for factor  =        0.700836        1.199208
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -699,10 +707,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001395
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002749
-     time (cpu & wall) for numeric factor    =        0.015625        0.011830
-     computational rate (gflops) for factor  =        1.401673        1.851244
+     time (cpu & wall) for value input       =        0.000000        0.001574
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002793
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -756,10 +762,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001440
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002896
-     time (cpu & wall) for numeric factor    =        0.015625        0.011812
-     computational rate (gflops) for factor  =        1.401673        1.854143
+     time (cpu & wall) for value input       =        0.000000        0.001435
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002809
+     time (cpu & wall) for numeric factor    =        0.015625        0.012057
+     computational rate (gflops) for factor  =        1.401673        1.816497
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -813,10 +819,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001079
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002646
-     time (cpu & wall) for numeric factor    =        0.015625        0.011908
-     computational rate (gflops) for factor  =        1.401673        1.839257
+     time (cpu & wall) for value input       =        0.000000        0.001368
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002901
+     time (cpu & wall) for numeric factor    =        0.015625        0.015235
+     computational rate (gflops) for factor  =        1.401673        1.437564
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -870,8 +876,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001403
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002811
+     time (cpu & wall) for value input       =        0.000000        0.001570
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002933
+     time (cpu & wall) for numeric factor    =        0.015625        0.012495
+     computational rate (gflops) for factor  =        1.401673        1.752848
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -925,10 +933,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001188
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002752
-     time (cpu & wall) for numeric factor    =        0.015625        0.011630
-     computational rate (gflops) for factor  =        1.401673        1.883110
+     time (cpu & wall) for value input       =        0.000000        0.001584
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002714
+     time (cpu & wall) for numeric factor    =        0.015625        0.018604
+     computational rate (gflops) for factor  =        1.401673        1.177240
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -982,10 +990,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001418
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002699
-     time (cpu & wall) for numeric factor    =        0.015625        0.011734
-     computational rate (gflops) for factor  =        1.401673        1.866436
+     time (cpu & wall) for value input       =        0.000000        0.001347
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002687
+     time (cpu & wall) for numeric factor    =        0.015625        0.018610
+     computational rate (gflops) for factor  =        1.401673        1.176879
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1039,10 +1047,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001127
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002724
-     time (cpu & wall) for numeric factor    =        0.015625        0.012361
-     computational rate (gflops) for factor  =        1.401673        1.771822
+     time (cpu & wall) for value input       =        0.000000        0.001256
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002671
+     time (cpu & wall) for numeric factor    =        0.015625        0.011455
+     computational rate (gflops) for factor  =        1.401673        1.911995
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1096,10 +1104,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001445
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002797
-     time (cpu & wall) for numeric factor    =        0.015625        0.013609
-     computational rate (gflops) for factor  =        1.401673        1.609360
+     time (cpu & wall) for value input       =        0.000000        0.001398
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002750
+     time (cpu & wall) for numeric factor    =        0.015625        0.016059
+     computational rate (gflops) for factor  =        1.401673        1.363809
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1153,10 +1161,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001410
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002781
-     time (cpu & wall) for numeric factor    =        0.015625        0.011686
-     computational rate (gflops) for factor  =        1.401673        1.874183
+     time (cpu & wall) for value input       =        0.000000        0.001763
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003088
+     time (cpu & wall) for numeric factor    =        0.015625        0.013322
+     computational rate (gflops) for factor  =        1.401673        1.644032
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1210,13 +1218,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001655
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002711
-     time (cpu & wall) for numeric factor    =        0.015625        0.011853
-     computational rate (gflops) for factor  =        1.401673        1.847745
-     time (cpu & wall) for numeric solve     =        0.015625        0.001659
-     computational rate (gflops) for solve   =        0.308426        2.904331
-     effective I/O rate (GB/sec) for solve   =        1.149068       10.820334
+     time (cpu & wall) for value input       =        0.000000        0.001286
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003471
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1270,10 +1273,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001455
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002713
-     time (cpu & wall) for numeric factor    =        0.015625        0.011833
-     computational rate (gflops) for factor  =        1.401673        1.850837
+     time (cpu & wall) for value input       =        0.000000        0.001288
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002785
+     time (cpu & wall) for numeric factor    =        0.015625        0.011746
+     computational rate (gflops) for factor  =        1.401673        1.864561
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1327,10 +1330,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001435
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002874
-     time (cpu & wall) for numeric factor    =        0.015625        0.011933
-     computational rate (gflops) for factor  =        1.401673        1.835311
+     time (cpu & wall) for value input       =        0.000000        0.001305
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002927
+     time (cpu & wall) for numeric factor    =        0.031250        0.018849
+     computational rate (gflops) for factor  =        0.700836        1.161938
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1384,10 +1387,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001447
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002867
-     time (cpu & wall) for numeric factor    =        0.015625        0.012009
-     computational rate (gflops) for factor  =        1.401673        1.823712
+     time (cpu & wall) for value input       =        0.000000        0.001303
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002803
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1441,8 +1442,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001414
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002760
+     time (cpu & wall) for value input       =        0.000000        0.001257
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002711
+     time (cpu & wall) for numeric factor    =        0.015625        0.014504
+     computational rate (gflops) for factor  =        1.401673        1.509965
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1496,8 +1499,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001288
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002816
+     time (cpu & wall) for value input       =        0.000000        0.001267
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002728
+     time (cpu & wall) for numeric factor    =        0.015625        0.017020
+     computational rate (gflops) for factor  =        1.401673        1.286826
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1551,10 +1556,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001451
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002799
-     time (cpu & wall) for numeric factor    =        0.015625        0.012089
-     computational rate (gflops) for factor  =        1.401673        1.811703
+     time (cpu & wall) for value input       =        0.015625        0.001682
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002753
+     time (cpu & wall) for numeric factor    =        0.015625        0.012331
+     computational rate (gflops) for factor  =        1.401673        1.776032
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1608,10 +1613,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001647
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002691
-     time (cpu & wall) for numeric factor    =        0.015625        0.014047
-     computational rate (gflops) for factor  =        1.401673        1.559122
+     time (cpu & wall) for value input       =        0.015625        0.001254
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002661
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1665,10 +1668,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001095
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002791
-     time (cpu & wall) for numeric factor    =        0.015625        0.011636
-     computational rate (gflops) for factor  =        1.401673        1.882220
+     time (cpu & wall) for value input       =        0.000000        0.001105
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002648
+     time (cpu & wall) for numeric factor    =        0.015625        0.011646
+     computational rate (gflops) for factor  =        1.401673        1.880556
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1722,13 +1725,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001460
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002874
-     time (cpu & wall) for numeric factor    =        0.015625        0.012550
-     computational rate (gflops) for factor  =        1.401673        1.745069
-     time (cpu & wall) for numeric solve     =        0.015625        0.001767
-     computational rate (gflops) for solve   =        0.308426        2.726538
-     effective I/O rate (GB/sec) for solve   =        1.149068       10.157952
+     time (cpu & wall) for value input       =        0.000000        0.002051
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004335
+     time (cpu & wall) for numeric factor    =        0.015625        0.015546
+     computational rate (gflops) for factor  =        1.401673        1.408841
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1782,10 +1782,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001417
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002930
-     time (cpu & wall) for numeric factor    =        0.015625        0.011658
-     computational rate (gflops) for factor  =        1.401673        1.878717
+     time (cpu & wall) for value input       =        0.000000        0.001377
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004354
+     time (cpu & wall) for numeric factor    =        0.015625        0.015840
+     computational rate (gflops) for factor  =        1.401673        1.382648
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1839,8 +1839,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001077
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002659
+     time (cpu & wall) for value input       =        0.000000        0.001299
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003360
+     time (cpu & wall) for numeric factor    =        0.015625        0.012212
+     computational rate (gflops) for factor  =        1.401673        1.793485
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1894,10 +1896,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001406
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002827
-     time (cpu & wall) for numeric factor    =        0.015625        0.011797
-     computational rate (gflops) for factor  =        1.401673        1.856548
+     time (cpu & wall) for value input       =        0.000000        0.001518
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002815
+     time (cpu & wall) for numeric factor    =        0.015625        0.015972
+     computational rate (gflops) for factor  =        1.401673        1.371195
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -1951,10 +1953,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001084
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002657
-     time (cpu & wall) for numeric factor    =        0.015625        0.011732
-     computational rate (gflops) for factor  =        1.401673        1.866755
+     time (cpu & wall) for value input       =        0.000000        0.001399
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002783
+     time (cpu & wall) for numeric factor    =        0.015625        0.011996
+     computational rate (gflops) for factor  =        1.401673        1.825764
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2008,8 +2010,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001442
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002960
+     time (cpu & wall) for value input       =        0.000000        0.002238
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002906
+     time (cpu & wall) for numeric factor    =        0.015625        0.013548
+     computational rate (gflops) for factor  =        1.401673        1.616547
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2063,10 +2067,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001556
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002811
-     time (cpu & wall) for numeric factor    =        0.015625        0.012243
-     computational rate (gflops) for factor  =        1.401673        1.788885
+     time (cpu & wall) for value input       =        0.000000        0.001410
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002810
+     time (cpu & wall) for numeric factor    =        0.015625        0.016996
+     computational rate (gflops) for factor  =        1.401673        1.288590
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2120,10 +2124,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001410
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002808
-     time (cpu & wall) for numeric factor    =        0.015625        0.013064
-     computational rate (gflops) for factor  =        1.401673        1.676437
+     time (cpu & wall) for value input       =        0.000000        0.002446
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004092
+     time (cpu & wall) for numeric factor    =        0.015625        0.016256
+     computational rate (gflops) for factor  =        1.401673        1.347273
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2177,10 +2181,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001304
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002664
-     time (cpu & wall) for numeric factor    =        0.015625        0.013013
-     computational rate (gflops) for factor  =        1.401673        1.683059
+     time (cpu & wall) for value input       =        0.015625        0.001060
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002592
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2234,10 +2236,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001442
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002890
-     time (cpu & wall) for numeric factor    =        0.015625        0.012457
-     computational rate (gflops) for factor  =        1.401673        1.758083
+     time (cpu & wall) for value input       =        0.000000        0.001639
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003296
+     time (cpu & wall) for numeric factor    =        0.015625        0.017105
+     computational rate (gflops) for factor  =        1.401673        1.280386
+     time (cpu & wall) for numeric solve     =        0.015625        0.005477
+     computational rate (gflops) for solve   =        0.308426        0.879858
+     effective I/O rate (GB/sec) for solve   =        1.149068        3.277985
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2291,8 +2296,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001088
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002651
+     time (cpu & wall) for value input       =        0.000000        0.001083
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002665
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2346,8 +2351,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001447
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002887
+     time (cpu & wall) for value input       =        0.000000        0.002039
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004494
+     time (cpu & wall) for numeric factor    =        0.015625        0.015469
+     computational rate (gflops) for factor  =        1.401673        1.415845
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2401,8 +2408,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001447
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002857
+     time (cpu & wall) for value input       =        0.000000        0.001271
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003014
+     time (cpu & wall) for numeric factor    =        0.015625        0.011667
+     computational rate (gflops) for factor  =        1.401673        1.877138
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2456,10 +2465,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001669
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002899
-     time (cpu & wall) for numeric factor    =        0.015625        0.012001
-     computational rate (gflops) for factor  =        1.401673        1.824973
+     time (cpu & wall) for value input       =        0.000000        0.001320
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002951
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2513,8 +2520,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001447
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002870
+     time (cpu & wall) for value input       =        0.000000        0.002394
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004200
+     time (cpu & wall) for numeric factor    =        0.015625        0.012853
+     computational rate (gflops) for factor  =        1.401673        1.703958
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2568,10 +2577,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001560
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002852
-     time (cpu & wall) for numeric factor    =        0.015625        0.012347
-     computational rate (gflops) for factor  =        1.401673        1.773831
+     time (cpu & wall) for value input       =        0.000000        0.001286
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002830
+     time (cpu & wall) for numeric factor    =        0.015625        0.015270
+     computational rate (gflops) for factor  =        1.401673        1.434269
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2625,10 +2634,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001430
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002646
-     time (cpu & wall) for numeric factor    =        0.015625        0.012773
-     computational rate (gflops) for factor  =        1.401673        1.714630
+     time (cpu & wall) for value input       =        0.000000        0.001406
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003355
+     time (cpu & wall) for numeric factor    =        0.015625        0.015147
+     computational rate (gflops) for factor  =        1.401673        1.445896
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2682,10 +2691,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001440
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002989
-     time (cpu & wall) for numeric factor    =        0.015625        0.012032
-     computational rate (gflops) for factor  =        1.401673        1.820286
+     time (cpu & wall) for value input       =        0.000000        0.001148
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002596
+     time (cpu & wall) for numeric factor    =        0.015625        0.011339
+     computational rate (gflops) for factor  =        1.401673        1.931454
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2739,10 +2748,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001445
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002731
-     time (cpu & wall) for numeric factor    =        0.015625        0.011805
-     computational rate (gflops) for factor  =        1.401673        1.855180
+     time (cpu & wall) for value input       =        0.000000        0.001088
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002635
+     time (cpu & wall) for numeric factor    =        0.015625        0.011621
+     computational rate (gflops) for factor  =        1.401673        1.884536
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2796,10 +2805,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001439
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003529
-     time (cpu & wall) for numeric factor    =        0.015625        0.012762
-     computational rate (gflops) for factor  =        1.401673        1.716081
+     time (cpu & wall) for value input       =        0.000000        0.002248
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004527
+     time (cpu & wall) for numeric factor    =        0.015625        0.017097
+     computational rate (gflops) for factor  =        1.401673        1.280971
+     time (cpu & wall) for numeric solve     =        0.015625        0.001668
+     computational rate (gflops) for solve   =        0.308426        2.889355
+     effective I/O rate (GB/sec) for solve   =        1.149068       10.764542
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2853,8 +2865,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001659
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002842
+     time (cpu & wall) for value input       =        0.000000        0.001288
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002932
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2908,10 +2920,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001264
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002703
-     time (cpu & wall) for numeric factor    =        0.015625        0.011724
-     computational rate (gflops) for factor  =        1.401673        1.868076
+     time (cpu & wall) for value input       =        0.000000        0.001369
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002681
+     time (cpu & wall) for numeric factor    =        0.015625        0.013367
+     computational rate (gflops) for factor  =        1.401673        1.638436
+     time (cpu & wall) for numeric solve     =        0.015625        0.001570
+     computational rate (gflops) for solve   =        0.308426        3.068744
+     effective I/O rate (GB/sec) for solve   =        1.149068       11.432871
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -2965,10 +2980,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001408
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002765
-     time (cpu & wall) for numeric factor    =        0.015625        0.012448
-     computational rate (gflops) for factor  =        1.401673        1.759453
+     time (cpu & wall) for value input       =        0.000000        0.001316
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003461
+     time (cpu & wall) for numeric factor    =        0.015625        0.016434
+     computational rate (gflops) for factor  =        1.401673        1.332656
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3022,10 +3037,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001405
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002816
-     time (cpu & wall) for numeric factor    =        0.015625        0.011692
-     computational rate (gflops) for factor  =        1.401673        1.873253
+     time (cpu & wall) for value input       =        0.000000        0.001270
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002722
+     time (cpu & wall) for numeric factor    =        0.015625        0.012401
+     computational rate (gflops) for factor  =        1.401673        1.766021
+     time (cpu & wall) for numeric solve     =        0.015625        0.002454
+     computational rate (gflops) for solve   =        0.308426        1.963636
+     effective I/O rate (GB/sec) for solve   =        1.149068        7.315696
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3079,10 +3097,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002070
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002748
-     time (cpu & wall) for numeric factor    =        0.015625        0.012543
-     computational rate (gflops) for factor  =        1.401673        1.746154
+     time (cpu & wall) for value input       =        0.000000        0.001395
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002884
+     time (cpu & wall) for numeric factor    =        0.015625        0.012339
+     computational rate (gflops) for factor  =        1.401673        1.774895
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3136,8 +3154,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001304
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002722
+     time (cpu & wall) for value input       =        0.000000        0.001344
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002788
+     time (cpu & wall) for numeric factor    =        0.015625        0.011867
+     computational rate (gflops) for factor  =        1.401673        1.845534
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3191,10 +3211,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001829
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004252
-     time (cpu & wall) for numeric factor    =        0.015625        0.011798
-     computational rate (gflops) for factor  =        1.401673        1.856422
+     time (cpu & wall) for value input       =        0.000000        0.002211
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004378
+     time (cpu & wall) for numeric factor    =        0.015625        0.012831
+     computational rate (gflops) for factor  =        1.401673        1.706879
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3248,8 +3268,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001441
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002695
+     time (cpu & wall) for value input       =        0.000000        0.001251
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002841
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3300,13 +3320,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001416
+     time (cpu & wall) for structure input   =        0.000000        0.000843
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001430
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002972
-     time (cpu & wall) for numeric factor    =        0.015625        0.012872
-     computational rate (gflops) for factor  =        1.401673        1.701482
+     time (cpu & wall) for value input       =        0.000000        0.001039
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002736
+     time (cpu & wall) for numeric factor    =        0.015625        0.012183
+     computational rate (gflops) for factor  =        1.401673        1.797636
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3360,13 +3380,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001536
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002839
-     time (cpu & wall) for numeric factor    =        0.015625        0.012283
-     computational rate (gflops) for factor  =        1.401673        1.783001
-     time (cpu & wall) for numeric solve     =        0.015625        0.001652
-     computational rate (gflops) for solve   =        0.308426        2.916812
-     effective I/O rate (GB/sec) for solve   =        1.149068       10.866832
+     time (cpu & wall) for value input       =        0.000000        0.001419
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002760
+     time (cpu & wall) for numeric factor    =        0.015625        0.011915
+     computational rate (gflops) for factor  =        1.401673        1.838177
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3420,10 +3437,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001494
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002759
-     time (cpu & wall) for numeric factor    =        0.015625        0.011853
-     computational rate (gflops) for factor  =        1.401673        1.847714
+     time (cpu & wall) for value input       =        0.000000        0.001249
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002671
+     time (cpu & wall) for numeric factor    =        0.015625        0.015437
+     computational rate (gflops) for factor  =        1.401673        1.418743
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3477,8 +3494,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001405
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003227
+     time (cpu & wall) for value input       =        0.000000        0.001256
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002639
+     time (cpu & wall) for numeric factor    =        0.015625        0.012812
+     computational rate (gflops) for factor  =        1.401673        1.709424
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3532,8 +3551,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001436
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002872
+     time (cpu & wall) for value input       =        0.000000        0.001435
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003604
+     time (cpu & wall) for numeric factor    =        0.015625        0.019222
+     computational rate (gflops) for factor  =        1.401673        1.139379
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3587,10 +3608,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001495
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002956
-     time (cpu & wall) for numeric factor    =        0.015625        0.017936
-     computational rate (gflops) for factor  =        1.401673        1.221051
+     time (cpu & wall) for value input       =        0.000000        0.001517
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004453
+     time (cpu & wall) for numeric factor    =        0.015625        0.015780
+     computational rate (gflops) for factor  =        1.401673        1.387896
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3644,8 +3665,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001381
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002692
+     time (cpu & wall) for value input       =        0.000000        0.002317
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004614
+     time (cpu & wall) for numeric factor    =        0.015625        0.014024
+     computational rate (gflops) for factor  =        1.401673        1.561679
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3699,10 +3722,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001453
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002755
-     time (cpu & wall) for numeric factor    =        0.015625        0.012008
-     computational rate (gflops) for factor  =        1.401673        1.823955
+     time (cpu & wall) for value input       =        0.000000        0.001274
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002842
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3756,10 +3777,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001402
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002734
-     time (cpu & wall) for numeric factor    =        0.015625        0.011857
-     computational rate (gflops) for factor  =        1.401673        1.847137
+     time (cpu & wall) for value input       =        0.000000        0.001291
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002659
+     time (cpu & wall) for numeric factor    =        0.015625        0.011663
+     computational rate (gflops) for factor  =        1.401673        1.877879
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3813,10 +3834,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001402
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003087
-     time (cpu & wall) for numeric factor    =        0.015625        0.011635
-     computational rate (gflops) for factor  =        1.401673        1.882398
+     time (cpu & wall) for value input       =        0.000000        0.001389
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002814
+     time (cpu & wall) for numeric factor    =        0.015625        0.011546
+     computational rate (gflops) for factor  =        1.401673        1.896794
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3870,10 +3891,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001423
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002799
-     time (cpu & wall) for numeric factor    =        0.015625        0.011932
-     computational rate (gflops) for factor  =        1.401673        1.835434
+     time (cpu & wall) for value input       =        0.000000        0.001396
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002746
+     time (cpu & wall) for numeric factor    =        0.015625        0.014568
+     computational rate (gflops) for factor  =        1.401673        1.503383
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3927,10 +3948,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001447
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003021
-     time (cpu & wall) for numeric factor    =        0.015625        0.011642
-     computational rate (gflops) for factor  =        1.401673        1.881153
+     time (cpu & wall) for value input       =        0.000000        0.001258
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.002792
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -3984,8 +4003,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001387
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002676
+     time (cpu & wall) for value input       =        0.015625        0.001499
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003079
+     time (cpu & wall) for numeric factor    =        0.015625        0.015182
+     computational rate (gflops) for factor  =        1.401673        1.442582
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4039,10 +4060,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001493
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002705
-     time (cpu & wall) for numeric factor    =        0.015625        0.011769
-     computational rate (gflops) for factor  =        1.401673        1.860886
+     time (cpu & wall) for value input       =        0.000000        0.001451
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003232
+     time (cpu & wall) for numeric factor    =        0.015625        0.011550
+     computational rate (gflops) for factor  =        1.401673        1.896252
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4096,8 +4117,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001507
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002847
+     time (cpu & wall) for value input       =        0.000000        0.001660
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002795
+     time (cpu & wall) for numeric factor    =        0.015625        0.011712
+     computational rate (gflops) for factor  =        1.401673        1.869910
+     time (cpu & wall) for numeric solve     =        0.015625        0.001957
+     computational rate (gflops) for solve   =        0.308426        2.462522
+     effective I/O rate (GB/sec) for solve   =        1.149068        9.174338
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4151,10 +4177,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001424
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003004
-     time (cpu & wall) for numeric factor    =        0.015625        0.011676
-     computational rate (gflops) for factor  =        1.401673        1.875756
+     time (cpu & wall) for value input       =        0.000000        0.001277
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002954
+     time (cpu & wall) for numeric factor    =        0.015625        0.012025
+     computational rate (gflops) for factor  =        1.401673        1.821240
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4208,8 +4234,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001392
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.002710
+     time (cpu & wall) for value input       =        0.000000        0.001300
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002797
+     time (cpu & wall) for numeric factor    =        0.015625        0.016062
+     computational rate (gflops) for factor  =        1.401673        1.363503
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4263,10 +4291,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001394
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002748
-     time (cpu & wall) for numeric factor    =        0.015625        0.011829
-     computational rate (gflops) for factor  =        1.401673        1.851494
+     time (cpu & wall) for value input       =        0.000000        0.002325
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004131
+     time (cpu & wall) for numeric factor    =        0.015625        0.016336
+     computational rate (gflops) for factor  =        1.401673        1.340692
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4320,13 +4348,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001312
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.002758
-     time (cpu & wall) for numeric factor    =        0.015625        0.011965
-     computational rate (gflops) for factor  =        1.401673        1.830449
-     time (cpu & wall) for numeric solve     =        0.015625        0.002009
-     computational rate (gflops) for solve   =        0.308426        2.399022
-     effective I/O rate (GB/sec) for solve   =        1.149068        8.937764
+     time (cpu & wall) for value input       =        0.000000        0.001697
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.002873
+     time (cpu & wall) for numeric factor    =        0.015625        0.011943
+     computational rate (gflops) for factor  =        1.401673        1.833821
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4377,13 +4402,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.000962
-     time (cpu & wall) for ordering          =        0.015625        0.014904
-     time (cpu & wall) for other matrix prep =        0.015625        0.003754
-     time (cpu & wall) for value input       =        0.000000        0.001209
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003090
-     time (cpu & wall) for numeric factor    =        0.015625        0.011061
-     computational rate (gflops) for factor  =        1.547721        2.186402
+     time (cpu & wall) for structure input   =        0.000000        0.000968
+     time (cpu & wall) for ordering          =        0.015625        0.014963
+     time (cpu & wall) for other matrix prep =        0.000000        0.003903
+     time (cpu & wall) for value input       =        0.000000        0.001191
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003095
+     time (cpu & wall) for numeric factor    =        0.015625        0.011312
+     computational rate (gflops) for factor  =        1.547721        2.137887
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4437,13 +4462,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001287
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003355
-     time (cpu & wall) for numeric factor    =        0.015625        0.012481
-     computational rate (gflops) for factor  =        1.547721        1.937628
-     time (cpu & wall) for numeric solve     =        0.015625        0.002244
-     computational rate (gflops) for solve   =        0.419550        2.920939
-     effective I/O rate (GB/sec) for solve   =        1.563068       10.882210
+     time (cpu & wall) for value input       =        0.000000        0.001252
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003274
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4497,10 +4517,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001603
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003200
-     time (cpu & wall) for numeric factor    =        0.015625        0.012381
-     computational rate (gflops) for factor  =        1.547721        1.953309
+     time (cpu & wall) for value input       =        0.000000        0.001427
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003164
+     time (cpu & wall) for numeric factor    =        0.015625        0.011119
+     computational rate (gflops) for factor  =        1.547721        2.174958
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4554,10 +4574,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001658
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003322
-     time (cpu & wall) for numeric factor    =        0.015625        0.011515
-     computational rate (gflops) for factor  =        1.547721        2.100161
+     time (cpu & wall) for value input       =        0.015625        0.002591
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005145
+     time (cpu & wall) for numeric factor    =        0.015625        0.014826
+     computational rate (gflops) for factor  =        1.547721        1.631164
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4608,13 +4628,11 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001026
-     time (cpu & wall) for ordering          =        0.015625        0.016932
-     time (cpu & wall) for other matrix prep =        0.000000        0.003881
-     time (cpu & wall) for value input       =        0.000000        0.001264
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003364
-     time (cpu & wall) for numeric factor    =        0.015625        0.010524
-     computational rate (gflops) for factor  =        2.199401        3.265392
+     time (cpu & wall) for structure input   =        0.000000        0.001167
+     time (cpu & wall) for ordering          =        0.015625        0.016752
+     time (cpu & wall) for other matrix prep =        0.000000        0.003964
+     time (cpu & wall) for value input       =        0.000000        0.001273
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003534
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4668,10 +4686,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001245
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003449
-     time (cpu & wall) for numeric factor    =        0.015625        0.010325
-     computational rate (gflops) for factor  =        2.199401        3.328488
+     time (cpu & wall) for value input       =        0.000000        0.002263
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005626
+     time (cpu & wall) for numeric factor    =        0.015625        0.014184
+     computational rate (gflops) for factor  =        2.199401        2.422914
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4725,13 +4743,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001663
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003430
-     time (cpu & wall) for numeric factor    =        0.015625        0.011607
-     computational rate (gflops) for factor  =        2.199401        2.960717
-     time (cpu & wall) for numeric solve     =        0.015625        0.001451
-     computational rate (gflops) for solve   =        0.556091        5.988232
-     effective I/O rate (GB/sec) for solve   =        2.071765       22.309672
+     time (cpu & wall) for value input       =        0.000000        0.001607
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003842
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4785,10 +4798,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001670
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003499
-     time (cpu & wall) for numeric factor    =        0.015625        0.010690
-     computational rate (gflops) for factor  =        2.199401        3.214686
+     time (cpu & wall) for value input       =        0.000000        0.001457
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003360
+     time (cpu & wall) for numeric factor    =        0.015625        0.010134
+     computational rate (gflops) for factor  =        2.199401        3.391256
+     time (cpu & wall) for numeric solve     =        0.015625        0.001454
+     computational rate (gflops) for solve   =        0.556091        5.975876
+     effective I/O rate (GB/sec) for solve   =        2.071765       22.263641
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4842,8 +4858,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001668
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003607
+     time (cpu & wall) for value input       =        0.000000        0.001776
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004982
+     time (cpu & wall) for numeric factor    =        0.015625        0.013900
+     computational rate (gflops) for factor  =        2.199401        2.472401
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4897,10 +4915,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001282
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003386
-     time (cpu & wall) for numeric factor    =        0.015625        0.010480
-     computational rate (gflops) for factor  =        2.199401        3.279039
+     time (cpu & wall) for value input       =        0.000000        0.001811
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003414
+     time (cpu & wall) for numeric factor    =        0.015625        0.019780
+     computational rate (gflops) for factor  =        2.199401        1.737411
+     time (cpu & wall) for numeric solve     =        0.015625        0.001734
+     computational rate (gflops) for solve   =        0.556091        5.011492
+     effective I/O rate (GB/sec) for solve   =        2.071765       18.670743
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -4954,10 +4975,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001691
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003423
-     time (cpu & wall) for numeric factor    =        0.015625        0.010310
-     computational rate (gflops) for factor  =        2.199401        3.333233
+     time (cpu & wall) for value input       =        0.015625        0.002668
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006224
+     time (cpu & wall) for numeric factor    =        0.015625        0.014311
+     computational rate (gflops) for factor  =        2.199401        2.401344
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5011,8 +5032,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001612
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003540
+     time (cpu & wall) for value input       =        0.000000        0.001582
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003274
+     time (cpu & wall) for numeric factor    =        0.015625        0.010132
+     computational rate (gflops) for factor  =        2.199401        3.391625
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5066,10 +5089,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001389
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003327
-     time (cpu & wall) for numeric factor    =        0.015625        0.010213
-     computational rate (gflops) for factor  =        2.199401        3.364760
+     time (cpu & wall) for value input       =        0.000000        0.001690
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003469
+     time (cpu & wall) for numeric factor    =        0.015625        0.010781
+     computational rate (gflops) for factor  =        2.199401        3.187582
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5123,8 +5146,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001668
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003500
+     time (cpu & wall) for value input       =        0.000000        0.002556
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005532
+     time (cpu & wall) for numeric factor    =        0.015625        0.016022
+     computational rate (gflops) for factor  =        2.199401        2.144849
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5178,10 +5203,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001717
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003545
-     time (cpu & wall) for numeric factor    =        0.015625        0.010156
-     computational rate (gflops) for factor  =        2.199401        3.383643
+     time (cpu & wall) for value input       =        0.015625        0.001529
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003539
+     time (cpu & wall) for numeric factor    =        0.015625        0.014167
+     computational rate (gflops) for factor  =        2.199401        2.425735
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5235,10 +5260,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001254
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003518
-     time (cpu & wall) for numeric factor    =        0.015625        0.010350
-     computational rate (gflops) for factor  =        2.199401        3.320383
+     time (cpu & wall) for value input       =        0.000000        0.001454
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003415
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5292,13 +5315,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001784
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003417
-     time (cpu & wall) for numeric factor    =        0.015625        0.010481
-     computational rate (gflops) for factor  =        2.199401        3.278882
-     time (cpu & wall) for numeric solve     =        0.015625        0.001642
-     computational rate (gflops) for solve   =        0.556091        5.291671
-     effective I/O rate (GB/sec) for solve   =        2.071765       19.714576
+     time (cpu & wall) for value input       =        0.000000        0.001495
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003380
+     time (cpu & wall) for numeric factor    =        0.015625        0.010346
+     computational rate (gflops) for factor  =        2.199401        3.321571
+     time (cpu & wall) for numeric solve     =        0.015625        0.001528
+     computational rate (gflops) for solve   =        0.556091        5.686096
+     effective I/O rate (GB/sec) for solve   =        2.071765       21.184041
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5352,8 +5375,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001665
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003467
+     time (cpu & wall) for value input       =        0.000000        0.001442
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003279
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5407,10 +5430,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001696
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003565
-     time (cpu & wall) for numeric factor    =        0.015625        0.010565
-     computational rate (gflops) for factor  =        2.199401        3.252781
+     time (cpu & wall) for value input       =        0.000000        0.001478
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003413
+     time (cpu & wall) for numeric factor    =        0.015625        0.013116
+     computational rate (gflops) for factor  =        2.199401        2.620051
+     time (cpu & wall) for numeric solve     =        0.015625        0.001803
+     computational rate (gflops) for solve   =        0.556091        4.817812
+     effective I/O rate (GB/sec) for solve   =        2.071765       17.949173
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5464,10 +5490,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001796
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004615
-     time (cpu & wall) for numeric factor    =        0.015625        0.011082
-     computational rate (gflops) for factor  =        2.199401        3.100948
+     time (cpu & wall) for value input       =        0.000000        0.001482
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003470
+     time (cpu & wall) for numeric factor    =        0.015625        0.011449
+     computational rate (gflops) for factor  =        2.199401        3.001602
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5521,10 +5547,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001666
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003458
-     time (cpu & wall) for numeric factor    =        0.015625        0.010269
-     computational rate (gflops) for factor  =        2.199401        3.346639
+     time (cpu & wall) for value input       =        0.000000        0.002295
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005829
+     time (cpu & wall) for numeric factor    =        0.015625        0.014398
+     computational rate (gflops) for factor  =        2.199401        2.386884
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5578,10 +5604,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001686
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005170
-     time (cpu & wall) for numeric factor    =        0.015625        0.010904
-     computational rate (gflops) for factor  =        2.199401        3.151567
+     time (cpu & wall) for value input       =        0.000000        0.001475
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003561
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5635,10 +5659,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002366
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004260
-     time (cpu & wall) for numeric factor    =        0.015625        0.010231
-     computational rate (gflops) for factor  =        2.199401        3.358906
+     time (cpu & wall) for value input       =        0.015625        0.001486
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003980
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5692,10 +5714,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002484
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003455
-     time (cpu & wall) for numeric factor    =        0.015625        0.010540
-     computational rate (gflops) for factor  =        2.199401        3.260528
+     time (cpu & wall) for value input       =        0.000000        0.001244
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003312
+     time (cpu & wall) for numeric factor    =        0.015625        0.016351
+     computational rate (gflops) for factor  =        2.199401        2.101784
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5749,10 +5771,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001671
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003511
-     time (cpu & wall) for numeric factor    =        0.015625        0.010130
-     computational rate (gflops) for factor  =        2.199401        3.392596
+     time (cpu & wall) for value input       =        0.000000        0.002600
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005716
+     time (cpu & wall) for numeric factor    =        0.015625        0.013779
+     computational rate (gflops) for factor  =        2.199401        2.494131
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5806,8 +5828,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001896
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003613
+     time (cpu & wall) for value input       =        0.000000        0.001679
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003557
+     time (cpu & wall) for numeric factor    =        0.015625        0.014411
+     computational rate (gflops) for factor  =        2.199401        2.384648
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5861,8 +5885,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001693
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003674
+     time (cpu & wall) for value input       =        0.000000        0.002291
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005766
+     time (cpu & wall) for numeric factor    =        0.015625        0.014216
+     computational rate (gflops) for factor  =        2.199401        2.417374
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5916,10 +5942,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001711
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003442
-     time (cpu & wall) for numeric factor    =        0.015625        0.011530
-     computational rate (gflops) for factor  =        2.199401        2.980515
+     time (cpu & wall) for value input       =        0.015625        0.002123
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004360
+     time (cpu & wall) for numeric factor    =        0.015625        0.013885
+     computational rate (gflops) for factor  =        2.199401        2.475037
+     time (cpu & wall) for numeric solve     =        0.015625        0.001884
+     computational rate (gflops) for solve   =        0.556091        4.612200
+     effective I/O rate (GB/sec) for solve   =        2.071765       17.183149
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -5973,8 +6002,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002330
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004244
+     time (cpu & wall) for value input       =        0.000000        0.002508
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005768
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6028,8 +6057,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001692
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003519
+     time (cpu & wall) for value input       =        0.000000        0.001484
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003462
+     time (cpu & wall) for numeric factor    =        0.015625        0.011865
+     computational rate (gflops) for factor  =        2.199401        2.896363
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6083,10 +6114,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001716
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003905
-     time (cpu & wall) for numeric factor    =        0.015625        0.010503
-     computational rate (gflops) for factor  =        2.199401        3.271952
+     time (cpu & wall) for value input       =        0.000000        0.001678
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003273
+     time (cpu & wall) for numeric factor    =        0.015625        0.009928
+     computational rate (gflops) for factor  =        2.199401        3.461626
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6140,10 +6171,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001779
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003467
-     time (cpu & wall) for numeric factor    =        0.015625        0.011163
-     computational rate (gflops) for factor  =        2.199401        3.078531
+     time (cpu & wall) for value input       =        0.000000        0.001488
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003427
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6197,8 +6226,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001658
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003466
+     time (cpu & wall) for value input       =        0.000000        0.001595
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003417
+     time (cpu & wall) for numeric factor    =        0.015625        0.015175
+     computational rate (gflops) for factor  =        2.199401        2.264667
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6252,13 +6283,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001708
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003610
-     time (cpu & wall) for numeric factor    =        0.015625        0.012314
-     computational rate (gflops) for factor  =        2.199401        2.790868
-     time (cpu & wall) for numeric solve     =        0.015625        0.001720
-     computational rate (gflops) for solve   =        0.556091        5.051406
-     effective I/O rate (GB/sec) for solve   =        2.071765       18.819449
+     time (cpu & wall) for value input       =        0.000000        0.001659
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003658
+     time (cpu & wall) for numeric factor    =        0.015625        0.013579
+     computational rate (gflops) for factor  =        2.199401        2.530700
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6312,10 +6340,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001264
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003453
-     time (cpu & wall) for numeric factor    =        0.015625        0.010362
-     computational rate (gflops) for factor  =        2.199401        3.316410
+     time (cpu & wall) for value input       =        0.015625        0.002300
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005725
+     time (cpu & wall) for numeric factor    =        0.015625        0.014564
+     computational rate (gflops) for factor  =        2.199401        2.359580
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6369,10 +6397,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001667
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003524
-     time (cpu & wall) for numeric factor    =        0.015625        0.010274
-     computational rate (gflops) for factor  =        2.199401        3.344946
+     time (cpu & wall) for value input       =        0.000000        0.002540
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003692
+     time (cpu & wall) for numeric factor    =        0.015625        0.013098
+     computational rate (gflops) for factor  =        2.199401        2.623772
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6426,10 +6454,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001669
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003470
-     time (cpu & wall) for numeric factor    =        0.015625        0.010356
-     computational rate (gflops) for factor  =        2.199401        3.318524
+     time (cpu & wall) for value input       =        0.000000        0.001476
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003360
+     time (cpu & wall) for numeric factor    =        0.015625        0.012295
+     computational rate (gflops) for factor  =        2.199401        2.795068
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6483,10 +6511,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001712
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003599
-     time (cpu & wall) for numeric factor    =        0.015625        0.010358
-     computational rate (gflops) for factor  =        2.199401        3.317819
+     time (cpu & wall) for value input       =        0.000000        0.001642
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003681
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6540,10 +6566,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001309
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005237
-     time (cpu & wall) for numeric factor    =        0.015625        0.011720
-     computational rate (gflops) for factor  =        2.199401        2.932222
+     time (cpu & wall) for value input       =        0.000000        0.001628
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003405
+     time (cpu & wall) for numeric factor    =        0.015625        0.014440
+     computational rate (gflops) for factor  =        2.199401        2.379892
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6597,8 +6623,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001709
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003714
+     time (cpu & wall) for value input       =        0.000000        0.002851
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005572
+     time (cpu & wall) for numeric factor    =        0.015625        0.015371
+     computational rate (gflops) for factor  =        2.199401        2.235760
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6652,10 +6680,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001709
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003445
-     time (cpu & wall) for numeric factor    =        0.015625        0.010793
-     computational rate (gflops) for factor  =        2.199401        3.184008
+     time (cpu & wall) for value input       =        0.000000        0.001931
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003417
+     time (cpu & wall) for numeric factor    =        0.015625        0.012441
+     computational rate (gflops) for factor  =        2.199401        2.762311
+     time (cpu & wall) for numeric solve     =        0.015625        0.001463
+     computational rate (gflops) for solve   =        0.556091        5.937897
+     effective I/O rate (GB/sec) for solve   =        2.071765       22.122144
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6709,10 +6740,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001666
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003488
-     time (cpu & wall) for numeric factor    =        0.015625        0.010251
-     computational rate (gflops) for factor  =        2.199401        3.352418
+     time (cpu & wall) for value input       =        0.000000        0.001923
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003487
+     time (cpu & wall) for numeric factor    =        0.015625        0.014216
+     computational rate (gflops) for factor  =        2.199401        2.417442
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6766,10 +6797,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001657
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003498
-     time (cpu & wall) for numeric factor    =        0.015625        0.010485
-     computational rate (gflops) for factor  =        2.199401        3.277600
+     time (cpu & wall) for value input       =        0.000000        0.002352
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004927
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6823,10 +6852,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001936
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003947
-     time (cpu & wall) for numeric factor    =        0.015625        0.010732
-     computational rate (gflops) for factor  =        2.199401        3.202195
+     time (cpu & wall) for value input       =        0.000000        0.001670
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003592
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6880,10 +6907,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001923
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003774
-     time (cpu & wall) for numeric factor    =        0.015625        0.010408
-     computational rate (gflops) for factor  =        2.199401        3.301848
+     time (cpu & wall) for value input       =        0.000000        0.001677
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005943
+     time (cpu & wall) for numeric factor    =        0.015625        0.014396
+     computational rate (gflops) for factor  =        2.199401        2.387149
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6937,10 +6964,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001672
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003448
-     time (cpu & wall) for numeric factor    =        0.015625        0.010400
-     computational rate (gflops) for factor  =        2.199401        3.304356
+     time (cpu & wall) for value input       =        0.000000        0.001671
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003562
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -6994,13 +7019,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001899
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003492
-     time (cpu & wall) for numeric factor    =        0.015625        0.010623
-     computational rate (gflops) for factor  =        2.199401        3.235174
-     time (cpu & wall) for numeric solve     =        0.015625        0.001656
-     computational rate (gflops) for solve   =        0.556091        5.246301
-     effective I/O rate (GB/sec) for solve   =        2.071765       19.545546
+     time (cpu & wall) for value input       =        0.015625        0.002516
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003441
+     time (cpu & wall) for numeric factor    =        0.015625        0.010278
+     computational rate (gflops) for factor  =        2.199401        3.343449
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7054,8 +7076,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001263
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003327
+     time (cpu & wall) for value input       =        0.000000        0.001625
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003473
+     time (cpu & wall) for numeric factor    =        0.015625        0.013124
+     computational rate (gflops) for factor  =        2.199401        2.618514
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7109,13 +7133,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001675
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003508
-     time (cpu & wall) for numeric factor    =        0.015625        0.010330
-     computational rate (gflops) for factor  =        2.199401        3.326748
-     time (cpu & wall) for numeric solve     =        0.015625        0.001703
-     computational rate (gflops) for solve   =        0.556091        5.101229
-     effective I/O rate (GB/sec) for solve   =        2.071765       19.005069
+     time (cpu & wall) for value input       =        0.000000        0.001726
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003425
+     time (cpu & wall) for numeric factor    =        0.015625        0.011085
+     computational rate (gflops) for factor  =        2.199401        3.100221
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7169,8 +7190,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001914
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003559
+     time (cpu & wall) for value input       =        0.000000        0.001590
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003460
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7224,10 +7245,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001669
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003489
-     time (cpu & wall) for numeric factor    =        0.015625        0.010310
-     computational rate (gflops) for factor  =        2.199401        3.333363
+     time (cpu & wall) for value input       =        0.000000        0.001665
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003474
+     time (cpu & wall) for numeric factor    =        0.015625        0.013550
+     computational rate (gflops) for factor  =        2.199401        2.536172
+     time (cpu & wall) for numeric solve     =        0.015625        0.001729
+     computational rate (gflops) for solve   =        0.556091        5.025404
+     effective I/O rate (GB/sec) for solve   =        2.071765       18.722576
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7281,8 +7305,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001692
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003579
+     time (cpu & wall) for value input       =        0.015625        0.001351
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003397
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7336,10 +7360,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001673
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003630
-     time (cpu & wall) for numeric factor    =        0.015625        0.010755
-     computational rate (gflops) for factor  =        2.199401        3.195347
+     time (cpu & wall) for value input       =        0.000000        0.001483
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003867
+     time (cpu & wall) for numeric factor    =        0.015625        0.010221
+     computational rate (gflops) for factor  =        2.199401        3.362258
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7393,10 +7417,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001670
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003418
-     time (cpu & wall) for numeric factor    =        0.015625        0.010299
-     computational rate (gflops) for factor  =        2.199401        3.336858
+     time (cpu & wall) for value input       =        0.000000        0.001494
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005743
+     time (cpu & wall) for numeric factor    =        0.015625        0.014305
+     computational rate (gflops) for factor  =        2.199401        2.402419
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7450,10 +7474,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001691
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003508
-     time (cpu & wall) for numeric factor    =        0.015625        0.010146
-     computational rate (gflops) for factor  =        2.199401        3.387012
+     time (cpu & wall) for value input       =        0.000000        0.001728
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003773
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7507,10 +7529,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001474
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003868
-     time (cpu & wall) for numeric factor    =        0.015625        0.015476
-     computational rate (gflops) for factor  =        2.199401        2.220504
+     time (cpu & wall) for value input       =        0.000000        0.001452
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003609
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7564,10 +7584,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001709
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003584
-     time (cpu & wall) for numeric factor    =        0.015625        0.010699
-     computational rate (gflops) for factor  =        2.199401        3.212162
+     time (cpu & wall) for value input       =        0.000000        0.002494
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005300
+     time (cpu & wall) for numeric factor    =        0.015625        0.012392
+     computational rate (gflops) for factor  =        2.199401        2.773256
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7621,8 +7641,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001673
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003436
+     time (cpu & wall) for value input       =        0.000000        0.001473
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003390
+     time (cpu & wall) for numeric factor    =        0.015625        0.011277
+     computational rate (gflops) for factor  =        2.199401        3.047545
+     time (cpu & wall) for numeric solve     =        0.015625        0.002163
+     computational rate (gflops) for solve   =        0.556091        4.016699
+     effective I/O rate (GB/sec) for solve   =        2.071765       14.964559
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7676,13 +7701,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001484
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003402
-     time (cpu & wall) for numeric factor    =        0.015625        0.010160
-     computational rate (gflops) for factor  =        2.199401        3.382511
-     time (cpu & wall) for numeric solve     =        0.015625        0.001476
-     computational rate (gflops) for solve   =        0.556091        5.886007
-     effective I/O rate (GB/sec) for solve   =        2.071765       21.928826
+     time (cpu & wall) for value input       =        0.000000        0.001230
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003225
+     time (cpu & wall) for numeric factor    =        0.015625        0.012276
+     computational rate (gflops) for factor  =        2.199401        2.799416
+     time (cpu & wall) for numeric solve     =        0.015625        0.001985
+     computational rate (gflops) for solve   =        0.556091        4.376410
+     effective I/O rate (GB/sec) for solve   =        2.071765       16.304691
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7736,10 +7761,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001669
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003656
-     time (cpu & wall) for numeric factor    =        0.015625        0.011323
-     computational rate (gflops) for factor  =        2.199401        3.034922
+     time (cpu & wall) for value input       =        0.000000        0.001236
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003481
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7793,10 +7816,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002313
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003444
-     time (cpu & wall) for numeric factor    =        0.015625        0.010464
-     computational rate (gflops) for factor  =        2.199401        3.284115
+     time (cpu & wall) for value input       =        0.000000        0.002147
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005878
+     time (cpu & wall) for numeric factor    =        0.015625        0.014322
+     computational rate (gflops) for factor  =        2.199401        2.399550
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7847,13 +7870,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.000987
+     time (cpu & wall) for structure input   =        0.015625        0.001186
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001224
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003688
-     time (cpu & wall) for numeric factor    =        0.015625        0.010128
-     computational rate (gflops) for factor  =        2.199401        3.393065
+     time (cpu & wall) for value input       =        0.000000        0.002619
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006075
+     time (cpu & wall) for numeric factor    =        0.015625        0.014224
+     computational rate (gflops) for factor  =        2.199401        2.416049
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7907,10 +7930,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001699
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003698
-     time (cpu & wall) for numeric factor    =        0.015625        0.010375
-     computational rate (gflops) for factor  =        2.199401        3.312223
+     time (cpu & wall) for value input       =        0.000000        0.001505
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003588
+     time (cpu & wall) for numeric factor    =        0.015625        0.012022
+     computational rate (gflops) for factor  =        2.199401        2.858657
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -7964,13 +7987,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001782
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003833
-     time (cpu & wall) for numeric factor    =        0.015625        0.011022
-     computational rate (gflops) for factor  =        2.199401        3.117913
-     time (cpu & wall) for numeric solve     =        0.015625        0.001538
-     computational rate (gflops) for solve   =        0.556091        5.649863
-     effective I/O rate (GB/sec) for solve   =        2.071765       21.049050
+     time (cpu & wall) for value input       =        0.000000        0.001619
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003514
+     time (cpu & wall) for numeric factor    =        0.015625        0.012510
+     computational rate (gflops) for factor  =        2.199401        2.747053
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8024,8 +8044,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001747
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003584
+     time (cpu & wall) for value input       =        0.000000        0.001612
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003588
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8079,8 +8099,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001666
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003444
+     time (cpu & wall) for value input       =        0.000000        0.001550
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003575
+     time (cpu & wall) for numeric factor    =        0.015625        0.010895
+     computational rate (gflops) for factor  =        2.199401        3.154315
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8134,8 +8156,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001655
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003602
+     time (cpu & wall) for value input       =        0.000000        0.001267
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003336
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8189,8 +8211,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001553
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004148
+     time (cpu & wall) for value input       =        0.000000        0.001480
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003481
+     time (cpu & wall) for numeric factor    =        0.015625        0.012116
+     computational rate (gflops) for factor  =        2.199401        2.836455
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8244,10 +8268,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001245
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003364
-     time (cpu & wall) for numeric factor    =        0.015625        0.011251
-     computational rate (gflops) for factor  =        2.199401        3.054343
+     time (cpu & wall) for value input       =        0.000000        0.001960
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004216
+     time (cpu & wall) for numeric factor    =        0.015625        0.013584
+     computational rate (gflops) for factor  =        2.199401        2.529768
+     time (cpu & wall) for numeric solve     =        0.015625        0.001849
+     computational rate (gflops) for solve   =        0.556091        4.698748
+     effective I/O rate (GB/sec) for solve   =        2.071765       17.505588
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8301,10 +8328,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001655
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003516
-     time (cpu & wall) for numeric factor    =        0.015625        0.010402
-     computational rate (gflops) for factor  =        2.199401        3.303657
+     time (cpu & wall) for value input       =        0.000000        0.002337
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005638
+     time (cpu & wall) for numeric factor    =        0.015625        0.013985
+     computational rate (gflops) for factor  =        2.199401        2.457268
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8358,10 +8385,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001671
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003622
-     time (cpu & wall) for numeric factor    =        0.015625        0.010139
-     computational rate (gflops) for factor  =        2.199401        3.389617
+     time (cpu & wall) for value input       =        0.000000        0.002418
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006366
+     time (cpu & wall) for numeric factor    =        0.015625        0.023061
+     computational rate (gflops) for factor  =        2.199401        1.490199
+     time (cpu & wall) for numeric solve     =        0.015625        0.002237
+     computational rate (gflops) for solve   =        0.556091        3.883665
+     effective I/O rate (GB/sec) for solve   =        2.071765       14.468928
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8415,8 +8445,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001658
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003481
+     time (cpu & wall) for value input       =        0.000000        0.001602
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003774
+     time (cpu & wall) for numeric factor    =        0.015625        0.014743
+     computational rate (gflops) for factor  =        2.199401        2.331043
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8470,10 +8502,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001425
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004076
-     time (cpu & wall) for numeric factor    =        0.015625        0.010630
-     computational rate (gflops) for factor  =        2.199401        3.232983
+     time (cpu & wall) for value input       =        0.000000        0.002288
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005752
+     time (cpu & wall) for numeric factor    =        0.015625        0.013856
+     computational rate (gflops) for factor  =        2.199401        2.480109
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8527,10 +8559,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001692
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003763
-     time (cpu & wall) for numeric factor    =        0.015625        0.010392
-     computational rate (gflops) for factor  =        2.199401        3.306805
+     time (cpu & wall) for value input       =        0.000000        0.002324
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005752
+     time (cpu & wall) for numeric factor    =        0.015625        0.014162
+     computational rate (gflops) for factor  =        2.199401        2.426523
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8584,10 +8616,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002192
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003558
-     time (cpu & wall) for numeric factor    =        0.015625        0.010531
-     computational rate (gflops) for factor  =        2.199401        3.263159
+     time (cpu & wall) for value input       =        0.000000        0.001686
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003910
+     time (cpu & wall) for numeric factor    =        0.015625        0.011972
+     computational rate (gflops) for factor  =        2.199401        2.870549
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8641,10 +8673,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001698
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003562
-     time (cpu & wall) for numeric factor    =        0.015625        0.011322
-     computational rate (gflops) for factor  =        2.199401        3.035431
+     time (cpu & wall) for value input       =        0.000000        0.002276
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003913
+     time (cpu & wall) for numeric factor    =        0.015625        0.012072
+     computational rate (gflops) for factor  =        2.199401        2.846676
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8698,8 +8730,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001983
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.003510
+     time (cpu & wall) for value input       =        0.000000        0.001528
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003376
+     time (cpu & wall) for numeric factor    =        0.015625        0.012284
+     computational rate (gflops) for factor  =        2.199401        2.797707
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8753,10 +8787,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001697
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003603
-     time (cpu & wall) for numeric factor    =        0.015625        0.010515
-     computational rate (gflops) for factor  =        2.199401        3.268373
+     time (cpu & wall) for value input       =        0.000000        0.001390
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003719
+     time (cpu & wall) for numeric factor    =        0.015625        0.011361
+     computational rate (gflops) for factor  =        2.199401        3.024904
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8810,13 +8844,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001689
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003453
-     time (cpu & wall) for numeric factor    =        0.015625        0.010552
-     computational rate (gflops) for factor  =        2.199401        3.256696
-     time (cpu & wall) for numeric solve     =        0.015625        0.001921
-     computational rate (gflops) for solve   =        0.556091        4.523832
-     effective I/O rate (GB/sec) for solve   =        2.071765       16.853925
+     time (cpu & wall) for value input       =        0.000000        0.001614
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.003589
+     time (cpu & wall) for numeric factor    =        0.015625        0.015762
+     computational rate (gflops) for factor  =        2.199401        2.180298
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8870,8 +8901,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001245
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.003530
+     time (cpu & wall) for value input       =        0.000000        0.001582
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.003406
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8922,13 +8953,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001469
-     time (cpu & wall) for ordering          =        0.046875        0.019185
-     time (cpu & wall) for other matrix prep =        0.000000        0.004554
-     time (cpu & wall) for value input       =        0.000000        0.002059
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004786
-     time (cpu & wall) for numeric factor    =        0.015625        0.011773
-     computational rate (gflops) for factor  =        2.240075        2.973029
+     time (cpu & wall) for structure input   =        0.000000        0.001876
+     time (cpu & wall) for ordering          =        0.015625        0.026476
+     time (cpu & wall) for other matrix prep =        0.015625        0.005983
+     time (cpu & wall) for value input       =        0.000000        0.002584
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004209
+     time (cpu & wall) for numeric factor    =        0.015625        0.013055
+     computational rate (gflops) for factor  =        2.240075        2.680993
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -8982,10 +9013,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001563
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004039
-     time (cpu & wall) for numeric factor    =        0.015625        0.011748
-     computational rate (gflops) for factor  =        2.240075        2.979305
+     time (cpu & wall) for value input       =        0.000000        0.001446
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004485
+     time (cpu & wall) for numeric factor    =        0.015625        0.011845
+     computational rate (gflops) for factor  =        2.240075        2.954932
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9039,10 +9070,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001877
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004187
-     time (cpu & wall) for numeric factor    =        0.015625        0.011514
-     computational rate (gflops) for factor  =        2.240075        3.039800
+     time (cpu & wall) for value input       =        0.015625        0.003311
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006302
+     time (cpu & wall) for numeric factor    =        0.015625        0.016618
+     computational rate (gflops) for factor  =        2.240075        2.106157
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9096,13 +9127,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001819
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004215
-     time (cpu & wall) for numeric factor    =        0.015625        0.011927
-     computational rate (gflops) for factor  =        2.240075        2.934567
-     time (cpu & wall) for numeric solve     =        0.015625        0.001963
-     computational rate (gflops) for solve   =        0.700262        5.573632
-     effective I/O rate (GB/sec) for solve   =        2.608887       20.765043
+     time (cpu & wall) for value input       =        0.000000        0.002535
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006667
+     time (cpu & wall) for numeric factor    =        0.015625        0.012558
+     computational rate (gflops) for factor  =        2.240075        2.787228
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9153,13 +9181,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.015625        0.001656
-     time (cpu & wall) for ordering          =        0.015625        0.021845
-     time (cpu & wall) for other matrix prep =        0.000000        0.004741
-     time (cpu & wall) for value input       =        0.015625        0.001959
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004300
-     time (cpu & wall) for numeric factor    =        0.015625        0.010469
-     computational rate (gflops) for factor  =        3.370245        5.030241
+     time (cpu & wall) for structure input   =        0.015625        0.001235
+     time (cpu & wall) for ordering          =        0.015625        0.022408
+     time (cpu & wall) for other matrix prep =        0.000000        0.004546
+     time (cpu & wall) for value input       =        0.000000        0.001500
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004469
+     time (cpu & wall) for numeric factor    =        0.015625        0.013426
+     computational rate (gflops) for factor  =        3.370245        3.922100
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9213,10 +9241,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001787
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004175
-     time (cpu & wall) for numeric factor    =        0.015625        0.010307
-     computational rate (gflops) for factor  =        3.370245        5.109256
+     time (cpu & wall) for value input       =        0.000000        0.001683
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004577
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9270,10 +9296,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001950
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004353
-     time (cpu & wall) for numeric factor    =        0.015625        0.010290
-     computational rate (gflops) for factor  =        3.370245        5.117747
+     time (cpu & wall) for value input       =        0.000000        0.002989
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004276
+     time (cpu & wall) for numeric factor    =        0.015625        0.010455
+     computational rate (gflops) for factor  =        3.370245        5.036688
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9327,10 +9353,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001501
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004605
-     time (cpu & wall) for numeric factor    =        0.015625        0.011686
-     computational rate (gflops) for factor  =        3.370245        4.506254
+     time (cpu & wall) for value input       =        0.000000        0.001736
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004810
+     time (cpu & wall) for numeric factor    =        0.015625        0.013414
+     computational rate (gflops) for factor  =        3.370245        3.925872
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9384,10 +9410,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001991
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005397
-     time (cpu & wall) for numeric factor    =        0.015625        0.010551
-     computational rate (gflops) for factor  =        3.370245        4.991146
+     time (cpu & wall) for value input       =        0.000000        0.001693
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004248
+     time (cpu & wall) for numeric factor    =        0.015625        0.017545
+     computational rate (gflops) for factor  =        3.370245        3.001378
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9441,8 +9467,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001951
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004219
+     time (cpu & wall) for value input       =        0.000000        0.002806
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007254
+     time (cpu & wall) for numeric factor    =        0.015625        0.014251
+     computational rate (gflops) for factor  =        3.370245        3.695211
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9496,8 +9524,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001998
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004424
+     time (cpu & wall) for value input       =        0.000000        0.001885
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004038
+     time (cpu & wall) for numeric factor    =        0.015625        0.010190
+     computational rate (gflops) for factor  =        3.370245        5.167617
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9551,10 +9581,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001962
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004724
-     time (cpu & wall) for numeric factor    =        0.015625        0.010778
-     computational rate (gflops) for factor  =        3.370245        4.885705
+     time (cpu & wall) for value input       =        0.000000        0.001846
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004100
+     time (cpu & wall) for numeric factor    =        0.015625        0.011240
+     computational rate (gflops) for factor  =        3.370245        4.685060
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9608,8 +9638,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001764
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004121
+     time (cpu & wall) for value input       =        0.000000        0.003226
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007287
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9663,8 +9693,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002226
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004407
+     time (cpu & wall) for value input       =        0.000000        0.002369
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004140
+     time (cpu & wall) for numeric factor    =        0.015625        0.010449
+     computational rate (gflops) for factor  =        3.370245        5.039580
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9718,10 +9750,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001726
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004313
-     time (cpu & wall) for numeric factor    =        0.015625        0.010481
-     computational rate (gflops) for factor  =        3.370245        5.024529
+     time (cpu & wall) for value input       =        0.000000        0.001662
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004102
+     time (cpu & wall) for numeric factor    =        0.015625        0.010771
+     computational rate (gflops) for factor  =        3.370245        4.889061
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9775,8 +9807,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001941
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004191
+     time (cpu & wall) for value input       =        0.000000        0.002770
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007431
+     time (cpu & wall) for numeric factor    =        0.015625        0.014505
+     computational rate (gflops) for factor  =        3.370245        3.630553
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9830,8 +9864,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001946
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004187
+     time (cpu & wall) for value input       =        0.000000        0.001853
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004203
+     time (cpu & wall) for numeric factor    =        0.015625        0.010274
+     computational rate (gflops) for factor  =        3.370245        5.125468
+     time (cpu & wall) for numeric solve     =        0.015625        0.002139
+     computational rate (gflops) for solve   =        0.882851        6.449665
+     effective I/O rate (GB/sec) for solve   =        3.289137       24.028782
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9885,10 +9924,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002090
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004289
-     time (cpu & wall) for numeric factor    =        0.015625        0.010303
-     computational rate (gflops) for factor  =        3.370245        5.111190
+     time (cpu & wall) for value input       =        0.000000        0.001718
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004153
+     time (cpu & wall) for numeric factor    =        0.015625        0.012048
+     computational rate (gflops) for factor  =        3.370245        4.371002
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -9942,13 +9981,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002002
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004315
-     time (cpu & wall) for numeric factor    =        0.015625        0.011297
-     computational rate (gflops) for factor  =        3.370245        4.661587
-     time (cpu & wall) for numeric solve     =        0.015625        0.002190
-     computational rate (gflops) for solve   =        0.882851        6.300029
-     effective I/O rate (GB/sec) for solve   =        3.289137       23.471301
+     time (cpu & wall) for value input       =        0.000000        0.001456
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004393
+     time (cpu & wall) for numeric factor    =        0.015625        0.012163
+     computational rate (gflops) for factor  =        3.370245        4.329388
+     time (cpu & wall) for numeric solve     =        0.015625        0.001842
+     computational rate (gflops) for solve   =        0.882851        7.487269
+     effective I/O rate (GB/sec) for solve   =        3.289137       27.894464
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10002,8 +10041,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001492
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004116
+     time (cpu & wall) for value input       =        0.000000        0.002204
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004398
+     time (cpu & wall) for numeric factor    =        0.015625        0.010602
+     computational rate (gflops) for factor  =        3.370245        4.967229
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10057,10 +10098,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001497
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004351
-     time (cpu & wall) for numeric factor    =        0.015625        0.010439
-     computational rate (gflops) for factor  =        3.370245        5.044745
+     time (cpu & wall) for value input       =        0.000000        0.001619
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004130
+     time (cpu & wall) for numeric factor    =        0.015625        0.012850
+     computational rate (gflops) for factor  =        3.370245        4.097965
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10114,8 +10155,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002148
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004096
+     time (cpu & wall) for value input       =        0.000000        0.001525
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004076
+     time (cpu & wall) for numeric factor    =        0.015625        0.011952
+     computational rate (gflops) for factor  =        3.370245        4.405890
+     time (cpu & wall) for numeric solve     =        0.015625        0.002421
+     computational rate (gflops) for solve   =        0.882851        5.698106
+     effective I/O rate (GB/sec) for solve   =        3.289137       21.228783
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10169,10 +10215,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001930
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004131
-     time (cpu & wall) for numeric factor    =        0.015625        0.010969
-     computational rate (gflops) for factor  =        3.370245        4.800678
+     time (cpu & wall) for value input       =        0.000000        0.001686
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004124
+     time (cpu & wall) for numeric factor    =        0.015625        0.013289
+     computational rate (gflops) for factor  =        3.370245        3.962771
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10226,10 +10272,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001945
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004264
-     time (cpu & wall) for numeric factor    =        0.015625        0.010381
-     computational rate (gflops) for factor  =        3.370245        5.072590
+     time (cpu & wall) for value input       =        0.000000        0.001700
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004217
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10283,10 +10327,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001945
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004239
-     time (cpu & wall) for numeric factor    =        0.015625        0.010331
-     computational rate (gflops) for factor  =        3.370245        5.097288
+     time (cpu & wall) for value input       =        0.000000        0.003011
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007337
+     time (cpu & wall) for numeric factor    =        0.015625        0.014156
+     computational rate (gflops) for factor  =        3.370245        3.720062
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10340,10 +10384,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002213
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004324
-     time (cpu & wall) for numeric factor    =        0.015625        0.010432
-     computational rate (gflops) for factor  =        3.370245        5.047840
+     time (cpu & wall) for value input       =        0.000000        0.001748
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004496
+     time (cpu & wall) for numeric factor    =        0.015625        0.013305
+     computational rate (gflops) for factor  =        3.370245        3.957798
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10397,8 +10441,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001737
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004185
+     time (cpu & wall) for value input       =        0.000000        0.001857
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004108
+     time (cpu & wall) for numeric factor    =        0.015625        0.010969
+     computational rate (gflops) for factor  =        3.370245        4.800985
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10452,13 +10498,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002056
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004230
-     time (cpu & wall) for numeric factor    =        0.015625        0.010489
-     computational rate (gflops) for factor  =        3.370245        5.020314
-     time (cpu & wall) for numeric solve     =        0.015625        0.002059
-     computational rate (gflops) for solve   =        0.882851        6.700284
-     effective I/O rate (GB/sec) for solve   =        3.289137       24.962483
+     time (cpu & wall) for value input       =        0.000000        0.001444
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004242
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10512,10 +10553,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001642
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004517
-     time (cpu & wall) for numeric factor    =        0.015625        0.014019
-     computational rate (gflops) for factor  =        3.370245        3.756444
+     time (cpu & wall) for value input       =        0.000000        0.001889
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005935
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10569,13 +10608,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001955
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004100
-     time (cpu & wall) for numeric factor    =        0.015625        0.010379
-     computational rate (gflops) for factor  =        3.370245        5.073959
-     time (cpu & wall) for numeric solve     =        0.015625        0.001765
-     computational rate (gflops) for solve   =        0.882851        7.816934
-     effective I/O rate (GB/sec) for solve   =        3.289137       29.122661
+     time (cpu & wall) for value input       =        0.000000        0.001899
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004404
+     time (cpu & wall) for numeric factor    =        0.031250        0.017486
+     computational rate (gflops) for factor  =        1.685123        3.011539
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10629,11 +10665,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001956
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004241
-     time (cpu & wall) for numeric solve     =        0.015625        0.001656
-     computational rate (gflops) for solve   =        0.882851        8.329033
-     effective I/O rate (GB/sec) for solve   =        3.289137       31.030528
+     time (cpu & wall) for value input       =        0.000000        0.001857
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004174
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10687,10 +10720,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001953
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004304
-     time (cpu & wall) for numeric factor    =        0.015625        0.011085
-     computational rate (gflops) for factor  =        3.370245        4.750700
+     time (cpu & wall) for value input       =        0.000000        0.001771
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004097
+     time (cpu & wall) for numeric factor    =        0.015625        0.010356
+     computational rate (gflops) for factor  =        3.370245        5.085130
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10744,10 +10777,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002062
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004468
-     time (cpu & wall) for numeric factor    =        0.015625        0.010270
-     computational rate (gflops) for factor  =        3.370245        5.127414
+     time (cpu & wall) for value input       =        0.000000        0.002202
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004252
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10801,8 +10832,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001951
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004416
+     time (cpu & wall) for value input       =        0.000000        0.001666
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004128
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10856,8 +10887,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001950
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004274
+     time (cpu & wall) for value input       =        0.000000        0.001732
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004235
+     time (cpu & wall) for numeric factor    =        0.015625        0.012976
+     computational rate (gflops) for factor  =        3.370245        4.058205
+     time (cpu & wall) for numeric solve     =        0.015625        0.002468
+     computational rate (gflops) for solve   =        0.882851        5.590267
+     effective I/O rate (GB/sec) for solve   =        3.289137       20.827022
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10911,10 +10947,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002057
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004330
-     time (cpu & wall) for numeric factor    =        0.015625        0.010491
-     computational rate (gflops) for factor  =        3.370245        5.019452
+     time (cpu & wall) for value input       =        0.000000        0.002148
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004306
+     time (cpu & wall) for numeric factor    =        0.015625        0.010280
+     computational rate (gflops) for factor  =        3.370245        5.122676
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -10968,10 +11004,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002351
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004490
-     time (cpu & wall) for numeric factor    =        0.015625        0.011383
-     computational rate (gflops) for factor  =        3.370245        4.626123
+     time (cpu & wall) for value input       =        0.000000        0.002767
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007348
+     time (cpu & wall) for numeric factor    =        0.015625        0.014507
+     computational rate (gflops) for factor  =        3.370245        3.629927
+     time (cpu & wall) for numeric solve     =        0.015625        0.001678
+     computational rate (gflops) for solve   =        0.882851        8.221315
+     effective I/O rate (GB/sec) for solve   =        3.289137       30.629215
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11025,8 +11064,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001951
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004308
+     time (cpu & wall) for value input       =        0.015625        0.001920
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004233
+     time (cpu & wall) for numeric factor    =        0.015625        0.010400
+     computational rate (gflops) for factor  =        3.370245        5.063274
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11080,10 +11121,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002453
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004351
-     time (cpu & wall) for numeric factor    =        0.015625        0.010755
-     computational rate (gflops) for factor  =        3.370245        4.896335
+     time (cpu & wall) for value input       =        0.015625        0.001715
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004555
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11137,10 +11176,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001948
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004336
-     time (cpu & wall) for numeric factor    =        0.015625        0.010853
-     computational rate (gflops) for factor  =        3.370245        4.852256
+     time (cpu & wall) for value input       =        0.000000        0.001680
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004148
+     time (cpu & wall) for numeric factor    =        0.015625        0.010428
+     computational rate (gflops) for factor  =        3.370245        5.050067
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11194,8 +11233,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002247
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004334
+     time (cpu & wall) for value input       =        0.000000        0.001560
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004435
+     time (cpu & wall) for numeric factor    =        0.015625        0.010587
+     computational rate (gflops) for factor  =        3.370245        4.973797
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11249,8 +11290,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001720
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004224
+     time (cpu & wall) for value input       =        0.000000        0.001836
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006031
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11304,8 +11345,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001426
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004120
+     time (cpu & wall) for value input       =        0.015625        0.003203
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006919
+     time (cpu & wall) for numeric factor    =        0.015625        0.014018
+     computational rate (gflops) for factor  =        3.370245        3.756551
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11359,10 +11402,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001939
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004190
-     time (cpu & wall) for numeric factor    =        0.015625        0.011887
-     computational rate (gflops) for factor  =        3.370245        4.429982
+     time (cpu & wall) for value input       =        0.000000        0.001901
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004223
+     time (cpu & wall) for numeric factor    =        0.015625        0.012379
+     computational rate (gflops) for factor  =        3.370245        4.254019
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11416,8 +11459,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001444
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004411
+     time (cpu & wall) for value input       =        0.000000        0.002860
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007347
+     time (cpu & wall) for numeric factor    =        0.015625        0.013865
+     computational rate (gflops) for factor  =        3.370245        3.798058
+     time (cpu & wall) for numeric solve     =        0.015625        0.002443
+     computational rate (gflops) for solve   =        0.882851        5.646559
+     effective I/O rate (GB/sec) for solve   =        3.289137       21.036742
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11471,10 +11519,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002743
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004438
-     time (cpu & wall) for numeric factor    =        0.015625        0.010614
-     computational rate (gflops) for factor  =        3.370245        4.961379
+     time (cpu & wall) for value input       =        0.000000        0.002713
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007368
+     time (cpu & wall) for numeric factor    =        0.015625        0.014367
+     computational rate (gflops) for factor  =        3.370245        3.665248
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11528,10 +11576,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001761
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004132
-     time (cpu & wall) for numeric factor    =        0.015625        0.011625
-     computational rate (gflops) for factor  =        3.370245        4.529977
+     time (cpu & wall) for value input       =        0.000000        0.003343
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005380
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11585,10 +11631,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001880
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004416
-     time (cpu & wall) for numeric factor    =        0.015625        0.010797
-     computational rate (gflops) for factor  =        3.370245        4.877333
+     time (cpu & wall) for value input       =        0.000000        0.001518
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005306
+     time (cpu & wall) for numeric factor    =        0.015625        0.021537
+     computational rate (gflops) for factor  =        3.370245        2.445144
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11642,10 +11688,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001979
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004365
-     time (cpu & wall) for numeric factor    =        0.015625        0.011048
-     computational rate (gflops) for factor  =        3.370245        4.766438
+     time (cpu & wall) for value input       =        0.000000        0.003212
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006704
+     time (cpu & wall) for numeric factor    =        0.015625        0.016560
+     computational rate (gflops) for factor  =        3.370245        3.179995
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11699,10 +11745,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001582
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004150
-     time (cpu & wall) for numeric factor    =        0.015625        0.011322
-     computational rate (gflops) for factor  =        3.370245        4.651170
+     time (cpu & wall) for value input       =        0.000000        0.001937
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004198
+     time (cpu & wall) for numeric factor    =        0.015625        0.010372
+     computational rate (gflops) for factor  =        3.370245        5.077138
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11756,13 +11802,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001936
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004151
-     time (cpu & wall) for numeric factor    =        0.015625        0.011120
-     computational rate (gflops) for factor  =        3.370245        4.735491
-     time (cpu & wall) for numeric solve     =        0.015625        0.001981
-     computational rate (gflops) for solve   =        0.882851        6.965183
-     effective I/O rate (GB/sec) for solve   =        3.289137       25.949386
+     time (cpu & wall) for value input       =        0.000000        0.001904
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004090
+     time (cpu & wall) for numeric factor    =        0.015625        0.010012
+     computational rate (gflops) for factor  =        3.370245        5.259591
+     time (cpu & wall) for numeric solve     =        0.015625        0.001752
+     computational rate (gflops) for solve   =        0.882851        7.874497
+     effective I/O rate (GB/sec) for solve   =        3.289137       29.337116
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11816,10 +11862,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002050
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004618
-     time (cpu & wall) for numeric factor    =        0.015625        0.011421
-     computational rate (gflops) for factor  =        3.370245        4.610691
+     time (cpu & wall) for value input       =        0.000000        0.001714
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004183
+     time (cpu & wall) for numeric factor    =        0.015625        0.010403
+     computational rate (gflops) for factor  =        3.370245        5.061960
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11873,8 +11919,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001715
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004519
+     time (cpu & wall) for value input       =        0.000000        0.001675
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004280
+     time (cpu & wall) for numeric factor    =        0.015625        0.010494
+     computational rate (gflops) for factor  =        3.370245        5.018065
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11928,13 +11976,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001946
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004526
-     time (cpu & wall) for numeric factor    =        0.015625        0.010270
-     computational rate (gflops) for factor  =        3.370245        5.127514
-     time (cpu & wall) for numeric solve     =        0.015625        0.002445
-     computational rate (gflops) for solve   =        0.882851        5.641479
-     effective I/O rate (GB/sec) for solve   =        3.289137       21.017814
+     time (cpu & wall) for value input       =        0.000000        0.001729
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004298
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -11988,10 +12031,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001976
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004496
-     time (cpu & wall) for numeric factor    =        0.015625        0.011015
-     computational rate (gflops) for factor  =        3.370245        4.780631
+     time (cpu & wall) for value input       =        0.015625        0.003140
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007179
+     time (cpu & wall) for numeric factor    =        0.015625        0.013833
+     computational rate (gflops) for factor  =        3.370245        3.806900
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12045,8 +12088,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001959
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004351
+     time (cpu & wall) for value input       =        0.015625        0.001742
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004412
+     time (cpu & wall) for numeric factor    =        0.015625        0.012117
+     computational rate (gflops) for factor  =        3.370245        4.345859
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12100,13 +12145,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002300
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005219
-     time (cpu & wall) for numeric factor    =        0.015625        0.010496
-     computational rate (gflops) for factor  =        3.370245        5.017157
-     time (cpu & wall) for numeric solve     =        0.015625        0.002097
-     computational rate (gflops) for solve   =        0.882851        6.577287
-     effective I/O rate (GB/sec) for solve   =        3.289137       24.504248
+     time (cpu & wall) for value input       =        0.000000        0.001813
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004207
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12160,10 +12200,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001958
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004199
-     time (cpu & wall) for numeric factor    =        0.015625        0.010418
-     computational rate (gflops) for factor  =        3.370245        5.054527
+     time (cpu & wall) for value input       =        0.000000        0.001700
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004066
+     time (cpu & wall) for numeric factor    =        0.015625        0.011587
+     computational rate (gflops) for factor  =        3.370245        4.544834
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12217,10 +12257,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002021
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004369
-     time (cpu & wall) for numeric factor    =        0.015625        0.010714
-     computational rate (gflops) for factor  =        3.370245        4.915301
+     time (cpu & wall) for value input       =        0.000000        0.001702
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007181
+     time (cpu & wall) for numeric factor    =        0.015625        0.014126
+     computational rate (gflops) for factor  =        3.370245        3.727910
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12274,10 +12314,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002652
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004486
-     time (cpu & wall) for numeric factor    =        0.015625        0.011234
-     computational rate (gflops) for factor  =        3.370245        4.687646
+     time (cpu & wall) for value input       =        0.000000        0.001737
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004329
+     time (cpu & wall) for numeric factor    =        0.015625        0.012875
+     computational rate (gflops) for factor  =        3.370245        4.090167
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12331,10 +12371,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001973
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004322
-     time (cpu & wall) for numeric factor    =        0.015625        0.011072
-     computational rate (gflops) for factor  =        3.370245        4.756149
+     time (cpu & wall) for value input       =        0.015625        0.002495
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004083
+     time (cpu & wall) for numeric factor    =        0.015625        0.012061
+     computational rate (gflops) for factor  =        3.370245        4.366001
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12385,11 +12425,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001173
+     time (cpu & wall) for structure input   =        0.000000        0.001787
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001438
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004354
+     time (cpu & wall) for value input       =        0.000000        0.001412
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004356
+     time (cpu & wall) for numeric factor    =        0.015625        0.013679
+     computational rate (gflops) for factor  =        3.370245        3.849618
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12443,10 +12485,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001949
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005148
-     time (cpu & wall) for numeric factor    =        0.015625        0.011151
-     computational rate (gflops) for factor  =        3.370245        4.722538
+     time (cpu & wall) for value input       =        0.000000        0.001632
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004213
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12500,10 +12540,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001942
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004215
-     time (cpu & wall) for numeric factor    =        0.015625        0.012125
-     computational rate (gflops) for factor  =        3.370245        4.342992
+     time (cpu & wall) for value input       =        0.000000        0.001893
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007413
+     time (cpu & wall) for numeric factor    =        0.015625        0.014244
+     computational rate (gflops) for factor  =        3.370245        3.697105
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12557,13 +12597,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001935
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004309
-     time (cpu & wall) for numeric factor    =        0.015625        0.011043
-     computational rate (gflops) for factor  =        3.370245        4.768682
-     time (cpu & wall) for numeric solve     =        0.015625        0.001753
-     computational rate (gflops) for solve   =        0.882851        7.871352
-     effective I/O rate (GB/sec) for solve   =        3.289137       29.325398
+     time (cpu & wall) for value input       =        0.000000        0.001942
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004442
+     time (cpu & wall) for numeric factor    =        0.015625        0.010025
+     computational rate (gflops) for factor  =        3.370245        5.252928
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12617,8 +12654,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002274
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004522
+     time (cpu & wall) for value input       =        0.000000        0.001888
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005566
+     time (cpu & wall) for numeric factor    =        0.015625        0.014171
+     computational rate (gflops) for factor  =        3.370245        3.716072
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12672,8 +12711,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001926
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004097
+     time (cpu & wall) for value input       =        0.000000        0.001857
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006718
+     time (cpu & wall) for numeric factor    =        0.015625        0.015149
+     computational rate (gflops) for factor  =        3.370245        3.476165
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12727,8 +12768,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001942
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004475
+     time (cpu & wall) for value input       =        0.000000        0.001996
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005092
+     time (cpu & wall) for numeric factor    =        0.015625        0.015426
+     computational rate (gflops) for factor  =        3.370245        3.413744
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12782,10 +12825,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001474
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004196
-     time (cpu & wall) for numeric factor    =        0.015625        0.010438
-     computational rate (gflops) for factor  =        3.370245        5.045229
+     time (cpu & wall) for value input       =        0.000000        0.001754
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004338
+     time (cpu & wall) for numeric factor    =        0.015625        0.012885
+     computational rate (gflops) for factor  =        3.370245        4.087088
+     time (cpu & wall) for numeric solve     =        0.015625        0.002026
+     computational rate (gflops) for solve   =        0.882851        6.807078
+     effective I/O rate (GB/sec) for solve   =        3.289137       25.360355
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12839,10 +12885,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001945
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004263
-     time (cpu & wall) for numeric factor    =        0.015625        0.010445
-     computational rate (gflops) for factor  =        3.370245        5.041896
+     time (cpu & wall) for value input       =        0.000000        0.001597
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004205
+     time (cpu & wall) for numeric factor    =        0.015625        0.013084
+     computational rate (gflops) for factor  =        3.370245        4.024738
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12896,10 +12942,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002220
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004121
-     time (cpu & wall) for numeric factor    =        0.015625        0.010451
-     computational rate (gflops) for factor  =        3.370245        5.038856
+     time (cpu & wall) for value input       =        0.000000        0.001674
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004154
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -12953,10 +12997,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001624
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004096
-     time (cpu & wall) for numeric factor    =        0.015625        0.010603
-     computational rate (gflops) for factor  =        3.370245        4.966620
+     time (cpu & wall) for value input       =        0.000000        0.002197
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004494
+     time (cpu & wall) for numeric factor    =        0.015625        0.011753
+     computational rate (gflops) for factor  =        3.370245        4.480451
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13010,8 +13054,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001766
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004158
+     time (cpu & wall) for value input       =        0.000000        0.001923
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004257
+     time (cpu & wall) for numeric factor    =        0.015625        0.011859
+     computational rate (gflops) for factor  =        3.370245        4.440479
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13065,10 +13111,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002837
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004293
-     time (cpu & wall) for numeric factor    =        0.015625        0.010302
-     computational rate (gflops) for factor  =        3.370245        5.111587
+     time (cpu & wall) for value input       =        0.000000        0.001675
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004192
+     time (cpu & wall) for numeric factor    =        0.015625        0.010045
+     computational rate (gflops) for factor  =        3.370245        5.242574
+     time (cpu & wall) for numeric solve     =        0.015625        0.001965
+     computational rate (gflops) for solve   =        0.882851        7.020124
+     effective I/O rate (GB/sec) for solve   =        3.289137       26.154076
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13122,8 +13171,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002035
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004152
+     time (cpu & wall) for value input       =        0.000000        0.001706
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004093
+     time (cpu & wall) for numeric factor    =        0.015625        0.013179
+     computational rate (gflops) for factor  =        3.370245        3.995878
+     time (cpu & wall) for numeric solve     =        0.015625        0.001864
+     computational rate (gflops) for solve   =        0.882851        7.398919
+     effective I/O rate (GB/sec) for solve   =        3.289137       27.565308
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13177,8 +13231,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001441
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004325
+     time (cpu & wall) for value input       =        0.000000        0.003215
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006692
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13232,10 +13286,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002764
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004214
-     time (cpu & wall) for numeric factor    =        0.015625        0.010436
-     computational rate (gflops) for factor  =        3.370245        5.046099
+     time (cpu & wall) for value input       =        0.000000        0.002964
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007205
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13289,8 +13341,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001957
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004100
+     time (cpu & wall) for value input       =        0.000000        0.003069
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006904
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13344,10 +13396,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002060
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004213
-     time (cpu & wall) for numeric factor    =        0.015625        0.010338
-     computational rate (gflops) for factor  =        3.370245        5.093984
+     time (cpu & wall) for value input       =        0.000000        0.002987
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004217
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13401,10 +13451,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001987
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004505
-     time (cpu & wall) for numeric factor    =        0.015625        0.010346
-     computational rate (gflops) for factor  =        3.370245        5.089996
+     time (cpu & wall) for value input       =        0.000000        0.001890
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004246
+     time (cpu & wall) for numeric factor    =        0.015625        0.013340
+     computational rate (gflops) for factor  =        3.370245        3.947473
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13458,8 +13508,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001929
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004249
+     time (cpu & wall) for value input       =        0.000000        0.002371
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004213
+     time (cpu & wall) for numeric factor    =        0.015625        0.015330
+     computational rate (gflops) for factor  =        3.370245        3.435077
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13510,13 +13562,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001767
-     time (cpu & wall) for ordering          =        0.031250        0.022441
-     time (cpu & wall) for other matrix prep =        0.000000        0.005199
-     time (cpu & wall) for value input       =        0.000000        0.001531
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005947
-     time (cpu & wall) for numeric factor    =        0.015625        0.013184
-     computational rate (gflops) for factor  =        3.387525        4.014721
+     time (cpu & wall) for structure input   =        0.000000        0.001516
+     time (cpu & wall) for ordering          =        0.031250        0.028751
+     time (cpu & wall) for other matrix prep =        0.015625        0.005154
+     time (cpu & wall) for value input       =        0.000000        0.001549
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004779
+     time (cpu & wall) for numeric factor    =        0.015625        0.012513
+     computational rate (gflops) for factor  =        3.387525        4.230176
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13570,10 +13622,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002270
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004779
-     time (cpu & wall) for numeric factor    =        0.015625        0.012799
-     computational rate (gflops) for factor  =        3.387525        4.135485
+     time (cpu & wall) for value input       =        0.015625        0.001543
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004838
+     time (cpu & wall) for numeric factor    =        0.015625        0.012587
+     computational rate (gflops) for factor  =        3.387525        4.205138
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13627,10 +13679,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002170
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005888
-     time (cpu & wall) for numeric factor    =        0.015625        0.012360
-     computational rate (gflops) for factor  =        3.387525        4.282265
+     time (cpu & wall) for value input       =        0.000000        0.002480
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005538
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13684,10 +13734,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002473
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004794
-     time (cpu & wall) for numeric factor    =        0.015625        0.012704
-     computational rate (gflops) for factor  =        3.387525        4.166378
+     time (cpu & wall) for value input       =        0.015625        0.003216
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007705
+     time (cpu & wall) for numeric factor    =        0.015625        0.017495
+     computational rate (gflops) for factor  =        3.387525        3.025406
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13738,13 +13788,11 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001578
-     time (cpu & wall) for ordering          =        0.031250        0.025143
-     time (cpu & wall) for other matrix prep =        0.000000        0.005297
-     time (cpu & wall) for value input       =        0.000000        0.001551
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004726
-     time (cpu & wall) for numeric factor    =        0.015625        0.013506
-     computational rate (gflops) for factor  =        4.477462        5.180060
+     time (cpu & wall) for structure input   =        0.015625        0.001474
+     time (cpu & wall) for ordering          =        0.015625        0.024690
+     time (cpu & wall) for other matrix prep =        0.000000        0.005516
+     time (cpu & wall) for value input       =        0.000000        0.002140
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005017
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13798,10 +13846,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002081
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004824
-     time (cpu & wall) for numeric factor    =        0.015625        0.012147
-     computational rate (gflops) for factor  =        4.477462        5.759664
+     time (cpu & wall) for value input       =        0.000000        0.002878
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004856
+     time (cpu & wall) for numeric factor    =        0.015625        0.011586
+     computational rate (gflops) for factor  =        4.477462        6.038560
+     time (cpu & wall) for numeric solve     =        0.015625        0.002434
+     computational rate (gflops) for solve   =        1.297032        8.326261
+     effective I/O rate (GB/sec) for solve   =        4.832203       31.020202
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13855,8 +13906,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001592
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004889
+     time (cpu & wall) for value input       =        0.000000        0.001556
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004679
+     time (cpu & wall) for numeric factor    =        0.015625        0.011743
+     computational rate (gflops) for factor  =        4.477462        5.957823
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13910,10 +13963,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002326
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005171
-     time (cpu & wall) for numeric factor    =        0.015625        0.011789
-     computational rate (gflops) for factor  =        4.477462        5.934626
+     time (cpu & wall) for value input       =        0.015625        0.003400
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005046
+     time (cpu & wall) for numeric factor    =        0.015625        0.012055
+     computational rate (gflops) for factor  =        4.477462        5.803188
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -13967,10 +14020,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001693
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004800
-     time (cpu & wall) for numeric factor    =        0.015625        0.012051
-     computational rate (gflops) for factor  =        4.477462        5.805500
+     time (cpu & wall) for value input       =        0.000000        0.001891
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004998
+     time (cpu & wall) for numeric factor    =        0.015625        0.012111
+     computational rate (gflops) for factor  =        4.477462        5.776547
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14024,13 +14077,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002127
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004935
-     time (cpu & wall) for numeric factor    =        0.015625        0.012063
-     computational rate (gflops) for factor  =        4.477462        5.799821
-     time (cpu & wall) for numeric solve     =        0.015625        0.002566
-     computational rate (gflops) for solve   =        1.297032        7.897635
-     effective I/O rate (GB/sec) for solve   =        4.832203       29.423317
+     time (cpu & wall) for value input       =        0.015625        0.003497
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008186
+     time (cpu & wall) for numeric factor    =        0.015625        0.018285
+     computational rate (gflops) for factor  =        4.477462        3.826001
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14084,10 +14134,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001537
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004723
-     time (cpu & wall) for numeric factor    =        0.015625        0.011892
-     computational rate (gflops) for factor  =        4.477462        5.882777
+     time (cpu & wall) for value input       =        0.015625        0.001660
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005490
+     time (cpu & wall) for numeric factor    =        0.015625        0.012399
+     computational rate (gflops) for factor  =        4.477462        5.642327
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14141,8 +14191,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001858
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004815
+     time (cpu & wall) for value input       =        0.000000        0.002119
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004966
+     time (cpu & wall) for numeric factor    =        0.015625        0.011883
+     computational rate (gflops) for factor  =        4.477462        5.887480
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14196,10 +14248,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002292
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005052
-     time (cpu & wall) for numeric factor    =        0.015625        0.012150
-     computational rate (gflops) for factor  =        4.477462        5.758052
+     time (cpu & wall) for value input       =        0.000000        0.003596
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007994
+     time (cpu & wall) for numeric factor    =        0.015625        0.017540
+     computational rate (gflops) for factor  =        4.477462        3.988639
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14253,8 +14305,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001653
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005109
+     time (cpu & wall) for value input       =        0.000000        0.002965
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008151
+     time (cpu & wall) for numeric factor    =        0.015625        0.018360
+     computational rate (gflops) for factor  =        4.477462        3.810372
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14308,10 +14362,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001957
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004783
-     time (cpu & wall) for numeric factor    =        0.015625        0.011877
-     computational rate (gflops) for factor  =        4.477462        5.890305
+     time (cpu & wall) for value input       =        0.000000        0.002107
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006528
+     time (cpu & wall) for numeric factor    =        0.015625        0.012499
+     computational rate (gflops) for factor  =        4.477462        5.597185
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14365,10 +14419,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001581
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005098
-     time (cpu & wall) for numeric factor    =        0.015625        0.012056
-     computational rate (gflops) for factor  =        4.477462        5.803092
+     time (cpu & wall) for value input       =        0.000000        0.002070
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005121
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14422,10 +14474,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002173
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004906
-     time (cpu & wall) for numeric factor    =        0.015625        0.012249
-     computational rate (gflops) for factor  =        4.477462        5.711421
+     time (cpu & wall) for value input       =        0.000000        0.001813
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004646
+     time (cpu & wall) for numeric factor    =        0.015625        0.011499
+     computational rate (gflops) for factor  =        4.477462        6.083984
+     time (cpu & wall) for numeric solve     =        0.015625        0.002210
+     computational rate (gflops) for solve   =        1.297032        9.170190
+     effective I/O rate (GB/sec) for solve   =        4.832203       34.164332
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14479,10 +14534,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002130
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006619
-     time (cpu & wall) for numeric factor    =        0.015625        0.013440
-     computational rate (gflops) for factor  =        4.477462        5.205421
+     time (cpu & wall) for value input       =        0.000000        0.002058
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004806
+     time (cpu & wall) for numeric factor    =        0.015625        0.011914
+     computational rate (gflops) for factor  =        4.477462        5.872013
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14536,10 +14591,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002139
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005239
-     time (cpu & wall) for numeric factor    =        0.015625        0.011740
-     computational rate (gflops) for factor  =        4.477462        5.959244
+     time (cpu & wall) for value input       =        0.000000        0.002070
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005095
+     time (cpu & wall) for numeric factor    =        0.031250        0.018019
+     computational rate (gflops) for factor  =        2.238731        3.882652
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14593,10 +14648,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001679
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004709
-     time (cpu & wall) for numeric factor    =        0.015625        0.012043
-     computational rate (gflops) for factor  =        4.477462        5.809308
+     time (cpu & wall) for value input       =        0.015625        0.001555
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004706
+     time (cpu & wall) for numeric factor    =        0.015625        0.013964
+     computational rate (gflops) for factor  =        4.477462        5.009978
+     time (cpu & wall) for numeric solve     =        0.015625        0.002441
+     computational rate (gflops) for solve   =        1.297032        8.301024
+     effective I/O rate (GB/sec) for solve   =        4.832203       30.926179
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14650,10 +14708,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001977
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004693
-     time (cpu & wall) for numeric factor    =        0.015625        0.011992
-     computational rate (gflops) for factor  =        4.477462        5.833771
+     time (cpu & wall) for value input       =        0.000000        0.002024
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005083
+     time (cpu & wall) for numeric factor    =        0.015625        0.011461
+     computational rate (gflops) for factor  =        4.477462        6.104368
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14707,10 +14765,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001721
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004939
-     time (cpu & wall) for numeric factor    =        0.015625        0.012144
-     computational rate (gflops) for factor  =        4.477462        5.761040
+     time (cpu & wall) for value input       =        0.000000        0.003016
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008210
+     time (cpu & wall) for numeric factor    =        0.015625        0.018156
+     computational rate (gflops) for factor  =        4.477462        3.853375
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14764,10 +14822,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002073
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004975
-     time (cpu & wall) for numeric factor    =        0.015625        0.012061
-     computational rate (gflops) for factor  =        4.477462        5.800542
+     time (cpu & wall) for value input       =        0.000000        0.003473
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008796
+     time (cpu & wall) for numeric factor    =        0.015625        0.015243
+     computational rate (gflops) for factor  =        4.477462        4.589579
+     time (cpu & wall) for numeric solve     =        0.015625        0.002559
+     computational rate (gflops) for solve   =        1.297032        7.919856
+     effective I/O rate (GB/sec) for solve   =        4.832203       29.506105
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14821,10 +14882,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002137
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005203
-     time (cpu & wall) for numeric factor    =        0.015625        0.011775
-     computational rate (gflops) for factor  =        4.477462        5.941278
+     time (cpu & wall) for value input       =        0.000000        0.001849
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004929
+     time (cpu & wall) for numeric factor    =        0.015625        0.012064
+     computational rate (gflops) for factor  =        4.477462        5.799292
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14878,13 +14939,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002130
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004986
-     time (cpu & wall) for numeric factor    =        0.015625        0.012146
-     computational rate (gflops) for factor  =        4.477462        5.760043
-     time (cpu & wall) for numeric solve     =        0.015625        0.001920
-     computational rate (gflops) for solve   =        1.297032       10.554721
-     effective I/O rate (GB/sec) for solve   =        4.832203       39.322521
+     time (cpu & wall) for value input       =        0.015625        0.003745
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007928
+     time (cpu & wall) for numeric factor    =        0.031250        0.017562
+     computational rate (gflops) for factor  =        2.238731        3.983597
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14938,10 +14996,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001636
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004686
-     time (cpu & wall) for numeric factor    =        0.015625        0.011938
-     computational rate (gflops) for factor  =        4.477462        5.860306
+     time (cpu & wall) for value input       =        0.000000        0.001908
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004792
+     time (cpu & wall) for numeric factor    =        0.015625        0.012518
+     computational rate (gflops) for factor  =        4.477462        5.588868
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -14995,10 +15053,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002169
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004988
-     time (cpu & wall) for numeric factor    =        0.015625        0.012109
-     computational rate (gflops) for factor  =        4.477462        5.777358
+     time (cpu & wall) for value input       =        0.000000        0.001709
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005532
+     time (cpu & wall) for numeric factor    =        0.015625        0.018150
+     computational rate (gflops) for factor  =        4.477462        3.854543
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15052,10 +15110,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002369
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005292
-     time (cpu & wall) for numeric factor    =        0.015625        0.011774
-     computational rate (gflops) for factor  =        4.477462        5.941783
+     time (cpu & wall) for value input       =        0.000000        0.001657
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004790
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15109,8 +15165,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002131
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004910
+     time (cpu & wall) for value input       =        0.000000        0.002102
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005567
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15164,10 +15220,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002132
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004903
-     time (cpu & wall) for numeric factor    =        0.015625        0.011962
-     computational rate (gflops) for factor  =        4.477462        5.848695
+     time (cpu & wall) for value input       =        0.000000        0.002095
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004911
+     time (cpu & wall) for numeric factor    =        0.015625        0.012209
+     computational rate (gflops) for factor  =        4.477462        5.729992
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15221,13 +15277,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002182
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005205
-     time (cpu & wall) for numeric factor    =        0.015625        0.012789
-     computational rate (gflops) for factor  =        4.477462        5.470310
-     time (cpu & wall) for numeric solve     =        0.015625        0.001956
-     computational rate (gflops) for solve   =        1.297032       10.362591
-     effective I/O rate (GB/sec) for solve   =        4.832203       38.606725
+     time (cpu & wall) for value input       =        0.015625        0.003527
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008011
+     time (cpu & wall) for numeric factor    =        0.015625        0.019483
+     computational rate (gflops) for factor  =        4.477462        3.590748
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15281,8 +15334,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001775
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004739
+     time (cpu & wall) for value input       =        0.000000        0.001892
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004992
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15336,10 +15389,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002108
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004878
-     time (cpu & wall) for numeric factor    =        0.015625        0.012935
-     computational rate (gflops) for factor  =        4.477462        5.408607
+     time (cpu & wall) for value input       =        0.015625        0.002762
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004815
+     time (cpu & wall) for numeric factor    =        0.015625        0.012591
+     computational rate (gflops) for factor  =        4.477462        5.556244
+     time (cpu & wall) for numeric solve     =        0.015625        0.002038
+     computational rate (gflops) for solve   =        1.297032        9.942658
+     effective I/O rate (GB/sec) for solve   =        4.832203       37.042228
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15393,10 +15449,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002074
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004804
-     time (cpu & wall) for numeric factor    =        0.015625        0.012029
-     computational rate (gflops) for factor  =        4.477462        5.816069
+     time (cpu & wall) for value input       =        0.015625        0.001890
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004869
+     time (cpu & wall) for numeric factor    =        0.015625        0.012720
+     computational rate (gflops) for factor  =        4.477462        5.500113
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15450,10 +15506,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002179
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005058
-     time (cpu & wall) for numeric factor    =        0.015625        0.012083
-     computational rate (gflops) for factor  =        4.477462        5.790029
+     time (cpu & wall) for value input       =        0.000000        0.002042
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004800
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15507,10 +15561,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001730
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005165
-     time (cpu & wall) for numeric factor    =        0.015625        0.012094
-     computational rate (gflops) for factor  =        4.477462        5.784475
+     time (cpu & wall) for value input       =        0.000000        0.003021
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008062
+     time (cpu & wall) for numeric factor    =        0.015625        0.018236
+     computational rate (gflops) for factor  =        4.477462        3.836365
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15564,10 +15618,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001935
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004892
-     time (cpu & wall) for numeric factor    =        0.015625        0.012012
-     computational rate (gflops) for factor  =        4.477462        5.824349
+     time (cpu & wall) for value input       =        0.000000        0.001579
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004685
+     time (cpu & wall) for numeric factor    =        0.015625        0.011854
+     computational rate (gflops) for factor  =        4.477462        5.901933
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15621,13 +15675,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002176
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004919
-     time (cpu & wall) for numeric factor    =        0.015625        0.012001
-     computational rate (gflops) for factor  =        4.477462        5.829445
-     time (cpu & wall) for numeric solve     =        0.015625        0.001902
-     computational rate (gflops) for solve   =        1.297032       10.656284
-     effective I/O rate (GB/sec) for solve   =        4.832203       39.700901
+     time (cpu & wall) for value input       =        0.000000        0.003064
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008067
+     time (cpu & wall) for numeric factor    =        0.015625        0.017599
+     computational rate (gflops) for factor  =        4.477462        3.975222
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15681,8 +15732,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002375
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005845
+     time (cpu & wall) for value input       =        0.015625        0.002281
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008166
+     time (cpu & wall) for numeric factor    =        0.015625        0.016181
+     computational rate (gflops) for factor  =        4.477462        4.323557
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15736,13 +15789,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002284
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004938
-     time (cpu & wall) for numeric factor    =        0.015625        0.011953
-     computational rate (gflops) for factor  =        4.477462        5.853099
-     time (cpu & wall) for numeric solve     =        0.015625        0.002396
-     computational rate (gflops) for solve   =        1.297032        8.459020
-     effective I/O rate (GB/sec) for solve   =        4.832203       31.514806
+     time (cpu & wall) for value input       =        0.000000        0.001902
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004949
+     time (cpu & wall) for numeric factor    =        0.015625        0.013815
+     computational rate (gflops) for factor  =        4.477462        5.064048
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15796,10 +15846,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001554
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005000
-     time (cpu & wall) for numeric factor    =        0.015625        0.011910
-     computational rate (gflops) for factor  =        4.477462        5.874182
+     time (cpu & wall) for value input       =        0.000000        0.001932
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005012
+     time (cpu & wall) for numeric factor    =        0.031250        0.016243
+     computational rate (gflops) for factor  =        2.238731        4.307001
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15853,8 +15903,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002350
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004727
+     time (cpu & wall) for value input       =        0.000000        0.002087
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005035
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15908,10 +15958,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002126
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005008
-     time (cpu & wall) for numeric factor    =        0.015625        0.011901
-     computational rate (gflops) for factor  =        4.477462        5.878476
+     time (cpu & wall) for value input       =        0.000000        0.001741
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005130
+     time (cpu & wall) for numeric factor    =        0.015625        0.013222
+     computational rate (gflops) for factor  =        4.477462        5.291367
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -15965,10 +16015,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002132
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005100
-     time (cpu & wall) for numeric factor    =        0.015625        0.012046
-     computational rate (gflops) for factor  =        4.477462        5.807861
+     time (cpu & wall) for value input       =        0.000000        0.001862
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005031
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16022,10 +16070,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001991
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004901
-     time (cpu & wall) for numeric factor    =        0.015625        0.012362
-     computational rate (gflops) for factor  =        4.477462        5.659168
+     time (cpu & wall) for value input       =        0.000000        0.001885
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004935
+     time (cpu & wall) for numeric factor    =        0.015625        0.012025
+     computational rate (gflops) for factor  =        4.477462        5.817956
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16079,13 +16127,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002077
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004802
-     time (cpu & wall) for numeric factor    =        0.015625        0.012025
-     computational rate (gflops) for factor  =        4.477462        5.818053
-     time (cpu & wall) for numeric solve     =        0.015625        0.002091
-     computational rate (gflops) for solve   =        1.297032        9.692071
-     effective I/O rate (GB/sec) for solve   =        4.832203       36.108643
+     time (cpu & wall) for value input       =        0.000000        0.002961
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004890
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16139,10 +16182,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002134
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004964
-     time (cpu & wall) for numeric factor    =        0.015625        0.011953
-     computational rate (gflops) for factor  =        4.477462        5.852952
+     time (cpu & wall) for value input       =        0.015625        0.003410
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007936
+     time (cpu & wall) for numeric factor    =        0.015625        0.017776
+     computational rate (gflops) for factor  =        4.477462        3.935707
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16196,8 +16239,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002141
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005060
+     time (cpu & wall) for value input       =        0.000000        0.002133
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005018
+     time (cpu & wall) for numeric factor    =        0.015625        0.012583
+     computational rate (gflops) for factor  =        4.477462        5.559821
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16251,10 +16296,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002292
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004941
-     time (cpu & wall) for numeric factor    =        0.015625        0.012003
-     computational rate (gflops) for factor  =        4.477462        5.828571
+     time (cpu & wall) for value input       =        0.000000        0.003102
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008127
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16308,10 +16351,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002179
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005239
-     time (cpu & wall) for numeric factor    =        0.015625        0.011787
-     computational rate (gflops) for factor  =        4.477462        5.935180
+     time (cpu & wall) for value input       =        0.000000        0.001754
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004718
+     time (cpu & wall) for numeric factor    =        0.015625        0.011726
+     computational rate (gflops) for factor  =        4.477462        5.966410
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16365,8 +16408,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002135
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005333
+     time (cpu & wall) for value input       =        0.000000        0.001581
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004828
+     time (cpu & wall) for numeric factor    =        0.015625        0.017184
+     computational rate (gflops) for factor  =        4.477462        4.071249
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16420,10 +16465,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001665
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004924
-     time (cpu & wall) for numeric factor    =        0.015625        0.011786
-     computational rate (gflops) for factor  =        4.477462        5.935985
+     time (cpu & wall) for value input       =        0.000000        0.001549
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004714
+     time (cpu & wall) for numeric factor    =        0.015625        0.012106
+     computational rate (gflops) for factor  =        4.477462        5.778980
+     time (cpu & wall) for numeric solve     =        0.015625        0.001901
+     computational rate (gflops) for solve   =        1.297032       10.658525
+     effective I/O rate (GB/sec) for solve   =        4.832203       39.709253
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16477,10 +16525,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002181
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004994
-     time (cpu & wall) for numeric factor    =        0.015625        0.012092
-     computational rate (gflops) for factor  =        4.477462        5.785671
+     time (cpu & wall) for value input       =        0.000000        0.001813
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004699
+     time (cpu & wall) for numeric factor    =        0.015625        0.011653
+     computational rate (gflops) for factor  =        4.477462        6.003839
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16534,13 +16582,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002076
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004981
-     time (cpu & wall) for numeric factor    =        0.015625        0.011926
-     computational rate (gflops) for factor  =        4.477462        5.866203
-     time (cpu & wall) for numeric solve     =        0.015625        0.002078
-     computational rate (gflops) for solve   =        1.297032        9.754582
-     effective I/O rate (GB/sec) for solve   =        4.832203       36.341535
+     time (cpu & wall) for value input       =        0.000000        0.001861
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004904
+     time (cpu & wall) for numeric factor    =        0.015625        0.015504
+     computational rate (gflops) for factor  =        4.477462        4.512347
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16594,10 +16639,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.003267
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004863
-     time (cpu & wall) for numeric factor    =        0.015625        0.012954
-     computational rate (gflops) for factor  =        4.477462        5.400549
+     time (cpu & wall) for value input       =        0.000000        0.001907
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005193
+     time (cpu & wall) for numeric factor    =        0.015625        0.011762
+     computational rate (gflops) for factor  =        4.477462        5.947744
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16651,10 +16696,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002133
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005076
-     time (cpu & wall) for numeric factor    =        0.015625        0.011786
-     computational rate (gflops) for factor  =        4.477462        5.935834
+     time (cpu & wall) for value input       =        0.000000        0.001913
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004930
+     time (cpu & wall) for numeric factor    =        0.015625        0.012448
+     computational rate (gflops) for factor  =        4.477462        5.620433
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16708,10 +16753,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002336
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005272
-     time (cpu & wall) for numeric factor    =        0.015625        0.013871
-     computational rate (gflops) for factor  =        4.477462        5.043749
+     time (cpu & wall) for value input       =        0.000000        0.001837
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004811
+     time (cpu & wall) for numeric factor    =        0.015625        0.011623
+     computational rate (gflops) for factor  =        4.477462        6.019129
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16765,8 +16810,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001896
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004896
+     time (cpu & wall) for value input       =        0.000000        0.001952
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004937
+     time (cpu & wall) for numeric factor    =        0.015625        0.012918
+     computational rate (gflops) for factor  =        4.477462        5.415893
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16820,10 +16867,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001782
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004788
-     time (cpu & wall) for numeric factor    =        0.015625        0.011978
-     computational rate (gflops) for factor  =        4.477462        5.840687
+     time (cpu & wall) for value input       =        0.000000        0.001913
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006258
+     time (cpu & wall) for numeric factor    =        0.015625        0.012121
+     computational rate (gflops) for factor  =        4.477462        5.771733
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16877,10 +16924,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.003200
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005163
-     time (cpu & wall) for numeric factor    =        0.015625        0.015012
-     computational rate (gflops) for factor  =        4.477462        4.660356
+     time (cpu & wall) for value input       =        0.000000        0.001855
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005050
+     time (cpu & wall) for numeric factor    =        0.015625        0.017370
+     computational rate (gflops) for factor  =        4.477462        4.027769
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16931,13 +16978,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001317
+     time (cpu & wall) for structure input   =        0.015625        0.002771
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001566
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.004999
-     time (cpu & wall) for numeric factor    =        0.015625        0.011974
-     computational rate (gflops) for factor  =        4.477462        5.842590
+     time (cpu & wall) for value input       =        0.000000        0.003410
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008454
+     time (cpu & wall) for numeric factor    =        0.015625        0.018112
+     computational rate (gflops) for factor  =        4.477462        3.862736
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -16991,8 +17038,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002117
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004949
+     time (cpu & wall) for value input       =        0.000000        0.001901
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005034
+     time (cpu & wall) for numeric factor    =        0.015625        0.017952
+     computational rate (gflops) for factor  =        4.477462        3.897034
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17046,10 +17095,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001773
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005015
-     time (cpu & wall) for numeric factor    =        0.015625        0.014776
-     computational rate (gflops) for factor  =        4.477462        4.734664
+     time (cpu & wall) for value input       =        0.000000        0.001784
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005252
+     time (cpu & wall) for numeric factor    =        0.015625        0.014239
+     computational rate (gflops) for factor  =        4.477462        4.913393
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17103,13 +17152,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002114
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005041
-     time (cpu & wall) for numeric factor    =        0.015625        0.011922
-     computational rate (gflops) for factor  =        4.477462        5.868368
-     time (cpu & wall) for numeric solve     =        0.015625        0.002207
-     computational rate (gflops) for solve   =        1.297032        9.180991
-     effective I/O rate (GB/sec) for solve   =        4.832203       34.204572
+     time (cpu & wall) for value input       =        0.000000        0.001817
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004976
+     time (cpu & wall) for numeric factor    =        0.015625        0.016869
+     computational rate (gflops) for factor  =        4.477462        4.147174
+     time (cpu & wall) for numeric solve     =        0.015625        0.002240
+     computational rate (gflops) for solve   =        1.297032        9.047779
+     effective I/O rate (GB/sec) for solve   =        4.832203       33.708278
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17163,10 +17212,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001759
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005960
-     time (cpu & wall) for numeric factor    =        0.015625        0.017191
-     computational rate (gflops) for factor  =        4.477462        4.069496
+     time (cpu & wall) for value input       =        0.000000        0.001834
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005229
+     time (cpu & wall) for numeric factor    =        0.015625        0.021379
+     computational rate (gflops) for factor  =        4.477462        3.272416
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17220,10 +17269,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002141
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006222
-     time (cpu & wall) for numeric factor    =        0.015625        0.012074
-     computational rate (gflops) for factor  =        4.477462        5.794153
+     time (cpu & wall) for value input       =        0.000000        0.002166
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004998
+     time (cpu & wall) for numeric factor    =        0.015625        0.011823
+     computational rate (gflops) for factor  =        4.477462        5.917208
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17277,8 +17326,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002487
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005050
+     time (cpu & wall) for value input       =        0.000000        0.001805
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004747
+     time (cpu & wall) for numeric factor    =        0.015625        0.017140
+     computational rate (gflops) for factor  =        4.477462        4.081628
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17332,10 +17383,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002411
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005264
-     time (cpu & wall) for numeric factor    =        0.015625        0.013778
-     computational rate (gflops) for factor  =        4.477462        5.077758
+     time (cpu & wall) for value input       =        0.000000        0.001936
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004795
+     time (cpu & wall) for numeric factor    =        0.015625        0.018349
+     computational rate (gflops) for factor  =        4.477462        3.812760
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17389,10 +17440,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002173
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005292
-     time (cpu & wall) for numeric factor    =        0.015625        0.012214
-     computational rate (gflops) for factor  =        4.477462        5.727740
+     time (cpu & wall) for value input       =        0.000000        0.002042
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004758
+     time (cpu & wall) for numeric factor    =        0.015625        0.011949
+     computational rate (gflops) for factor  =        4.477462        5.854862
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17446,10 +17497,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002188
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005307
-     time (cpu & wall) for numeric factor    =        0.015625        0.012135
-     computational rate (gflops) for factor  =        4.477462        5.765122
+     time (cpu & wall) for value input       =        0.000000        0.003538
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008359
+     time (cpu & wall) for numeric factor    =        0.015625        0.017669
+     computational rate (gflops) for factor  =        4.477462        3.959451
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17503,8 +17554,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001695
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004699
+     time (cpu & wall) for value input       =        0.000000        0.003561
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007884
+     time (cpu & wall) for numeric factor    =        0.015625        0.018158
+     computational rate (gflops) for factor  =        4.477462        3.852951
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17558,10 +17611,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002132
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005488
-     time (cpu & wall) for numeric factor    =        0.015625        0.012083
-     computational rate (gflops) for factor  =        4.477462        5.790172
+     time (cpu & wall) for value input       =        0.015625        0.001829
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004857
+     time (cpu & wall) for numeric factor    =        0.015625        0.013312
+     computational rate (gflops) for factor  =        4.477462        5.255513
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17615,10 +17668,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002168
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004886
-     time (cpu & wall) for numeric factor    =        0.015625        0.011992
-     computational rate (gflops) for factor  =        4.477462        5.833917
+     time (cpu & wall) for value input       =        0.000000        0.001806
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004795
+     time (cpu & wall) for numeric factor    =        0.015625        0.011645
+     computational rate (gflops) for factor  =        4.477462        6.007603
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17672,10 +17725,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002140
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004797
-     time (cpu & wall) for numeric factor    =        0.015625        0.012359
-     computational rate (gflops) for factor  =        4.477462        5.660542
+     time (cpu & wall) for value input       =        0.015625        0.002153
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005016
+     time (cpu & wall) for numeric factor    =        0.015625        0.012143
+     computational rate (gflops) for factor  =        4.477462        5.761277
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17729,10 +17782,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001548
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005795
-     time (cpu & wall) for numeric factor    =        0.015625        0.011874
-     computational rate (gflops) for factor  =        4.477462        5.892042
+     time (cpu & wall) for value input       =        0.000000        0.002927
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007056
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17786,8 +17837,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002171
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005745
+     time (cpu & wall) for value input       =        0.000000        0.001846
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007042
+     time (cpu & wall) for numeric factor    =        0.015625        0.017714
+     computational rate (gflops) for factor  =        4.477462        3.949527
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17841,10 +17894,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002175
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005697
-     time (cpu & wall) for numeric factor    =        0.015625        0.011909
-     computational rate (gflops) for factor  =        4.477462        5.874824
+     time (cpu & wall) for value input       =        0.015625        0.001591
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004789
+     time (cpu & wall) for numeric factor    =        0.015625        0.012837
+     computational rate (gflops) for factor  =        4.477462        5.449855
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17898,10 +17951,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002110
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005037
-     time (cpu & wall) for numeric factor    =        0.015625        0.012247
-     computational rate (gflops) for factor  =        4.477462        5.712493
+     time (cpu & wall) for value input       =        0.000000        0.001919
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.004811
+     time (cpu & wall) for numeric factor    =        0.015625        0.017728
+     computational rate (gflops) for factor  =        4.477462        3.946274
+     time (cpu & wall) for numeric solve     =        0.015625        0.001994
+     computational rate (gflops) for solve   =        1.297032       10.165080
+     effective I/O rate (GB/sec) for solve   =        4.832203       37.870880
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -17955,10 +18011,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002123
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005187
-     time (cpu & wall) for numeric factor    =        0.015625        0.013805
-     computational rate (gflops) for factor  =        4.477462        5.067790
+     time (cpu & wall) for value input       =        0.000000        0.001852
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.004952
+     time (cpu & wall) for numeric factor    =        0.015625        0.015642
+     computational rate (gflops) for factor  =        4.477462        4.472738
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18012,13 +18068,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002118
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.004963
-     time (cpu & wall) for numeric factor    =        0.015625        0.011897
-     computational rate (gflops) for factor  =        4.477462        5.880403
-     time (cpu & wall) for numeric solve     =        0.015625        0.002168
-     computational rate (gflops) for solve   =        1.297032        9.347841
-     effective I/O rate (GB/sec) for solve   =        4.832203       34.826187
+     time (cpu & wall) for value input       =        0.000000        0.001843
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005163
+     time (cpu & wall) for numeric factor    =        0.015625        0.011740
+     computational rate (gflops) for factor  =        4.477462        5.959244
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18069,13 +18122,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001502
-     time (cpu & wall) for ordering          =        0.031250        0.027436
-     time (cpu & wall) for other matrix prep =        0.000000        0.005750
-     time (cpu & wall) for value input       =        0.000000        0.002152
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006104
-     time (cpu & wall) for numeric factor    =        0.015625        0.014424
-     computational rate (gflops) for factor  =        4.603987        4.987437
+     time (cpu & wall) for structure input   =        0.000000        0.001511
+     time (cpu & wall) for ordering          =        0.015625        0.026251
+     time (cpu & wall) for other matrix prep =        0.015625        0.007983
+     time (cpu & wall) for value input       =        0.000000        0.002865
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005392
+     time (cpu & wall) for numeric factor    =        0.015625        0.015860
+     computational rate (gflops) for factor  =        4.603987        4.535826
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18129,8 +18182,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001570
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005753
+     time (cpu & wall) for value input       =        0.015625        0.001733
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005056
+     time (cpu & wall) for numeric factor    =        0.015625        0.013966
+     computational rate (gflops) for factor  =        4.603987        5.150814
+     time (cpu & wall) for numeric solve     =        0.015625        0.001883
+     computational rate (gflops) for solve   =        1.531181       12.704952
+     effective I/O rate (GB/sec) for solve   =        5.704545       47.333393
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18184,10 +18242,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002144
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005086
-     time (cpu & wall) for numeric factor    =        0.015625        0.014041
-     computational rate (gflops) for factor  =        4.603987        5.123483
+     time (cpu & wall) for value input       =        0.000000        0.003596
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008261
+     time (cpu & wall) for numeric factor    =        0.015625        0.022549
+     computational rate (gflops) for factor  =        4.603987        3.190265
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18241,10 +18299,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002132
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005140
-     time (cpu & wall) for numeric factor    =        0.015625        0.015333
-     computational rate (gflops) for factor  =        4.603987        4.691634
+     time (cpu & wall) for value input       =        0.000000        0.003016
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008440
+     time (cpu & wall) for numeric factor    =        0.015625        0.017890
+     computational rate (gflops) for factor  =        4.603987        4.021202
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18295,13 +18353,16 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.015625        0.001411
-     time (cpu & wall) for ordering          =        0.015625        0.028214
-     time (cpu & wall) for other matrix prep =        0.015625        0.006185
-     time (cpu & wall) for value input       =        0.000000        0.001581
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005428
-     time (cpu & wall) for numeric factor    =        0.015625        0.014082
-     computational rate (gflops) for factor  =        5.902244        6.548921
+     time (cpu & wall) for structure input   =        0.000000        0.001486
+     time (cpu & wall) for ordering          =        0.031250        0.028405
+     time (cpu & wall) for other matrix prep =        0.000000        0.006186
+     time (cpu & wall) for value input       =        0.000000        0.002107
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006184
+     time (cpu & wall) for numeric factor    =        0.015625        0.016690
+     computational rate (gflops) for factor  =        5.902244        5.525684
+     time (cpu & wall) for numeric solve     =        0.015625        0.001945
+     computational rate (gflops) for solve   =        1.801951       14.475087
+     effective I/O rate (GB/sec) for solve   =        6.713325       53.928182
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18355,10 +18416,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001586
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005315
-     time (cpu & wall) for numeric factor    =        0.015625        0.013276
-     computational rate (gflops) for factor  =        5.902244        6.946457
+     time (cpu & wall) for value input       =        0.000000        0.001622
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005501
+     time (cpu & wall) for numeric factor    =        0.015625        0.013496
+     computational rate (gflops) for factor  =        5.902244        6.833325
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18412,10 +18473,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001781
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005341
-     time (cpu & wall) for numeric factor    =        0.015625        0.013897
-     computational rate (gflops) for factor  =        5.902244        6.636149
+     time (cpu & wall) for value input       =        0.000000        0.001558
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005227
+     time (cpu & wall) for numeric factor    =        0.031250        0.019881
+     computational rate (gflops) for factor  =        2.951122        4.638798
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18469,10 +18530,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002173
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005349
-     time (cpu & wall) for numeric factor    =        0.015625        0.014266
-     computational rate (gflops) for factor  =        5.902244        6.464591
+     time (cpu & wall) for value input       =        0.000000        0.002058
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005556
+     time (cpu & wall) for numeric factor    =        0.015625        0.013395
+     computational rate (gflops) for factor  =        5.902244        6.884901
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18526,10 +18587,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002224
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005718
-     time (cpu & wall) for numeric factor    =        0.015625        0.013472
-     computational rate (gflops) for factor  =        5.902244        6.845549
+     time (cpu & wall) for value input       =        0.000000        0.001625
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005247
+     time (cpu & wall) for numeric factor    =        0.015625        0.013298
+     computational rate (gflops) for factor  =        5.902244        6.935278
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18583,10 +18644,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001803
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005417
-     time (cpu & wall) for numeric factor    =        0.015625        0.013554
-     computational rate (gflops) for factor  =        5.902244        6.803984
+     time (cpu & wall) for value input       =        0.015625        0.001609
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005264
+     time (cpu & wall) for numeric factor    =        0.015625        0.013757
+     computational rate (gflops) for factor  =        5.902244        6.703585
+     time (cpu & wall) for numeric solve     =        0.015625        0.002127
+     computational rate (gflops) for solve   =        1.801951       13.237807
+     effective I/O rate (GB/sec) for solve   =        6.713325       49.318589
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18640,10 +18704,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002225
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005909
-     time (cpu & wall) for numeric factor    =        0.015625        0.014158
-     computational rate (gflops) for factor  =        5.902244        6.513996
+     time (cpu & wall) for value input       =        0.000000        0.003687
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008708
+     time (cpu & wall) for numeric factor    =        0.015625        0.015768
+     computational rate (gflops) for factor  =        5.902244        5.848642
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18697,10 +18761,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002180
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005427
-     time (cpu & wall) for numeric factor    =        0.015625        0.013335
-     computational rate (gflops) for factor  =        5.902244        6.916035
+     time (cpu & wall) for value input       =        0.000000        0.001904
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005563
+     time (cpu & wall) for numeric factor    =        0.015625        0.018035
+     computational rate (gflops) for factor  =        5.902244        5.113617
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18754,10 +18818,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002475
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007019
-     time (cpu & wall) for numeric factor    =        0.015625        0.015028
-     computational rate (gflops) for factor  =        5.902244        6.136634
+     time (cpu & wall) for value input       =        0.000000        0.002474
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005419
+     time (cpu & wall) for numeric factor    =        0.015625        0.013271
+     computational rate (gflops) for factor  =        5.902244        6.948970
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18811,10 +18875,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002074
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005664
-     time (cpu & wall) for numeric factor    =        0.015625        0.013514
-     computational rate (gflops) for factor  =        5.902244        6.824375
+     time (cpu & wall) for value input       =        0.015625        0.001867
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007552
+     time (cpu & wall) for numeric factor    =        0.015625        0.013023
+     computational rate (gflops) for factor  =        5.902244        7.081731
+     time (cpu & wall) for numeric solve     =        0.015625        0.001935
+     computational rate (gflops) for solve   =        1.801951       14.550642
+     effective I/O rate (GB/sec) for solve   =        6.713325       54.209668
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18868,10 +18935,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002482
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005323
-     time (cpu & wall) for numeric factor    =        0.015625        0.013315
-     computational rate (gflops) for factor  =        5.902244        6.926371
+     time (cpu & wall) for value input       =        0.000000        0.001913
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005840
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18925,10 +18990,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001780
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005483
-     time (cpu & wall) for numeric factor    =        0.015625        0.013692
-     computational rate (gflops) for factor  =        5.902244        6.735261
+     time (cpu & wall) for value input       =        0.000000        0.001985
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005667
+     time (cpu & wall) for numeric factor    =        0.015625        0.014327
+     computational rate (gflops) for factor  =        5.902244        6.436796
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -18982,10 +19047,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002413
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005949
-     time (cpu & wall) for numeric factor    =        0.015625        0.013648
-     computational rate (gflops) for factor  =        5.902244        6.757073
+     time (cpu & wall) for value input       =        0.000000        0.001733
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005247
+     time (cpu & wall) for numeric factor    =        0.015625        0.016677
+     computational rate (gflops) for factor  =        5.902244        5.530057
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19039,10 +19104,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002199
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005575
-     time (cpu & wall) for numeric factor    =        0.015625        0.013501
-     computational rate (gflops) for factor  =        5.902244        6.830693
+     time (cpu & wall) for value input       =        0.015625        0.002160
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006131
+     time (cpu & wall) for numeric factor    =        0.015625        0.017898
+     computational rate (gflops) for factor  =        5.902244        5.152616
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19096,10 +19161,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002223
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005758
-     time (cpu & wall) for numeric factor    =        0.015625        0.013444
-     computational rate (gflops) for factor  =        5.902244        6.859960
+     time (cpu & wall) for value input       =        0.000000        0.003576
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008705
+     time (cpu & wall) for numeric factor    =        0.015625        0.018336
+     computational rate (gflops) for factor  =        5.902244        5.029699
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19153,13 +19218,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002174
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005448
-     time (cpu & wall) for numeric factor    =        0.015625        0.013378
-     computational rate (gflops) for factor  =        5.902244        6.893444
-     time (cpu & wall) for numeric solve     =        0.015625        0.002232
-     computational rate (gflops) for solve   =        1.801951       12.613338
-     effective I/O rate (GB/sec) for solve   =        6.713325       46.992074
+     time (cpu & wall) for value input       =        0.000000        0.003686
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008984
+     time (cpu & wall) for numeric factor    =        0.015625        0.013483
+     computational rate (gflops) for factor  =        5.902244        6.839812
+     time (cpu & wall) for numeric solve     =        0.015625        0.002680
+     computational rate (gflops) for solve   =        1.801951       10.506957
+     effective I/O rate (GB/sec) for solve   =        6.713325       39.144571
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19213,10 +19278,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002207
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005238
-     time (cpu & wall) for numeric factor    =        0.015625        0.013624
-     computational rate (gflops) for factor  =        5.902244        6.769373
+     time (cpu & wall) for value input       =        0.000000        0.002014
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005416
+     time (cpu & wall) for numeric factor    =        0.015625        0.020904
+     computational rate (gflops) for factor  =        5.902244        4.411781
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19270,13 +19335,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002170
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005438
-     time (cpu & wall) for numeric factor    =        0.015625        0.013296
-     computational rate (gflops) for factor  =        5.902244        6.936269
-     time (cpu & wall) for numeric solve     =        0.015625        0.002505
-     computational rate (gflops) for solve   =        1.801951       11.238371
-     effective I/O rate (GB/sec) for solve   =        6.713325       41.869519
+     time (cpu & wall) for value input       =        0.000000        0.002422
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005698
+     time (cpu & wall) for numeric factor    =        0.015625        0.013264
+     computational rate (gflops) for factor  =        5.902244        6.952899
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19330,13 +19392,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002704
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005839
-     time (cpu & wall) for numeric factor    =        0.015625        0.013408
-     computational rate (gflops) for factor  =        5.902244        6.878225
-     time (cpu & wall) for numeric solve     =        0.015625        0.002206
-     computational rate (gflops) for solve   =        1.801951       12.763142
-     effective I/O rate (GB/sec) for solve   =        6.713325       47.550184
+     time (cpu & wall) for value input       =        0.000000        0.001887
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005284
+     time (cpu & wall) for numeric factor    =        0.015625        0.016313
+     computational rate (gflops) for factor  =        5.902244        5.653178
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19390,10 +19449,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002228
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005617
-     time (cpu & wall) for numeric factor    =        0.015625        0.014926
-     computational rate (gflops) for factor  =        5.902244        6.178652
+     time (cpu & wall) for value input       =        0.000000        0.002151
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005624
+     time (cpu & wall) for numeric factor    =        0.015625        0.013353
+     computational rate (gflops) for factor  =        5.902244        6.906349
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19447,10 +19506,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002183
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005452
-     time (cpu & wall) for numeric factor    =        0.015625        0.013308
-     computational rate (gflops) for factor  =        5.902244        6.929598
+     time (cpu & wall) for value input       =        0.015625        0.001905
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005312
+     time (cpu & wall) for numeric factor    =        0.015625        0.013337
+     computational rate (gflops) for factor  =        5.902244        6.914686
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19504,10 +19563,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001906
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005621
-     time (cpu & wall) for numeric factor    =        0.015625        0.013385
-     computational rate (gflops) for factor  =        5.902244        6.890199
+     time (cpu & wall) for value input       =        0.000000        0.001889
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005324
+     time (cpu & wall) for numeric factor    =        0.015625        0.013946
+     computational rate (gflops) for factor  =        5.902244        6.612879
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19561,10 +19620,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002228
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005596
-     time (cpu & wall) for numeric factor    =        0.015625        0.013348
-     computational rate (gflops) for factor  =        5.902244        6.909040
+     time (cpu & wall) for value input       =        0.000000        0.001905
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005467
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19618,8 +19675,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002218
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005481
+     time (cpu & wall) for value input       =        0.000000        0.002485
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005400
+     time (cpu & wall) for numeric factor    =        0.015625        0.013001
+     computational rate (gflops) for factor  =        5.902244        7.093606
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19673,10 +19732,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001967
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005259
-     time (cpu & wall) for numeric factor    =        0.015625        0.014995
-     computational rate (gflops) for factor  =        5.902244        6.150303
+     time (cpu & wall) for value input       =        0.000000        0.001939
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005427
+     time (cpu & wall) for numeric factor    =        0.015625        0.013162
+     computational rate (gflops) for factor  =        5.902244        7.006675
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19730,10 +19789,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002038
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005435
-     time (cpu & wall) for numeric factor    =        0.015625        0.014847
-     computational rate (gflops) for factor  =        5.902244        6.211612
+     time (cpu & wall) for value input       =        0.015625        0.003297
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008789
+     time (cpu & wall) for numeric factor    =        0.031250        0.021239
+     computational rate (gflops) for factor  =        2.951122        4.342112
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19787,10 +19846,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002183
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005671
-     time (cpu & wall) for numeric factor    =        0.015625        0.013335
-     computational rate (gflops) for factor  =        5.902244        6.915879
+     time (cpu & wall) for value input       =        0.000000        0.002494
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005277
+     time (cpu & wall) for numeric factor    =        0.015625        0.013233
+     computational rate (gflops) for factor  =        5.902244        6.969029
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19844,10 +19903,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001619
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005302
-     time (cpu & wall) for numeric factor    =        0.015625        0.013309
-     computational rate (gflops) for factor  =        5.902244        6.929390
+     time (cpu & wall) for value input       =        0.000000        0.001588
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006768
+     time (cpu & wall) for numeric factor    =        0.015625        0.021271
+     computational rate (gflops) for factor  =        5.902244        4.335560
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19901,8 +19960,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002227
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006225
+     time (cpu & wall) for value input       =        0.015625        0.003702
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008826
+     time (cpu & wall) for numeric factor    =        0.031250        0.021281
+     computational rate (gflops) for factor  =        2.951122        4.333461
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -19956,10 +20017,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002226
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007219
-     time (cpu & wall) for numeric factor    =        0.015625        0.015119
-     computational rate (gflops) for factor  =        5.902244        6.099698
+     time (cpu & wall) for value input       =        0.000000        0.002100
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005822
+     time (cpu & wall) for numeric factor    =        0.015625        0.018073
+     computational rate (gflops) for factor  =        5.902244        5.102837
+     time (cpu & wall) for numeric solve     =        0.015625        0.002534
+     computational rate (gflops) for solve   =        1.801951       11.110648
+     effective I/O rate (GB/sec) for solve   =        6.713325       41.393673
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20013,10 +20077,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001628
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005539
-     time (cpu & wall) for numeric factor    =        0.015625        0.013214
-     computational rate (gflops) for factor  =        5.902244        6.979261
+     time (cpu & wall) for value input       =        0.000000        0.003405
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008837
+     time (cpu & wall) for numeric factor    =        0.015625        0.021445
+     computational rate (gflops) for factor  =        5.902244        4.300442
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20070,10 +20134,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001570
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005397
-     time (cpu & wall) for numeric factor    =        0.015625        0.013459
-     computational rate (gflops) for factor  =        5.902244        6.852161
+     time (cpu & wall) for value input       =        0.000000        0.001579
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005158
+     time (cpu & wall) for numeric factor    =        0.015625        0.016790
+     computational rate (gflops) for factor  =        5.902244        5.492576
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20127,10 +20191,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002174
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005333
-     time (cpu & wall) for numeric factor    =        0.015625        0.013296
-     computational rate (gflops) for factor  =        5.902244        6.935956
+     time (cpu & wall) for value input       =        0.000000        0.002116
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005560
+     time (cpu & wall) for numeric factor    =        0.031250        0.020698
+     computational rate (gflops) for factor  =        2.951122        4.455691
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20184,10 +20248,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002217
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005831
-     time (cpu & wall) for numeric factor    =        0.015625        0.013508
-     computational rate (gflops) for factor  =        5.902244        6.827204
+     time (cpu & wall) for value input       =        0.000000        0.002255
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006010
+     time (cpu & wall) for numeric factor    =        0.015625        0.013596
+     computational rate (gflops) for factor  =        5.902244        6.783065
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20241,13 +20305,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001597
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005324
-     time (cpu & wall) for numeric factor    =        0.015625        0.013418
-     computational rate (gflops) for factor  =        5.902244        6.872945
-     time (cpu & wall) for numeric solve     =        0.015625        0.002200
-     computational rate (gflops) for solve   =        1.801951       12.795624
-     effective I/O rate (GB/sec) for solve   =        6.713325       47.671199
+     time (cpu & wall) for value input       =        0.000000        0.001912
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008645
+     time (cpu & wall) for numeric factor    =        0.015625        0.018270
+     computational rate (gflops) for factor  =        5.902244        5.047704
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20301,10 +20362,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001628
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005225
-     time (cpu & wall) for numeric factor    =        0.015625        0.013305
-     computational rate (gflops) for factor  =        5.902244        6.931265
+     time (cpu & wall) for value input       =        0.000000        0.002079
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005144
+     time (cpu & wall) for numeric factor    =        0.015625        0.017369
+     computational rate (gflops) for factor  =        5.902244        5.309698
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20358,10 +20419,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002243
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005280
-     time (cpu & wall) for numeric factor    =        0.015625        0.014140
-     computational rate (gflops) for factor  =        5.902244        6.522058
+     time (cpu & wall) for value input       =        0.015625        0.002352
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008547
+     time (cpu & wall) for numeric factor    =        0.031250        0.021110
+     computational rate (gflops) for factor  =        2.951122        4.368687
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20415,13 +20476,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.003454
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007428
-     time (cpu & wall) for numeric factor    =        0.015625        0.015658
-     computational rate (gflops) for factor  =        5.902244        5.889992
-     time (cpu & wall) for numeric solve     =        0.015625        0.002189
-     computational rate (gflops) for solve   =        1.801951       12.862262
-     effective I/O rate (GB/sec) for solve   =        6.713325       47.919464
+     time (cpu & wall) for value input       =        0.000000        0.001958
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005549
+     time (cpu & wall) for numeric factor    =        0.015625        0.014635
+     computational rate (gflops) for factor  =        5.902244        6.301593
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20475,10 +20533,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001576
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005312
-     time (cpu & wall) for numeric factor    =        0.015625        0.015013
-     computational rate (gflops) for factor  =        5.902244        6.142683
+     time (cpu & wall) for value input       =        0.000000        0.003181
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009153
+     time (cpu & wall) for numeric factor    =        0.015625        0.021557
+     computational rate (gflops) for factor  =        5.902244        4.278119
+     time (cpu & wall) for numeric solve     =        0.015625        0.002090
+     computational rate (gflops) for solve   =        1.801951       13.468949
+     effective I/O rate (GB/sec) for solve   =        6.713325       50.179730
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20532,8 +20593,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001619
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005728
+     time (cpu & wall) for value input       =        0.000000        0.002210
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006423
+     time (cpu & wall) for numeric factor    =        0.015625        0.021024
+     computational rate (gflops) for factor  =        5.902244        4.386454
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20587,10 +20650,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002340
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005498
-     time (cpu & wall) for numeric factor    =        0.015625        0.013642
-     computational rate (gflops) for factor  =        5.902244        6.760193
+     time (cpu & wall) for value input       =        0.000000        0.001913
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007226
+     time (cpu & wall) for numeric factor    =        0.015625        0.021254
+     computational rate (gflops) for factor  =        5.902244        4.339048
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20644,10 +20707,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002191
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005856
-     time (cpu & wall) for numeric factor    =        0.015625        0.013438
-     computational rate (gflops) for factor  =        5.902244        6.862614
+     time (cpu & wall) for value input       =        0.000000        0.002400
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005357
+     time (cpu & wall) for numeric factor    =        0.015625        0.014333
+     computational rate (gflops) for factor  =        5.902244        6.434461
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20701,10 +20764,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002229
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005520
-     time (cpu & wall) for numeric factor    =        0.015625        0.013267
-     computational rate (gflops) for factor  =        5.902244        6.951170
+     time (cpu & wall) for value input       =        0.000000        0.002146
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005434
+     time (cpu & wall) for numeric factor    =        0.015625        0.013810
+     computational rate (gflops) for factor  =        5.902244        6.677858
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20758,10 +20821,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001612
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005364
-     time (cpu & wall) for numeric factor    =        0.015625        0.014681
-     computational rate (gflops) for factor  =        5.902244        6.281720
+     time (cpu & wall) for value input       =        0.000000        0.002107
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005452
+     time (cpu & wall) for numeric factor    =        0.015625        0.013347
+     computational rate (gflops) for factor  =        5.902244        6.909558
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20815,8 +20878,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002169
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005748
+     time (cpu & wall) for value input       =        0.000000        0.002488
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006622
+     time (cpu & wall) for numeric factor    =        0.015625        0.018844
+     computational rate (gflops) for factor  =        5.902244        4.893975
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20870,10 +20935,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002229
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005375
-     time (cpu & wall) for numeric factor    =        0.015625        0.013374
-     computational rate (gflops) for factor  =        5.902244        6.895866
+     time (cpu & wall) for value input       =        0.000000        0.003509
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007234
+     time (cpu & wall) for numeric factor    =        0.015625        0.013943
+     computational rate (gflops) for factor  =        5.902244        6.614160
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20927,10 +20992,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002218
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005410
-     time (cpu & wall) for numeric factor    =        0.015625        0.014667
-     computational rate (gflops) for factor  =        5.902244        6.287630
+     time (cpu & wall) for value input       =        0.000000        0.001708
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005334
+     time (cpu & wall) for numeric factor    =        0.015625        0.015046
+     computational rate (gflops) for factor  =        5.902244        6.129537
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -20984,10 +21049,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002228
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005596
-     time (cpu & wall) for numeric factor    =        0.015625        0.013269
-     computational rate (gflops) for factor  =        5.902244        6.949965
+     time (cpu & wall) for value input       =        0.000000        0.002121
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005641
+     time (cpu & wall) for numeric factor    =        0.015625        0.013246
+     computational rate (gflops) for factor  =        5.902244        6.962558
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21041,10 +21106,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002221
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005495
-     time (cpu & wall) for numeric factor    =        0.015625        0.013543
-     computational rate (gflops) for factor  =        5.902244        6.809761
+     time (cpu & wall) for value input       =        0.000000        0.002965
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005141
+     time (cpu & wall) for numeric factor    =        0.015625        0.012980
+     computational rate (gflops) for factor  =        5.902244        7.105028
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21098,10 +21163,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002180
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005357
-     time (cpu & wall) for numeric factor    =        0.015625        0.013350
-     computational rate (gflops) for factor  =        5.902244        6.908212
+     time (cpu & wall) for value input       =        0.000000        0.002125
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005480
+     time (cpu & wall) for numeric factor    =        0.015625        0.013248
+     computational rate (gflops) for factor  =        5.902244        6.961454
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21155,10 +21220,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002176
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005577
-     time (cpu & wall) for numeric factor    =        0.015625        0.013211
-     computational rate (gflops) for factor  =        5.902244        6.980581
+     time (cpu & wall) for value input       =        0.015625        0.003705
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008842
+     time (cpu & wall) for numeric factor    =        0.015625        0.019132
+     computational rate (gflops) for factor  =        5.902244        4.820330
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21212,10 +21277,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002248
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005642
-     time (cpu & wall) for numeric factor    =        0.015625        0.014856
-     computational rate (gflops) for factor  =        5.902244        6.207598
+     time (cpu & wall) for value input       =        0.000000        0.001781
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005225
+     time (cpu & wall) for numeric factor    =        0.015625        0.015471
+     computational rate (gflops) for factor  =        5.902244        5.960918
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21269,10 +21334,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002439
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005948
-     time (cpu & wall) for numeric factor    =        0.015625        0.013251
-     computational rate (gflops) for factor  =        5.902244        6.959930
+     time (cpu & wall) for value input       =        0.000000        0.001866
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005325
+     time (cpu & wall) for numeric factor    =        0.031250        0.019234
+     computational rate (gflops) for factor  =        2.951122        4.794668
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21326,10 +21391,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002246
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005809
-     time (cpu & wall) for numeric factor    =        0.015625        0.013569
-     computational rate (gflops) for factor  =        5.902244        6.796362
+     time (cpu & wall) for value input       =        0.000000        0.001913
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005788
+     time (cpu & wall) for numeric factor    =        0.031250        0.021262
+     computational rate (gflops) for factor  =        2.951122        4.337395
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21383,10 +21448,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001813
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005225
-     time (cpu & wall) for numeric factor    =        0.015625        0.013313
-     computational rate (gflops) for factor  =        5.902244        6.927048
+     time (cpu & wall) for value input       =        0.000000        0.001909
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005415
+     time (cpu & wall) for numeric factor    =        0.015625        0.015124
+     computational rate (gflops) for factor  =        5.902244        6.097843
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21440,10 +21505,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001729
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005681
-     time (cpu & wall) for numeric factor    =        0.015625        0.014628
-     computational rate (gflops) for factor  =        5.902244        6.304523
+     time (cpu & wall) for value input       =        0.000000        0.001907
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008152
+     time (cpu & wall) for numeric factor    =        0.015625        0.015941
+     computational rate (gflops) for factor  =        5.902244        5.785207
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21497,13 +21562,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002185
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005481
-     time (cpu & wall) for numeric factor    =        0.015625        0.013353
-     computational rate (gflops) for factor  =        5.902244        6.906401
-     time (cpu & wall) for numeric solve     =        0.015625        0.002252
-     computational rate (gflops) for solve   =        1.801951       12.504104
-     effective I/O rate (GB/sec) for solve   =        6.713325       46.585116
+     time (cpu & wall) for value input       =        0.000000        0.003121
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.009001
+     time (cpu & wall) for numeric factor    =        0.015625        0.021192
+     computational rate (gflops) for factor  =        5.902244        4.351783
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21554,13 +21616,16 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001576
+     time (cpu & wall) for structure input   =        0.000000        0.001789
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001601
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005569
-     time (cpu & wall) for numeric factor    =        0.015625        0.013676
-     computational rate (gflops) for factor  =        5.902244        6.743387
+     time (cpu & wall) for value input       =        0.000000        0.001566
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005575
+     time (cpu & wall) for numeric factor    =        0.031250        0.021534
+     computational rate (gflops) for factor  =        2.951122        4.282669
+     time (cpu & wall) for numeric solve     =        0.015625        0.002164
+     computational rate (gflops) for solve   =        1.801951       13.008451
+     effective I/O rate (GB/sec) for solve   =        6.713325       48.464104
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21614,10 +21679,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002157
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005451
-     time (cpu & wall) for numeric factor    =        0.015625        0.013322
-     computational rate (gflops) for factor  =        5.902244        6.922524
+     time (cpu & wall) for value input       =        0.000000        0.003531
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008728
+     time (cpu & wall) for numeric factor    =        0.015625        0.019198
+     computational rate (gflops) for factor  =        5.902244        4.803733
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21671,13 +21736,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002166
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005357
-     time (cpu & wall) for numeric factor    =        0.015625        0.014802
-     computational rate (gflops) for factor  =        5.902244        6.230454
-     time (cpu & wall) for numeric solve     =        0.015625        0.002461
-     computational rate (gflops) for solve   =        1.801951       11.440206
-     effective I/O rate (GB/sec) for solve   =        6.713325       42.621473
+     time (cpu & wall) for value input       =        0.015625        0.001668
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005904
+     time (cpu & wall) for numeric factor    =        0.015625        0.013230
+     computational rate (gflops) for factor  =        5.902244        6.970820
+     time (cpu & wall) for numeric solve     =        0.015625        0.002222
+     computational rate (gflops) for solve   =        1.801951       12.672379
+     effective I/O rate (GB/sec) for solve   =        6.713325       47.212038
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21731,10 +21796,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002149
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005329
-     time (cpu & wall) for numeric factor    =        0.015625        0.013833
-     computational rate (gflops) for factor  =        5.902244        6.666948
+     time (cpu & wall) for value input       =        0.000000        0.002390
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005707
+     time (cpu & wall) for numeric factor    =        0.015625        0.014685
+     computational rate (gflops) for factor  =        5.902244        6.280051
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21788,10 +21853,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002194
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005364
-     time (cpu & wall) for numeric factor    =        0.015625        0.013657
-     computational rate (gflops) for factor  =        5.902244        6.752867
+     time (cpu & wall) for value input       =        0.000000        0.003601
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008838
+     time (cpu & wall) for numeric factor    =        0.015625        0.021336
+     computational rate (gflops) for factor  =        5.902244        4.322433
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21845,10 +21910,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001617
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006247
-     time (cpu & wall) for numeric factor    =        0.015625        0.013526
-     computational rate (gflops) for factor  =        5.902244        6.818220
+     time (cpu & wall) for value input       =        0.000000        0.002431
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005627
+     time (cpu & wall) for numeric factor    =        0.015625        0.013274
+     computational rate (gflops) for factor  =        5.902244        6.947504
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21902,10 +21967,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002268
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005457
-     time (cpu & wall) for numeric factor    =        0.015625        0.013314
-     computational rate (gflops) for factor  =        5.902244        6.926475
+     time (cpu & wall) for value input       =        0.000000        0.002273
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005202
+     time (cpu & wall) for numeric factor    =        0.015625        0.018141
+     computational rate (gflops) for factor  =        5.902244        5.083625
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -21959,10 +22024,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001620
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005442
-     time (cpu & wall) for numeric factor    =        0.015625        0.013674
-     computational rate (gflops) for factor  =        5.902244        6.744274
+     time (cpu & wall) for value input       =        0.015625        0.002236
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008823
+     time (cpu & wall) for numeric factor    =        0.031250        0.021372
+     computational rate (gflops) for factor  =        2.951122        4.315051
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22016,10 +22081,11 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002216
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005546
-     time (cpu & wall) for numeric factor    =        0.015625        0.013328
-     computational rate (gflops) for factor  =        5.902244        6.919667
+     time (cpu & wall) for value input       =        0.000000        0.002100
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005409
+     time (cpu & wall) for numeric solve     =        0.015625        0.002382
+     computational rate (gflops) for solve   =        1.801951       11.818617
+     effective I/O rate (GB/sec) for solve   =        6.713325       44.031275
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22073,10 +22139,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002270
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005439
-     time (cpu & wall) for numeric factor    =        0.015625        0.013458
-     computational rate (gflops) for factor  =        5.902244        6.852416
+     time (cpu & wall) for value input       =        0.000000        0.002108
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005593
+     time (cpu & wall) for numeric factor    =        0.031250        0.017669
+     computational rate (gflops) for factor  =        2.951122        5.219573
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22130,10 +22196,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002421
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005575
-     time (cpu & wall) for numeric factor    =        0.015625        0.013716
-     computational rate (gflops) for factor  =        5.902244        6.723574
+     time (cpu & wall) for value input       =        0.000000        0.002033
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005730
+     time (cpu & wall) for numeric factor    =        0.015625        0.017344
+     computational rate (gflops) for factor  =        5.902244        5.317137
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22187,10 +22253,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001769
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005319
-     time (cpu & wall) for numeric factor    =        0.015625        0.014794
-     computational rate (gflops) for factor  =        5.902244        6.233739
+     time (cpu & wall) for value input       =        0.000000        0.001946
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006825
+     time (cpu & wall) for numeric factor    =        0.015625        0.017270
+     computational rate (gflops) for factor  =        5.902244        5.340044
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22244,10 +22310,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002171
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005453
-     time (cpu & wall) for numeric factor    =        0.015625        0.013318
-     computational rate (gflops) for factor  =        5.902244        6.924551
+     time (cpu & wall) for value input       =        0.015625        0.003259
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008799
+     time (cpu & wall) for numeric factor    =        0.031250        0.021253
+     computational rate (gflops) for factor  =        2.951122        4.339252
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22301,10 +22367,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002430
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005376
-     time (cpu & wall) for numeric factor    =        0.015625        0.013491
-     computational rate (gflops) for factor  =        5.902244        6.835908
+     time (cpu & wall) for value input       =        0.000000        0.002151
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005607
+     time (cpu & wall) for numeric factor    =        0.015625        0.017643
+     computational rate (gflops) for factor  =        5.902244        5.227206
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22358,13 +22424,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001970
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005677
-     time (cpu & wall) for numeric factor    =        0.015625        0.013466
-     computational rate (gflops) for factor  =        5.902244        6.848701
-     time (cpu & wall) for numeric solve     =        0.015625        0.002344
-     computational rate (gflops) for solve   =        1.801951       12.012241
-     effective I/O rate (GB/sec) for solve   =        6.713325       44.752637
+     time (cpu & wall) for value input       =        0.000000        0.001860
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005371
+     time (cpu & wall) for numeric factor    =        0.015625        0.013351
+     computational rate (gflops) for factor  =        5.902244        6.907591
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22418,10 +22481,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002210
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005625
-     time (cpu & wall) for numeric factor    =        0.015625        0.013650
-     computational rate (gflops) for factor  =        5.902244        6.755984
+     time (cpu & wall) for value input       =        0.000000        0.001930
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005491
+     time (cpu & wall) for numeric factor    =        0.015625        0.013659
+     computational rate (gflops) for factor  =        5.902244        6.751582
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22475,10 +22538,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002155
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005251
-     time (cpu & wall) for numeric factor    =        0.015625        0.014864
-     computational rate (gflops) for factor  =        5.902244        6.204382
+     time (cpu & wall) for value input       =        0.000000        0.001849
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005543
+     time (cpu & wall) for numeric factor    =        0.015625        0.012904
+     computational rate (gflops) for factor  =        5.902244        7.146764
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22532,10 +22595,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002460
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005699
-     time (cpu & wall) for numeric factor    =        0.015625        0.013420
-     computational rate (gflops) for factor  =        5.902244        6.871819
+     time (cpu & wall) for value input       =        0.000000        0.001931
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005443
+     time (cpu & wall) for numeric factor    =        0.031250        0.020117
+     computational rate (gflops) for factor  =        2.951122        4.584218
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22589,10 +22652,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002158
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006295
-     time (cpu & wall) for numeric factor    =        0.015625        0.014056
-     computational rate (gflops) for factor  =        5.902244        6.561221
+     time (cpu & wall) for value input       =        0.000000        0.003198
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008889
+     time (cpu & wall) for numeric factor    =        0.015625        0.017929
+     computational rate (gflops) for factor  =        5.902244        5.143621
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22646,10 +22709,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002836
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005637
-     time (cpu & wall) for numeric factor    =        0.015625        0.013937
-     computational rate (gflops) for factor  =        5.902244        6.617055
+     time (cpu & wall) for value input       =        0.000000        0.003174
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.010413
+     time (cpu & wall) for numeric factor    =        0.015625        0.021139
+     computational rate (gflops) for factor  =        5.902244        4.362591
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22700,13 +22763,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001536
-     time (cpu & wall) for ordering          =        0.031250        0.031510
-     time (cpu & wall) for other matrix prep =        0.015625        0.007069
-     time (cpu & wall) for value input       =        0.000000        0.001626
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005587
-     time (cpu & wall) for numeric factor    =        0.015625        0.013968
-     computational rate (gflops) for factor  =        5.917259        6.619260
+     time (cpu & wall) for structure input   =        0.000000        0.001742
+     time (cpu & wall) for ordering          =        0.046875        0.042674
+     time (cpu & wall) for other matrix prep =        0.015625        0.009346
+     time (cpu & wall) for value input       =        0.000000        0.002158
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005420
+     time (cpu & wall) for numeric factor    =        0.015625        0.012992
+     computational rate (gflops) for factor  =        5.917259        7.116250
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22760,10 +22823,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001804
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007348
-     time (cpu & wall) for numeric factor    =        0.015625        0.014348
-     computational rate (gflops) for factor  =        5.917259        6.443861
+     time (cpu & wall) for value input       =        0.015625        0.002158
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006285
+     time (cpu & wall) for numeric factor    =        0.015625        0.015584
+     computational rate (gflops) for factor  =        5.917259        5.932674
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22817,8 +22880,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002185
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005725
+     time (cpu & wall) for value input       =        0.000000        0.002069
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005656
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22872,10 +22935,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001776
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005820
-     time (cpu & wall) for numeric factor    =        0.015625        0.014700
-     computational rate (gflops) for factor  =        5.917259        6.289603
+     time (cpu & wall) for value input       =        0.000000        0.002760
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005451
+     time (cpu & wall) for numeric factor    =        0.015625        0.013317
+     computational rate (gflops) for factor  =        5.917259        6.942584
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22926,16 +22989,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001415
-     time (cpu & wall) for ordering          =        0.031250        0.032652
-     time (cpu & wall) for other matrix prep =        0.000000        0.006496
-     time (cpu & wall) for value input       =        0.015625        0.002404
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005628
-     time (cpu & wall) for numeric factor    =        0.015625        0.015690
-     computational rate (gflops) for factor  =        6.851366        6.823156
-     time (cpu & wall) for numeric solve     =        0.015625        0.002439
-     computational rate (gflops) for solve   =        2.385458       15.278864
-     effective I/O rate (GB/sec) for solve   =        8.887231       56.922721
+     time (cpu & wall) for structure input   =        0.000000        0.001841
+     time (cpu & wall) for ordering          =        0.031250        0.033539
+     time (cpu & wall) for other matrix prep =        0.000000        0.006578
+     time (cpu & wall) for value input       =        0.000000        0.001800
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005628
+     time (cpu & wall) for numeric factor    =        0.015625        0.018334
+     computational rate (gflops) for factor  =        6.851366        5.839052
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -22989,10 +23049,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001597
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005686
-     time (cpu & wall) for numeric factor    =        0.015625        0.014712
-     computational rate (gflops) for factor  =        6.851366        7.276599
+     time (cpu & wall) for value input       =        0.000000        0.001899
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005961
+     time (cpu & wall) for numeric factor    =        0.015625        0.016178
+     computational rate (gflops) for factor  =        6.851366        6.617007
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23046,10 +23106,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001706
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007607
-     time (cpu & wall) for numeric factor    =        0.015625        0.017394
-     computational rate (gflops) for factor  =        6.851366        6.154535
+     time (cpu & wall) for value input       =        0.000000        0.002109
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005741
+     time (cpu & wall) for numeric factor    =        0.015625        0.014691
+     computational rate (gflops) for factor  =        6.851366        7.286752
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23103,10 +23163,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001593
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006526
-     time (cpu & wall) for numeric factor    =        0.015625        0.014694
-     computational rate (gflops) for factor  =        6.851366        7.285314
+     time (cpu & wall) for value input       =        0.000000        0.001950
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006035
+     time (cpu & wall) for numeric factor    =        0.015625        0.015403
+     computational rate (gflops) for factor  =        6.851366        6.950203
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23160,10 +23220,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001819
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006034
-     time (cpu & wall) for numeric factor    =        0.015625        0.016764
-     computational rate (gflops) for factor  =        6.851366        6.385748
+     time (cpu & wall) for value input       =        0.015625        0.001792
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005703
+     time (cpu & wall) for numeric factor    =        0.015625        0.015105
+     computational rate (gflops) for factor  =        6.851366        7.087041
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23217,10 +23277,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002180
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006001
-     time (cpu & wall) for numeric factor    =        0.015625        0.014664
-     computational rate (gflops) for factor  =        6.851366        7.300119
+     time (cpu & wall) for value input       =        0.000000        0.002035
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005820
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23274,10 +23332,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002115
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005749
-     time (cpu & wall) for numeric factor    =        0.015625        0.014802
-     computational rate (gflops) for factor  =        6.851366        7.232208
+     time (cpu & wall) for value input       =        0.000000        0.001989
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005866
+     time (cpu & wall) for numeric factor    =        0.015625        0.015274
+     computational rate (gflops) for factor  =        6.851366        7.009041
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23331,10 +23389,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001640
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005763
-     time (cpu & wall) for numeric factor    =        0.015625        0.014774
-     computational rate (gflops) for factor  =        6.851366        7.246209
+     time (cpu & wall) for value input       =        0.000000        0.001886
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005951
+     time (cpu & wall) for numeric factor    =        0.015625        0.016923
+     computational rate (gflops) for factor  =        6.851366        6.325938
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23388,10 +23446,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002464
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005893
-     time (cpu & wall) for numeric factor    =        0.015625        0.015408
-     computational rate (gflops) for factor  =        6.851366        6.947903
+     time (cpu & wall) for value input       =        0.000000        0.001700
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007088
+     time (cpu & wall) for numeric factor    =        0.015625        0.024953
+     computational rate (gflops) for factor  =        6.851366        4.290135
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23445,13 +23503,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001709
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006593
-     time (cpu & wall) for numeric factor    =        0.015625        0.014951
-     computational rate (gflops) for factor  =        6.851366        7.160182
-     time (cpu & wall) for numeric solve     =        0.015625        0.002670
-     computational rate (gflops) for solve   =        2.385458       13.960369
-     effective I/O rate (GB/sec) for solve   =        8.887231       52.010554
+     time (cpu & wall) for value input       =        0.000000        0.001921
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006081
+     time (cpu & wall) for numeric factor    =        0.015625        0.015429
+     computational rate (gflops) for factor  =        6.851366        6.938491
+     time (cpu & wall) for numeric solve     =        0.015625        0.002416
+     computational rate (gflops) for solve   =        2.385458       15.424286
+     effective I/O rate (GB/sec) for solve   =        8.887231       57.464505
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23505,10 +23563,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002434
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005976
-     time (cpu & wall) for numeric factor    =        0.015625        0.014766
-     computational rate (gflops) for factor  =        6.851366        7.249791
+     time (cpu & wall) for value input       =        0.015625        0.001897
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006043
+     time (cpu & wall) for numeric factor    =        0.015625        0.016313
+     computational rate (gflops) for factor  =        6.851366        6.562209
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23562,10 +23620,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002517
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005789
-     time (cpu & wall) for numeric factor    =        0.015625        0.015734
-     computational rate (gflops) for factor  =        6.851366        6.804118
+     time (cpu & wall) for value input       =        0.000000        0.001890
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005804
+     time (cpu & wall) for numeric factor    =        0.031250        0.017243
+     computational rate (gflops) for factor  =        3.425683        6.208647
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23619,13 +23677,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002166
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005756
-     time (cpu & wall) for numeric factor    =        0.015625        0.015157
-     computational rate (gflops) for factor  =        6.851366        7.063054
-     time (cpu & wall) for numeric solve     =        0.015625        0.002509
-     computational rate (gflops) for solve   =        2.385458       14.858596
-     effective I/O rate (GB/sec) for solve   =        8.887231       55.356977
+     time (cpu & wall) for value input       =        0.000000        0.001965
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006755
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23679,10 +23732,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001577
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005695
-     time (cpu & wall) for numeric factor    =        0.015625        0.014940
-     computational rate (gflops) for factor  =        6.851366        7.165501
+     time (cpu & wall) for value input       =        0.000000        0.001884
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005553
+     time (cpu & wall) for numeric factor    =        0.031250        0.019853
+     computational rate (gflops) for factor  =        3.425683        5.392181
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23736,13 +23789,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002226
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005911
-     time (cpu & wall) for numeric factor    =        0.015625        0.014726
-     computational rate (gflops) for factor  =        6.851366        7.269533
-     time (cpu & wall) for numeric solve     =        0.015625        0.002607
-     computational rate (gflops) for solve   =        2.385458       14.296647
-     effective I/O rate (GB/sec) for solve   =        8.887231       53.263387
+     time (cpu & wall) for value input       =        0.000000        0.001908
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005767
+     time (cpu & wall) for numeric factor    =        0.015625        0.014658
+     computational rate (gflops) for factor  =        6.851366        7.303157
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23796,10 +23846,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002292
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005777
-     time (cpu & wall) for numeric factor    =        0.015625        0.015227
-     computational rate (gflops) for factor  =        6.851366        7.030307
+     time (cpu & wall) for value input       =        0.000000        0.001870
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005628
+     time (cpu & wall) for numeric factor    =        0.015625        0.020011
+     computational rate (gflops) for factor  =        6.851366        5.349767
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23853,10 +23903,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002242
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005578
-     time (cpu & wall) for numeric factor    =        0.015625        0.015015
-     computational rate (gflops) for factor  =        6.851366        7.129567
+     time (cpu & wall) for value input       =        0.015625        0.002123
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005508
+     time (cpu & wall) for numeric factor    =        0.015625        0.014374
+     computational rate (gflops) for factor  =        6.851366        7.447551
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23910,10 +23960,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002226
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006053
-     time (cpu & wall) for numeric factor    =        0.015625        0.017402
-     computational rate (gflops) for factor  =        6.851366        6.151776
+     time (cpu & wall) for value input       =        0.000000        0.002929
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005708
+     time (cpu & wall) for numeric factor    =        0.015625        0.014380
+     computational rate (gflops) for factor  =        6.851366        7.444496
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -23967,10 +24017,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002176
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006223
-     time (cpu & wall) for numeric factor    =        0.015625        0.015408
-     computational rate (gflops) for factor  =        6.851366        6.947948
+     time (cpu & wall) for value input       =        0.000000        0.001584
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006244
+     time (cpu & wall) for numeric factor    =        0.015625        0.017693
+     computational rate (gflops) for factor  =        6.851366        6.050391
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24024,10 +24074,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.003033
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005740
-     time (cpu & wall) for numeric factor    =        0.015625        0.014624
-     computational rate (gflops) for factor  =        6.851366        7.320536
+     time (cpu & wall) for value input       =        0.000000        0.001772
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006199
+     time (cpu & wall) for numeric factor    =        0.015625        0.015909
+     computational rate (gflops) for factor  =        6.851366        6.729101
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24081,13 +24131,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002225
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005929
-     time (cpu & wall) for numeric factor    =        0.015625        0.015322
-     computational rate (gflops) for factor  =        6.851366        6.986992
-     time (cpu & wall) for numeric solve     =        0.015625        0.002406
-     computational rate (gflops) for solve   =        2.385458       15.490955
-     effective I/O rate (GB/sec) for solve   =        8.887231       57.712887
+     time (cpu & wall) for value input       =        0.000000        0.002167
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006077
+     time (cpu & wall) for numeric factor    =        0.015625        0.015760
+     computational rate (gflops) for factor  =        6.851366        6.792591
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24141,10 +24188,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001628
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005688
-     time (cpu & wall) for numeric factor    =        0.015625        0.015023
-     computational rate (gflops) for factor  =        6.851366        7.125676
+     time (cpu & wall) for value input       =        0.015625        0.003565
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.009575
+     time (cpu & wall) for numeric factor    =        0.031250        0.023052
+     computational rate (gflops) for factor  =        3.425683        4.644001
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24198,10 +24245,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002343
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005696
-     time (cpu & wall) for numeric factor    =        0.015625        0.014672
-     computational rate (gflops) for factor  =        6.851366        7.296487
+     time (cpu & wall) for value input       =        0.000000        0.002803
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005683
+     time (cpu & wall) for numeric factor    =        0.015625        0.014691
+     computational rate (gflops) for factor  =        6.851366        7.287000
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24255,13 +24302,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.003074
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005645
-     time (cpu & wall) for numeric factor    =        0.015625        0.015591
-     computational rate (gflops) for factor  =        6.851366        6.866131
-     time (cpu & wall) for numeric solve     =        0.015625        0.002555
-     computational rate (gflops) for solve   =        2.385458       14.589888
-     effective I/O rate (GB/sec) for solve   =        8.887231       54.355884
+     time (cpu & wall) for value input       =        0.000000        0.001944
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005753
+     time (cpu & wall) for numeric factor    =        0.015625        0.014977
+     computational rate (gflops) for factor  =        6.851366        7.147561
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24315,10 +24359,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001629
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005813
-     time (cpu & wall) for numeric factor    =        0.015625        0.014805
-     computational rate (gflops) for factor  =        6.851366        7.230743
+     time (cpu & wall) for value input       =        0.000000        0.001911
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005787
+     time (cpu & wall) for numeric factor    =        0.031250        0.021686
+     computational rate (gflops) for factor  =        3.425683        4.936416
+     time (cpu & wall) for numeric solve     =        0.015625        0.002261
+     computational rate (gflops) for solve   =        2.385458       16.482174
+     effective I/O rate (GB/sec) for solve   =        8.887231       61.405756
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24372,10 +24419,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001624
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005754
-     time (cpu & wall) for numeric factor    =        0.015625        0.014945
-     computational rate (gflops) for factor  =        6.851366        7.163008
+     time (cpu & wall) for value input       =        0.015625        0.001693
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006666
+     time (cpu & wall) for numeric factor    =        0.015625        0.016708
+     computational rate (gflops) for factor  =        6.851366        6.407189
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24429,10 +24476,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002300
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005844
-     time (cpu & wall) for numeric factor    =        0.015625        0.018474
-     computational rate (gflops) for factor  =        6.851366        5.794676
+     time (cpu & wall) for value input       =        0.000000        0.001952
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005873
+     time (cpu & wall) for numeric factor    =        0.015625        0.015026
+     computational rate (gflops) for factor  =        6.851366        7.124633
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24486,10 +24533,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002173
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005886
-     time (cpu & wall) for numeric factor    =        0.015625        0.014589
-     computational rate (gflops) for factor  =        6.851366        7.338049
+     time (cpu & wall) for value input       =        0.000000        0.003584
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009349
+     time (cpu & wall) for numeric factor    =        0.015625        0.015031
+     computational rate (gflops) for factor  =        6.851366        7.122263
+     time (cpu & wall) for numeric solve     =        0.015625        0.001989
+     computational rate (gflops) for solve   =        2.385458       18.734751
+     effective I/O rate (GB/sec) for solve   =        8.887231       69.797928
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24543,10 +24593,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001733
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005784
-     time (cpu & wall) for numeric factor    =        0.015625        0.015143
-     computational rate (gflops) for factor  =        6.851366        7.069211
+     time (cpu & wall) for value input       =        0.000000        0.002003
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005756
+     time (cpu & wall) for numeric factor    =        0.015625        0.022054
+     computational rate (gflops) for factor  =        6.851366        4.854046
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24600,13 +24650,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002316
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007351
-     time (cpu & wall) for numeric factor    =        0.015625        0.016340
-     computational rate (gflops) for factor  =        6.851366        6.551727
-     time (cpu & wall) for numeric solve     =        0.015625        0.002570
-     computational rate (gflops) for solve   =        2.385458       14.500773
-     effective I/O rate (GB/sec) for solve   =        8.887231       54.023878
+     time (cpu & wall) for value input       =        0.000000        0.001951
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006122
+     time (cpu & wall) for numeric factor    =        0.015625        0.017134
+     computational rate (gflops) for factor  =        6.851366        6.247817
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24660,13 +24707,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002064
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005859
-     time (cpu & wall) for numeric factor    =        0.015625        0.015457
-     computational rate (gflops) for factor  =        6.851366        6.926056
-     time (cpu & wall) for numeric solve     =        0.015625        0.002664
-     computational rate (gflops) for solve   =        2.385458       13.989711
-     effective I/O rate (GB/sec) for solve   =        8.887231       52.119873
+     time (cpu & wall) for value input       =        0.000000        0.001847
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007411
+     time (cpu & wall) for numeric factor    =        0.015625        0.017879
+     computational rate (gflops) for factor  =        6.851366        5.987549
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24720,13 +24764,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002250
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006440
-     time (cpu & wall) for numeric factor    =        0.015625        0.014933
-     computational rate (gflops) for factor  =        6.851366        7.169004
-     time (cpu & wall) for numeric solve     =        0.015625        0.002151
-     computational rate (gflops) for solve   =        2.385458       17.330538
-     effective I/O rate (GB/sec) for solve   =        8.887231       64.566410
+     time (cpu & wall) for value input       =        0.000000        0.001656
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007567
+     time (cpu & wall) for numeric factor    =        0.015625        0.022408
+     computational rate (gflops) for factor  =        6.851366        4.777342
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24780,8 +24821,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001955
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006031
+     time (cpu & wall) for value input       =        0.000000        0.002243
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006780
+     time (cpu & wall) for numeric factor    =        0.015625        0.015325
+     computational rate (gflops) for factor  =        6.851366        6.985305
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24835,10 +24878,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002071
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005744
-     time (cpu & wall) for numeric factor    =        0.015625        0.014612
-     computational rate (gflops) for factor  =        6.851366        7.326197
+     time (cpu & wall) for value input       =        0.000000        0.001898
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005906
+     time (cpu & wall) for numeric factor    =        0.015625        0.014635
+     computational rate (gflops) for factor  =        6.851366        7.314684
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24892,10 +24935,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002001
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005583
-     time (cpu & wall) for numeric factor    =        0.015625        0.015232
-     computational rate (gflops) for factor  =        6.851366        7.028368
+     time (cpu & wall) for value input       =        0.000000        0.002066
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005463
+     time (cpu & wall) for numeric factor    =        0.015625        0.014308
+     computational rate (gflops) for factor  =        6.851366        7.482009
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -24949,10 +24992,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001607
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005583
-     time (cpu & wall) for numeric factor    =        0.015625        0.015145
-     computational rate (gflops) for factor  =        6.851366        7.068510
+     time (cpu & wall) for value input       =        0.000000        0.003029
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009402
+     time (cpu & wall) for numeric factor    =        0.015625        0.020531
+     computational rate (gflops) for factor  =        6.851366        5.214167
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25006,10 +25049,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002233
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005800
-     time (cpu & wall) for numeric factor    =        0.015625        0.015306
-     computational rate (gflops) for factor  =        6.851366        6.994204
+     time (cpu & wall) for value input       =        0.000000        0.002436
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006426
+     time (cpu & wall) for numeric factor    =        0.031250        0.017296
+     computational rate (gflops) for factor  =        3.425683        6.189549
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25063,10 +25106,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002682
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005932
-     time (cpu & wall) for numeric factor    =        0.015625        0.014764
-     computational rate (gflops) for factor  =        6.851366        7.250921
+     time (cpu & wall) for value input       =        0.000000        0.003532
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008954
+     time (cpu & wall) for numeric factor    =        0.015625        0.021773
+     computational rate (gflops) for factor  =        6.851366        4.916646
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25120,10 +25163,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002178
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005809
-     time (cpu & wall) for numeric factor    =        0.015625        0.014810
-     computational rate (gflops) for factor  =        6.851366        7.228204
+     time (cpu & wall) for value input       =        0.000000        0.002115
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006000
+     time (cpu & wall) for numeric factor    =        0.015625        0.015664
+     computational rate (gflops) for factor  =        6.851366        6.834177
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25177,10 +25220,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002176
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005832
-     time (cpu & wall) for numeric factor    =        0.015625        0.014784
-     computational rate (gflops) for factor  =        6.851366        7.241160
+     time (cpu & wall) for value input       =        0.000000        0.002152
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006460
+     time (cpu & wall) for numeric factor    =        0.015625        0.019989
+     computational rate (gflops) for factor  =        6.851366        5.355522
+     time (cpu & wall) for numeric solve     =        0.015625        0.002523
+     computational rate (gflops) for solve   =        2.385458       14.774373
+     effective I/O rate (GB/sec) for solve   =        8.887231       55.043197
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25234,10 +25280,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001640
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.009762
-     time (cpu & wall) for numeric factor    =        0.015625        0.018161
-     computational rate (gflops) for factor  =        6.851366        5.894772
+     time (cpu & wall) for value input       =        0.000000        0.001907
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005796
+     time (cpu & wall) for numeric factor    =        0.015625        0.015617
+     computational rate (gflops) for factor  =        6.851366        6.854700
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25291,10 +25337,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002242
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005872
-     time (cpu & wall) for numeric factor    =        0.015625        0.014870
-     computational rate (gflops) for factor  =        6.851366        7.199184
+     time (cpu & wall) for value input       =        0.000000        0.002314
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007528
+     time (cpu & wall) for numeric factor    =        0.015625        0.020251
+     computational rate (gflops) for factor  =        6.851366        5.286156
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25349,9 +25395,12 @@
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
      time (cpu & wall) for value input       =        0.000000        0.001754
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005864
-     time (cpu & wall) for numeric factor    =        0.015625        0.016996
-     computational rate (gflops) for factor  =        6.851366        6.298656
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005523
+     time (cpu & wall) for numeric factor    =        0.015625        0.014706
+     computational rate (gflops) for factor  =        6.851366        7.279765
+     time (cpu & wall) for numeric solve     =        0.015625        0.002444
+     computational rate (gflops) for solve   =        2.385458       15.251356
+     effective I/O rate (GB/sec) for solve   =        8.887231       56.820237
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25405,10 +25454,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002171
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006453
-     time (cpu & wall) for numeric factor    =        0.015625        0.016114
-     computational rate (gflops) for factor  =        6.851366        6.643452
+     time (cpu & wall) for value input       =        0.000000        0.003316
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009488
+     time (cpu & wall) for numeric factor    =        0.015625        0.019602
+     computational rate (gflops) for factor  =        6.851366        5.461449
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25462,10 +25511,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002272
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005776
-     time (cpu & wall) for numeric factor    =        0.015625        0.015330
-     computational rate (gflops) for factor  =        6.851366        6.983437
+     time (cpu & wall) for value input       =        0.000000        0.002327
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005700
+     time (cpu & wall) for numeric factor    =        0.031250        0.021080
+     computational rate (gflops) for factor  =        3.425683        5.078420
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25519,10 +25568,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002174
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006017
-     time (cpu & wall) for numeric factor    =        0.015625        0.014593
-     computational rate (gflops) for factor  =        6.851366        7.335987
+     time (cpu & wall) for value input       =        0.015625        0.001819
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005688
+     time (cpu & wall) for numeric factor    =        0.015625        0.014550
+     computational rate (gflops) for factor  =        6.851366        7.357566
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25576,10 +25625,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.003416
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006293
-     time (cpu & wall) for numeric factor    =        0.015625        0.014764
-     computational rate (gflops) for factor  =        6.851366        7.251019
+     time (cpu & wall) for value input       =        0.000000        0.002327
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005547
+     time (cpu & wall) for numeric factor    =        0.015625        0.014662
+     computational rate (gflops) for factor  =        6.851366        7.301164
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25633,10 +25682,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001840
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005600
-     time (cpu & wall) for numeric factor    =        0.015625        0.014698
-     computational rate (gflops) for factor  =        6.851366        7.283381
+     time (cpu & wall) for value input       =        0.000000        0.001907
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005778
+     time (cpu & wall) for numeric factor    =        0.015625        0.015125
+     computational rate (gflops) for factor  =        6.851366        7.078091
+     time (cpu & wall) for numeric solve     =        0.015625        0.002729
+     computational rate (gflops) for solve   =        2.385458       13.656037
+     effective I/O rate (GB/sec) for solve   =        8.887231       50.876741
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25690,10 +25742,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001949
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005713
-     time (cpu & wall) for numeric factor    =        0.015625        0.014996
-     computational rate (gflops) for factor  =        6.851366        7.138743
+     time (cpu & wall) for value input       =        0.000000        0.001894
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006924
+     time (cpu & wall) for numeric factor    =        0.015625        0.018429
+     computational rate (gflops) for factor  =        6.851366        5.809078
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25747,10 +25799,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002198
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006510
-     time (cpu & wall) for numeric factor    =        0.015625        0.014689
-     computational rate (gflops) for factor  =        6.851366        7.288141
+     time (cpu & wall) for value input       =        0.000000        0.001904
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005735
+     time (cpu & wall) for numeric factor    =        0.015625        0.016488
+     computational rate (gflops) for factor  =        6.851366        6.492600
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25804,10 +25856,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002173
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006130
-     time (cpu & wall) for numeric factor    =        0.015625        0.016093
-     computational rate (gflops) for factor  =        6.851366        6.652245
+     time (cpu & wall) for value input       =        0.000000        0.002151
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006382
+     time (cpu & wall) for numeric factor    =        0.015625        0.015502
+     computational rate (gflops) for factor  =        6.851366        6.905594
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25861,10 +25913,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001970
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005719
-     time (cpu & wall) for numeric factor    =        0.015625        0.014621
-     computational rate (gflops) for factor  =        6.851366        7.321738
+     time (cpu & wall) for value input       =        0.000000        0.002207
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005677
+     time (cpu & wall) for numeric factor    =        0.015625        0.015549
+     computational rate (gflops) for factor  =        6.851366        6.885031
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25918,13 +25970,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002825
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005786
-     time (cpu & wall) for numeric factor    =        0.015625        0.014741
-     computational rate (gflops) for factor  =        6.851366        7.262431
-     time (cpu & wall) for numeric solve     =        0.015625        0.002783
-     computational rate (gflops) for solve   =        2.385458       13.391581
-     effective I/O rate (GB/sec) for solve   =        8.887231       49.891487
+     time (cpu & wall) for value input       =        0.000000        0.001618
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005590
+     time (cpu & wall) for numeric factor    =        0.015625        0.017968
+     computational rate (gflops) for factor  =        6.851366        5.958091
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -25978,10 +26027,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002220
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005930
-     time (cpu & wall) for numeric factor    =        0.015625        0.014535
-     computational rate (gflops) for factor  =        6.851366        7.365261
+     time (cpu & wall) for value input       =        0.000000        0.001955
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005705
+     time (cpu & wall) for numeric factor    =        0.015625        0.015135
+     computational rate (gflops) for factor  =        6.851366        7.073134
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26035,10 +26084,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002217
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006128
-     time (cpu & wall) for numeric factor    =        0.015625        0.014921
-     computational rate (gflops) for factor  =        6.851366        7.174770
+     time (cpu & wall) for value input       =        0.000000        0.002115
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005771
+     time (cpu & wall) for numeric factor    =        0.015625        0.014682
+     computational rate (gflops) for factor  =        6.851366        7.291616
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26092,10 +26141,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001924
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005569
-     time (cpu & wall) for numeric factor    =        0.015625        0.014734
-     computational rate (gflops) for factor  =        6.851366        7.265783
+     time (cpu & wall) for value input       =        0.000000        0.003651
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009508
+     time (cpu & wall) for numeric factor    =        0.015625        0.021178
+     computational rate (gflops) for factor  =        6.851366        5.055016
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26149,10 +26198,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002174
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006093
-     time (cpu & wall) for numeric factor    =        0.015625        0.015010
-     computational rate (gflops) for factor  =        6.851366        7.132085
+     time (cpu & wall) for value input       =        0.000000        0.001947
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005695
+     time (cpu & wall) for numeric factor    =        0.015625        0.014701
+     computational rate (gflops) for factor  =        6.851366        7.282043
+     time (cpu & wall) for numeric solve     =        0.015625        0.002133
+     computational rate (gflops) for solve   =        2.385458       17.477627
+     effective I/O rate (GB/sec) for solve   =        8.887231       65.114404
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26203,13 +26255,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001735
+     time (cpu & wall) for structure input   =        0.000000        0.001400
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001627
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006673
-     time (cpu & wall) for numeric factor    =        0.015625        0.015393
-     computational rate (gflops) for factor  =        6.851366        6.954583
+     time (cpu & wall) for value input       =        0.015625        0.001617
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008630
+     time (cpu & wall) for numeric factor    =        0.015625        0.017950
+     computational rate (gflops) for factor  =        6.851366        5.964032
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26263,10 +26315,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002160
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005788
-     time (cpu & wall) for numeric factor    =        0.015625        0.014575
-     computational rate (gflops) for factor  =        6.851366        7.344845
+     time (cpu & wall) for value input       =        0.000000        0.003603
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009362
+     time (cpu & wall) for numeric factor    =        0.031250        0.020909
+     computational rate (gflops) for factor  =        3.425683        5.119978
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26320,10 +26372,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001584
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006411
-     time (cpu & wall) for numeric factor    =        0.015625        0.015020
-     computational rate (gflops) for factor  =        6.851366        7.127289
+     time (cpu & wall) for value input       =        0.000000        0.001947
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006151
+     time (cpu & wall) for numeric factor    =        0.015625        0.016557
+     computational rate (gflops) for factor  =        6.851366        6.465856
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26377,8 +26429,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002239
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006114
+     time (cpu & wall) for value input       =        0.000000        0.001763
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005921
+     time (cpu & wall) for numeric factor    =        0.015625        0.015217
+     computational rate (gflops) for factor  =        6.851366        7.035112
+     time (cpu & wall) for numeric solve     =        0.015625        0.002438
+     computational rate (gflops) for solve   =        2.385458       15.286383
+     effective I/O rate (GB/sec) for solve   =        8.887231       56.950735
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26432,10 +26489,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002718
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006327
-     time (cpu & wall) for numeric factor    =        0.015625        0.014515
-     computational rate (gflops) for factor  =        6.851366        7.375308
+     time (cpu & wall) for value input       =        0.000000        0.003776
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009947
+     time (cpu & wall) for numeric factor    =        0.031250        0.025282
+     computational rate (gflops) for factor  =        3.425683        4.234424
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26489,10 +26546,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002214
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005932
-     time (cpu & wall) for numeric factor    =        0.015625        0.015247
-     computational rate (gflops) for factor  =        6.851366        7.021085
+     time (cpu & wall) for value input       =        0.000000        0.001894
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006101
+     time (cpu & wall) for numeric factor    =        0.015625        0.014441
+     computational rate (gflops) for factor  =        6.851366        7.412896
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26546,10 +26603,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002214
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006100
-     time (cpu & wall) for numeric factor    =        0.015625        0.014514
-     computational rate (gflops) for factor  =        6.851366        7.375816
+     time (cpu & wall) for value input       =        0.000000        0.001898
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005745
+     time (cpu & wall) for numeric factor    =        0.031250        0.023005
+     computational rate (gflops) for factor  =        3.425683        4.653408
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26603,10 +26660,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002481
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005836
-     time (cpu & wall) for numeric factor    =        0.015625        0.014583
-     computational rate (gflops) for factor  =        6.851366        7.340816
+     time (cpu & wall) for value input       =        0.000000        0.003580
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009124
+     time (cpu & wall) for numeric factor    =        0.015625        0.014479
+     computational rate (gflops) for factor  =        6.851366        7.393492
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26660,10 +26717,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002405
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005790
-     time (cpu & wall) for numeric factor    =        0.015625        0.014686
-     computational rate (gflops) for factor  =        6.851366        7.289283
+     time (cpu & wall) for value input       =        0.000000        0.001919
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007855
+     time (cpu & wall) for numeric factor    =        0.015625        0.016891
+     computational rate (gflops) for factor  =        6.851366        6.337923
+     time (cpu & wall) for numeric solve     =        0.015625        0.002779
+     computational rate (gflops) for solve   =        2.385458       13.413750
+     effective I/O rate (GB/sec) for solve   =        8.887231       49.974080
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26717,10 +26777,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001983
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006039
-     time (cpu & wall) for numeric factor    =        0.015625        0.015447
-     computational rate (gflops) for factor  =        6.851366        6.930137
+     time (cpu & wall) for value input       =        0.000000        0.003665
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.009428
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26774,10 +26832,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002230
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005853
-     time (cpu & wall) for numeric factor    =        0.015625        0.014683
-     computational rate (gflops) for factor  =        6.851366        7.290772
+     time (cpu & wall) for value input       =        0.000000        0.002155
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005559
+     time (cpu & wall) for numeric factor    =        0.015625        0.014223
+     computational rate (gflops) for factor  =        6.851366        7.526671
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26831,10 +26889,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002217
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006078
-     time (cpu & wall) for numeric factor    =        0.015625        0.014741
-     computational rate (gflops) for factor  =        6.851366        7.262086
+     time (cpu & wall) for value input       =        0.000000        0.001895
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005644
+     time (cpu & wall) for numeric factor    =        0.015625        0.014609
+     computational rate (gflops) for factor  =        6.851366        7.327651
+     time (cpu & wall) for numeric solve     =        0.015625        0.002135
+     computational rate (gflops) for solve   =        2.385458       17.462070
+     effective I/O rate (GB/sec) for solve   =        8.887231       65.056443
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26888,8 +26949,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001617
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005680
+     time (cpu & wall) for value input       =        0.000000        0.002153
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006347
+     time (cpu & wall) for numeric factor    =        0.015625        0.014980
+     computational rate (gflops) for factor  =        6.851366        7.146320
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -26943,13 +27006,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002774
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006816
-     time (cpu & wall) for numeric factor    =        0.015625        0.016860
-     computational rate (gflops) for factor  =        6.851366        6.349539
-     time (cpu & wall) for numeric solve     =        0.015625        0.002845
-     computational rate (gflops) for solve   =        2.385458       13.099774
-     effective I/O rate (GB/sec) for solve   =        8.887231       48.804336
+     time (cpu & wall) for value input       =        0.015625        0.001797
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005542
+     time (cpu & wall) for numeric factor    =        0.015625        0.014634
+     computational rate (gflops) for factor  =        6.851366        7.315334
+     time (cpu & wall) for numeric solve     =        0.015625        0.002421
+     computational rate (gflops) for solve   =        2.385458       15.394981
+     effective I/O rate (GB/sec) for solve   =        8.887231       57.355325
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27003,10 +27066,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002163
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005837
-     time (cpu & wall) for numeric factor    =        0.015625        0.014723
-     computational rate (gflops) for factor  =        6.851366        7.271310
+     time (cpu & wall) for value input       =        0.015625        0.003218
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008999
+     time (cpu & wall) for numeric factor    =        0.031250        0.021328
+     computational rate (gflops) for factor  =        3.425683        5.019392
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27060,10 +27123,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002216
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005890
-     time (cpu & wall) for numeric factor    =        0.015625        0.016203
-     computational rate (gflops) for factor  =        6.851366        6.607002
+     time (cpu & wall) for value input       =        0.000000        0.001837
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006131
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27117,10 +27178,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002272
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.005786
-     time (cpu & wall) for numeric factor    =        0.015625        0.014621
-     computational rate (gflops) for factor  =        6.851366        7.321838
+     time (cpu & wall) for value input       =        0.000000        0.002014
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006149
+     time (cpu & wall) for numeric factor    =        0.015625        0.015659
+     computational rate (gflops) for factor  =        6.851366        6.836315
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27174,10 +27235,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002181
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.005903
-     time (cpu & wall) for numeric factor    =        0.015625        0.014686
-     computational rate (gflops) for factor  =        6.851366        7.289332
+     time (cpu & wall) for value input       =        0.000000        0.001976
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005793
+     time (cpu & wall) for numeric factor    =        0.015625        0.015646
+     computational rate (gflops) for factor  =        6.851366        6.842301
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27231,10 +27292,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002304
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006390
-     time (cpu & wall) for numeric factor    =        0.015625        0.017727
-     computational rate (gflops) for factor  =        6.851366        6.039059
+     time (cpu & wall) for value input       =        0.000000        0.002150
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.005777
+     time (cpu & wall) for numeric factor    =        0.015625        0.017632
+     computational rate (gflops) for factor  =        6.851366        6.071460
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27285,13 +27346,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001881
-     time (cpu & wall) for ordering          =        0.031250        0.033425
-     time (cpu & wall) for other matrix prep =        0.015625        0.007107
-     time (cpu & wall) for value input       =        0.000000        0.003087
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006130
-     time (cpu & wall) for numeric factor    =        0.015625        0.015807
-     computational rate (gflops) for factor  =        7.064656        6.983403
+     time (cpu & wall) for structure input   =        0.015625        0.001536
+     time (cpu & wall) for ordering          =        0.031250        0.033377
+     time (cpu & wall) for other matrix prep =        0.000000        0.006960
+     time (cpu & wall) for value input       =        0.000000        0.001571
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.005808
+     time (cpu & wall) for numeric factor    =        0.015625        0.014124
+     computational rate (gflops) for factor  =        7.064656        7.815604
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27345,10 +27406,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002250
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006056
-     time (cpu & wall) for numeric factor    =        0.015625        0.014222
-     computational rate (gflops) for factor  =        7.064656        7.761366
+     time (cpu & wall) for value input       =        0.000000        0.003715
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009705
+     time (cpu & wall) for numeric factor    =        0.015625        0.016371
+     computational rate (gflops) for factor  =        7.064656        6.742690
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27402,10 +27463,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002033
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006331
-     time (cpu & wall) for numeric factor    =        0.015625        0.014319
-     computational rate (gflops) for factor  =        7.064656        7.708790
+     time (cpu & wall) for value input       =        0.000000        0.001628
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006062
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27459,8 +27518,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002244
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006245
+     time (cpu & wall) for value input       =        0.000000        0.001876
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006014
+     time (cpu & wall) for numeric factor    =        0.015625        0.014986
+     computational rate (gflops) for factor  =        7.064656        7.365990
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27511,16 +27572,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001603
-     time (cpu & wall) for ordering          =        0.046875        0.036500
-     time (cpu & wall) for other matrix prep =        0.000000        0.007286
-     time (cpu & wall) for value input       =        0.000000        0.002097
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006214
-     time (cpu & wall) for numeric factor    =        0.015625        0.015829
-     computational rate (gflops) for factor  =        8.662099        8.550356
-     time (cpu & wall) for numeric solve     =        0.015625        0.002559
-     computational rate (gflops) for solve   =        3.058974       18.677061
-     effective I/O rate (GB/sec) for solve   =       11.396471       69.582999
+     time (cpu & wall) for structure input   =        0.000000        0.001936
+     time (cpu & wall) for ordering          =        0.046875        0.036909
+     time (cpu & wall) for other matrix prep =        0.000000        0.009819
+     time (cpu & wall) for value input       =        0.000000        0.001605
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007350
+     time (cpu & wall) for numeric factor    =        0.015625        0.016277
+     computational rate (gflops) for factor  =        8.662099        8.315023
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27574,10 +27632,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002176
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006898
-     time (cpu & wall) for numeric factor    =        0.015625        0.014989
-     computational rate (gflops) for factor  =        8.662099        9.029581
+     time (cpu & wall) for value input       =        0.000000        0.002322
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006548
+     time (cpu & wall) for numeric factor    =        0.015625        0.014798
+     computational rate (gflops) for factor  =        8.662099        9.146003
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27631,10 +27689,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002235
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006572
-     time (cpu & wall) for numeric factor    =        0.015625        0.016034
-     computational rate (gflops) for factor  =        8.662099        8.441249
+     time (cpu & wall) for value input       =        0.015625        0.001936
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006687
+     time (cpu & wall) for numeric factor    =        0.015625        0.015218
+     computational rate (gflops) for factor  =        8.662099        8.893530
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27688,10 +27746,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002233
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006649
-     time (cpu & wall) for numeric factor    =        0.015625        0.014900
-     computational rate (gflops) for factor  =        8.662099        9.083516
+     time (cpu & wall) for value input       =        0.000000        0.002161
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006569
+     time (cpu & wall) for numeric factor    =        0.015625        0.017327
+     computational rate (gflops) for factor  =        8.662099        7.811056
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27745,10 +27803,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002060
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006335
-     time (cpu & wall) for numeric factor    =        0.015625        0.015288
-     computational rate (gflops) for factor  =        8.662099        8.852752
+     time (cpu & wall) for value input       =        0.000000        0.002117
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006478
+     time (cpu & wall) for numeric factor    =        0.015625        0.016611
+     computational rate (gflops) for factor  =        8.662099        8.148079
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27802,10 +27860,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002373
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006504
-     time (cpu & wall) for numeric factor    =        0.031250        0.014823
-     computational rate (gflops) for factor  =        4.331050        9.130824
+     time (cpu & wall) for value input       =        0.000000        0.001942
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006530
+     time (cpu & wall) for numeric factor    =        0.015625        0.019720
+     computational rate (gflops) for factor  =        8.662099        6.863526
+     time (cpu & wall) for numeric solve     =        0.015625        0.002553
+     computational rate (gflops) for solve   =        3.058974       18.719488
+     effective I/O rate (GB/sec) for solve   =       11.396471       69.741061
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27859,10 +27920,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002195
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006345
-     time (cpu & wall) for numeric factor    =        0.015625        0.015613
-     computational rate (gflops) for factor  =        8.662099        8.668535
+     time (cpu & wall) for value input       =        0.000000        0.001624
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007794
+     time (cpu & wall) for numeric factor    =        0.015625        0.017755
+     computational rate (gflops) for factor  =        8.662099        7.622983
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27916,10 +27977,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002215
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006308
-     time (cpu & wall) for numeric factor    =        0.015625        0.015683
-     computational rate (gflops) for factor  =        8.662099        8.630009
+     time (cpu & wall) for value input       =        0.000000        0.001954
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006570
+     time (cpu & wall) for numeric factor    =        0.031250        0.020202
+     computational rate (gflops) for factor  =        4.331050        6.699665
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -27973,10 +28034,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002179
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006641
-     time (cpu & wall) for numeric factor    =        0.015625        0.016150
-     computational rate (gflops) for factor  =        8.662099        8.380618
+     time (cpu & wall) for value input       =        0.000000        0.001859
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006473
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28030,10 +28089,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002249
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007393
-     time (cpu & wall) for numeric factor    =        0.015625        0.015353
-     computational rate (gflops) for factor  =        8.662099        8.815790
+     time (cpu & wall) for value input       =        0.000000        0.002181
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006684
+     time (cpu & wall) for numeric factor    =        0.015625        0.019024
+     computational rate (gflops) for factor  =        8.662099        7.114338
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28087,10 +28146,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001630
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007409
-     time (cpu & wall) for numeric factor    =        0.015625        0.017054
-     computational rate (gflops) for factor  =        8.662099        7.936279
+     time (cpu & wall) for value input       =        0.000000        0.001860
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007164
+     time (cpu & wall) for numeric factor    =        0.015625        0.016288
+     computational rate (gflops) for factor  =        8.662099        8.309714
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28144,13 +28203,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001740
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006285
-     time (cpu & wall) for numeric factor    =        0.015625        0.015264
-     computational rate (gflops) for factor  =        8.662099        8.866845
-     time (cpu & wall) for numeric solve     =        0.015625        0.002755
-     computational rate (gflops) for solve   =        3.058974       17.346472
-     effective I/O rate (GB/sec) for solve   =       11.396471       64.625772
+     time (cpu & wall) for value input       =        0.015625        0.001936
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006420
+     time (cpu & wall) for numeric factor    =        0.015625        0.015316
+     computational rate (gflops) for factor  =        8.662099        8.837030
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28204,13 +28260,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002498
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007835
-     time (cpu & wall) for numeric factor    =        0.015625        0.016040
-     computational rate (gflops) for factor  =        8.662099        8.437828
-     time (cpu & wall) for numeric solve     =        0.015625        0.002781
-     computational rate (gflops) for solve   =        3.058974       17.189264
-     effective I/O rate (GB/sec) for solve   =       11.396471       64.040082
+     time (cpu & wall) for value input       =        0.000000        0.003647
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.010141
+     time (cpu & wall) for numeric factor    =        0.015625        0.021287
+     computational rate (gflops) for factor  =        8.662099        6.358030
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28264,10 +28317,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002346
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006680
-     time (cpu & wall) for numeric factor    =        0.031250        0.017331
-     computational rate (gflops) for factor  =        4.331050        7.809254
+     time (cpu & wall) for value input       =        0.000000        0.003167
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007409
+     time (cpu & wall) for numeric factor    =        0.015625        0.014567
+     computational rate (gflops) for factor  =        8.662099        9.291163
+     time (cpu & wall) for numeric solve     =        0.015625        0.002328
+     computational rate (gflops) for solve   =        3.058974       20.528483
+     effective I/O rate (GB/sec) for solve   =       11.396471       76.480630
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28321,13 +28377,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001833
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007480
-     time (cpu & wall) for numeric factor    =        0.015625        0.016551
-     computational rate (gflops) for factor  =        8.662099        8.177222
-     time (cpu & wall) for numeric solve     =        0.015625        0.002931
-     computational rate (gflops) for solve   =        3.058974       16.309448
-     effective I/O rate (GB/sec) for solve   =       11.396471       60.762251
+     time (cpu & wall) for value input       =        0.000000        0.001865
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006369
+     time (cpu & wall) for numeric factor    =        0.015625        0.014745
+     computational rate (gflops) for factor  =        8.662099        9.179251
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28381,10 +28434,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002182
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006440
-     time (cpu & wall) for numeric factor    =        0.015625        0.014998
-     computational rate (gflops) for factor  =        8.662099        9.024223
+     time (cpu & wall) for value input       =        0.015625        0.002083
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007258
+     time (cpu & wall) for numeric factor    =        0.015625        0.019430
+     computational rate (gflops) for factor  =        8.662099        6.965862
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28438,10 +28491,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002218
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006770
-     time (cpu & wall) for numeric factor    =        0.015625        0.014721
-     computational rate (gflops) for factor  =        8.662099        9.194279
+     time (cpu & wall) for value input       =        0.000000        0.002126
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008313
+     time (cpu & wall) for numeric factor    =        0.015625        0.023826
+     computational rate (gflops) for factor  =        8.662099        5.680595
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28495,8 +28548,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002181
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006579
+     time (cpu & wall) for value input       =        0.000000        0.002145
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006330
+     time (cpu & wall) for numeric factor    =        0.015625        0.015978
+     computational rate (gflops) for factor  =        8.662099        8.470569
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28550,13 +28605,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002352
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.008245
-     time (cpu & wall) for numeric factor    =        0.015625        0.014978
-     computational rate (gflops) for factor  =        8.662099        9.036514
-     time (cpu & wall) for numeric solve     =        0.015625        0.002988
-     computational rate (gflops) for solve   =        3.058974       15.997211
-     effective I/O rate (GB/sec) for solve   =       11.396471       59.598986
+     time (cpu & wall) for value input       =        0.000000        0.001939
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006775
+     time (cpu & wall) for numeric factor    =        0.015625        0.014731
+     computational rate (gflops) for factor  =        8.662099        9.187975
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28610,10 +28662,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002230
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006823
-     time (cpu & wall) for numeric factor    =        0.015625        0.014847
-     computational rate (gflops) for factor  =        8.662099        9.115880
+     time (cpu & wall) for value input       =        0.015625        0.001570
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006187
+     time (cpu & wall) for numeric factor    =        0.015625        0.017207
+     computational rate (gflops) for factor  =        8.662099        7.865803
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28667,10 +28719,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001861
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006514
-     time (cpu & wall) for numeric factor    =        0.015625        0.014818
-     computational rate (gflops) for factor  =        8.662099        9.133721
+     time (cpu & wall) for value input       =        0.000000        0.003667
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.010238
+     time (cpu & wall) for numeric factor    =        0.015625        0.016013
+     computational rate (gflops) for factor  =        8.662099        8.452319
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28724,10 +28776,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002241
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006398
-     time (cpu & wall) for numeric factor    =        0.015625        0.015578
-     computational rate (gflops) for factor  =        8.662099        8.688456
+     time (cpu & wall) for value input       =        0.000000        0.002164
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006760
+     time (cpu & wall) for numeric factor    =        0.015625        0.016782
+     computational rate (gflops) for factor  =        8.662099        8.064861
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28781,10 +28833,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002698
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006720
-     time (cpu & wall) for numeric factor    =        0.015625        0.015293
-     computational rate (gflops) for factor  =        8.662099        8.850031
+     time (cpu & wall) for value input       =        0.000000        0.001847
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006548
+     time (cpu & wall) for numeric factor    =        0.015625        0.015251
+     computational rate (gflops) for factor  =        8.662099        8.874578
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28838,10 +28890,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002172
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006518
-     time (cpu & wall) for numeric factor    =        0.015625        0.014925
-     computational rate (gflops) for factor  =        8.662099        9.068179
+     time (cpu & wall) for value input       =        0.000000        0.002118
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006564
+     time (cpu & wall) for numeric factor    =        0.015625        0.014883
+     computational rate (gflops) for factor  =        8.662099        9.093892
+     time (cpu & wall) for numeric solve     =        0.015625        0.002570
+     computational rate (gflops) for solve   =        3.058974       18.599295
+     effective I/O rate (GB/sec) for solve   =       11.396471       69.293273
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28895,10 +28950,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002235
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006583
-     time (cpu & wall) for numeric factor    =        0.015625        0.015317
-     computational rate (gflops) for factor  =        8.662099        8.836453
+     time (cpu & wall) for value input       =        0.015625        0.003800
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.010176
+     time (cpu & wall) for numeric factor    =        0.031250        0.020468
+     computational rate (gflops) for factor  =        4.331050        6.612532
+     time (cpu & wall) for numeric solve     =        0.015625        0.002646
+     computational rate (gflops) for solve   =        3.058974       18.066400
+     effective I/O rate (GB/sec) for solve   =       11.396471       67.307927
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -28952,10 +29010,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001973
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006300
-     time (cpu & wall) for numeric factor    =        0.015625        0.015674
-     computational rate (gflops) for factor  =        8.662099        8.634909
+     time (cpu & wall) for value input       =        0.000000        0.002112
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006747
+     time (cpu & wall) for numeric factor    =        0.015625        0.014921
+     computational rate (gflops) for factor  =        8.662099        9.070610
+     time (cpu & wall) for numeric solve     =        0.015625        0.002563
+     computational rate (gflops) for solve   =        3.058974       18.645731
+     effective I/O rate (GB/sec) for solve   =       11.396471       69.466276
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29009,10 +29070,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001624
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006282
-     time (cpu & wall) for numeric factor    =        0.015625        0.015254
-     computational rate (gflops) for factor  =        8.662099        8.872658
+     time (cpu & wall) for value input       =        0.015625        0.002024
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006148
+     time (cpu & wall) for numeric factor    =        0.015625        0.014866
+     computational rate (gflops) for factor  =        8.662099        9.104168
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29066,10 +29127,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002193
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006628
-     time (cpu & wall) for numeric factor    =        0.015625        0.014850
-     computational rate (gflops) for factor  =        8.662099        9.114284
+     time (cpu & wall) for value input       =        0.015625        0.002412
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.009509
+     time (cpu & wall) for numeric factor    =        0.015625        0.016324
+     computational rate (gflops) for factor  =        8.662099        8.291286
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29123,10 +29184,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002179
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006611
-     time (cpu & wall) for numeric factor    =        0.015625        0.014944
-     computational rate (gflops) for factor  =        8.662099        9.056590
+     time (cpu & wall) for value input       =        0.000000        0.001935
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006926
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29180,10 +29239,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002453
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006504
-     time (cpu & wall) for numeric factor    =        0.015625        0.014920
-     computational rate (gflops) for factor  =        8.662099        9.071279
+     time (cpu & wall) for value input       =        0.000000        0.001911
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006449
+     time (cpu & wall) for numeric factor    =        0.015625        0.017326
+     computational rate (gflops) for factor  =        8.662099        7.811642
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29237,10 +29296,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002231
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006530
-     time (cpu & wall) for numeric factor    =        0.015625        0.014911
-     computational rate (gflops) for factor  =        8.662099        9.076937
+     time (cpu & wall) for value input       =        0.000000        0.002134
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006347
+     time (cpu & wall) for numeric factor    =        0.015625        0.017066
+     computational rate (gflops) for factor  =        8.662099        7.930745
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29294,10 +29353,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002135
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006279
-     time (cpu & wall) for numeric factor    =        0.015625        0.015410
-     computational rate (gflops) for factor  =        8.662099        8.782668
+     time (cpu & wall) for value input       =        0.015625        0.001955
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007346
+     time (cpu & wall) for numeric factor    =        0.015625        0.019622
+     computational rate (gflops) for factor  =        8.662099        6.897736
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29351,10 +29410,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001599
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006489
-     time (cpu & wall) for numeric factor    =        0.015625        0.015509
-     computational rate (gflops) for factor  =        8.662099        8.727113
+     time (cpu & wall) for value input       =        0.000000        0.002407
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006696
+     time (cpu & wall) for numeric factor    =        0.015625        0.016633
+     computational rate (gflops) for factor  =        8.662099        8.136959
+     time (cpu & wall) for numeric solve     =        0.015625        0.003105
+     computational rate (gflops) for solve   =        3.058974       15.390909
+     effective I/O rate (GB/sec) for solve   =       11.396471       57.340155
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29408,10 +29470,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002227
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007192
-     time (cpu & wall) for numeric factor    =        0.015625        0.014961
-     computational rate (gflops) for factor  =        8.662099        9.046783
+     time (cpu & wall) for value input       =        0.000000        0.001770
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006873
+     time (cpu & wall) for numeric factor    =        0.015625        0.016873
+     computational rate (gflops) for factor  =        8.662099        8.021413
+     time (cpu & wall) for numeric solve     =        0.015625        0.002541
+     computational rate (gflops) for solve   =        3.058974       18.811582
+     effective I/O rate (GB/sec) for solve   =       11.396471       70.084167
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29465,10 +29530,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002181
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006335
-     time (cpu & wall) for numeric factor    =        0.015625        0.014880
-     computational rate (gflops) for factor  =        8.662099        9.095970
+     time (cpu & wall) for value input       =        0.000000        0.001938
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007031
+     time (cpu & wall) for numeric factor    =        0.015625        0.015481
+     computational rate (gflops) for factor  =        8.662099        8.742841
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29522,13 +29587,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002333
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006564
-     time (cpu & wall) for numeric factor    =        0.015625        0.015581
-     computational rate (gflops) for factor  =        8.662099        8.686560
-     time (cpu & wall) for numeric solve     =        0.015625        0.002714
-     computational rate (gflops) for solve   =        3.058974       17.613675
-     effective I/O rate (GB/sec) for solve   =       11.396471       65.621260
+     time (cpu & wall) for value input       =        0.000000        0.002282
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006470
+     time (cpu & wall) for numeric factor    =        0.031250        0.019082
+     computational rate (gflops) for factor  =        4.331050        7.092937
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29582,10 +29644,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002230
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006793
-     time (cpu & wall) for numeric factor    =        0.031250        0.016644
-     computational rate (gflops) for factor  =        4.331050        8.131826
+     time (cpu & wall) for value input       =        0.000000        0.001623
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006331
+     time (cpu & wall) for numeric factor    =        0.015625        0.015133
+     computational rate (gflops) for factor  =        8.662099        8.943601
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29639,10 +29701,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001895
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007998
-     time (cpu & wall) for numeric factor    =        0.015625        0.017144
-     computational rate (gflops) for factor  =        8.662099        7.894662
+     time (cpu & wall) for value input       =        0.000000        0.003569
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.010202
+     time (cpu & wall) for numeric factor    =        0.031250        0.020752
+     computational rate (gflops) for factor  =        4.331050        6.522099
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29696,10 +29758,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002231
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007393
-     time (cpu & wall) for numeric factor    =        0.015625        0.015234
-     computational rate (gflops) for factor  =        8.662099        8.884714
+     time (cpu & wall) for value input       =        0.000000        0.003267
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.010099
+     time (cpu & wall) for numeric factor    =        0.015625        0.020492
+     computational rate (gflops) for factor  =        8.662099        6.604723
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29753,10 +29815,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001871
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006261
-     time (cpu & wall) for numeric factor    =        0.015625        0.015762
-     computational rate (gflops) for factor  =        8.662099        8.586592
+     time (cpu & wall) for value input       =        0.000000        0.002222
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007306
+     time (cpu & wall) for numeric factor    =        0.015625        0.018641
+     computational rate (gflops) for factor  =        8.662099        7.260741
+     time (cpu & wall) for numeric solve     =        0.015625        0.002835
+     computational rate (gflops) for solve   =        3.058974       16.858235
+     effective I/O rate (GB/sec) for solve   =       11.396471       62.806804
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29810,10 +29875,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002085
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006288
-     time (cpu & wall) for numeric factor    =        0.015625        0.015007
-     computational rate (gflops) for factor  =        8.662099        9.018991
+     time (cpu & wall) for value input       =        0.000000        0.003706
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.010431
+     time (cpu & wall) for numeric factor    =        0.015625        0.021100
+     computational rate (gflops) for factor  =        8.662099        6.414439
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29867,10 +29932,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002428
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006535
-     time (cpu & wall) for numeric factor    =        0.015625        0.015504
-     computational rate (gflops) for factor  =        8.662099        8.729477
+     time (cpu & wall) for value input       =        0.000000        0.001955
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006755
+     time (cpu & wall) for numeric factor    =        0.015625        0.014827
+     computational rate (gflops) for factor  =        8.662099        9.128053
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29924,10 +29989,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002225
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006450
-     time (cpu & wall) for numeric factor    =        0.015625        0.015282
-     computational rate (gflops) for factor  =        8.662099        8.856517
+     time (cpu & wall) for value input       =        0.000000        0.002170
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007749
+     time (cpu & wall) for numeric factor    =        0.015625        0.021305
+     computational rate (gflops) for factor  =        8.662099        6.352718
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -29981,10 +30046,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002341
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.008989
-     time (cpu & wall) for numeric factor    =        0.031250        0.020765
-     computational rate (gflops) for factor  =        4.331050        6.517859
+     time (cpu & wall) for value input       =        0.000000        0.001852
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006142
+     time (cpu & wall) for numeric factor    =        0.015625        0.015079
+     computational rate (gflops) for factor  =        8.662099        8.975807
+     time (cpu & wall) for numeric solve     =        0.015625        0.002610
+     computational rate (gflops) for solve   =        3.058974       18.315630
+     effective I/O rate (GB/sec) for solve   =       11.396471       68.236455
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30038,10 +30106,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002224
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.008120
-     time (cpu & wall) for numeric factor    =        0.015625        0.014890
-     computational rate (gflops) for factor  =        8.662099        9.089922
+     time (cpu & wall) for value input       =        0.000000        0.001911
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006782
+     time (cpu & wall) for numeric factor    =        0.015625        0.014816
+     computational rate (gflops) for factor  =        8.662099        9.135077
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30095,13 +30163,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002388
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006658
-     time (cpu & wall) for numeric factor    =        0.015625        0.015676
-     computational rate (gflops) for factor  =        8.662099        8.633698
-     time (cpu & wall) for numeric solve     =        0.015625        0.002530
-     computational rate (gflops) for solve   =        3.058974       18.893378
-     effective I/O rate (GB/sec) for solve   =       11.396471       70.388905
+     time (cpu & wall) for value input       =        0.000000        0.001906
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006579
+     time (cpu & wall) for numeric factor    =        0.015625        0.019947
+     computational rate (gflops) for factor  =        8.662099        6.785212
+     time (cpu & wall) for numeric solve     =        0.015625        0.002700
+     computational rate (gflops) for solve   =        3.058974       17.700429
+     effective I/O rate (GB/sec) for solve   =       11.396471       65.944470
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30155,10 +30223,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002177
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006586
-     time (cpu & wall) for numeric factor    =        0.015625        0.014762
-     computational rate (gflops) for factor  =        8.662099        9.168742
+     time (cpu & wall) for value input       =        0.000000        0.001789
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006641
+     time (cpu & wall) for numeric factor    =        0.015625        0.020549
+     computational rate (gflops) for factor  =        8.662099        6.586563
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30212,10 +30280,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002214
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006305
-     time (cpu & wall) for numeric factor    =        0.015625        0.014911
-     computational rate (gflops) for factor  =        8.662099        9.076937
+     time (cpu & wall) for value input       =        0.000000        0.003023
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009709
+     time (cpu & wall) for numeric factor    =        0.015625        0.017754
+     computational rate (gflops) for factor  =        8.662099        7.623369
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30269,10 +30337,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001837
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006266
-     time (cpu & wall) for numeric factor    =        0.015625        0.015342
-     computational rate (gflops) for factor  =        8.662099        8.821996
+     time (cpu & wall) for value input       =        0.000000        0.001909
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006701
+     time (cpu & wall) for numeric factor    =        0.015625        0.015824
+     computational rate (gflops) for factor  =        8.662099        8.553328
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30326,10 +30394,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002409
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006825
-     time (cpu & wall) for numeric factor    =        0.015625        0.015825
-     computational rate (gflops) for factor  =        8.662099        8.552409
+     time (cpu & wall) for value input       =        0.000000        0.002197
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006237
+     time (cpu & wall) for numeric factor    =        0.015625        0.015868
+     computational rate (gflops) for factor  =        8.662099        8.529288
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30383,10 +30451,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.003020
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006305
-     time (cpu & wall) for numeric factor    =        0.015625        0.015147
-     computational rate (gflops) for factor  =        8.662099        8.935216
+     time (cpu & wall) for value input       =        0.000000        0.001918
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.008944
+     time (cpu & wall) for numeric factor    =        0.031250        0.022565
+     computational rate (gflops) for factor  =        4.331050        5.997886
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30440,10 +30508,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002404
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.008232
-     time (cpu & wall) for numeric factor    =        0.015625        0.015676
-     computational rate (gflops) for factor  =        8.662099        8.633808
+     time (cpu & wall) for value input       =        0.000000        0.001898
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006449
+     time (cpu & wall) for numeric factor    =        0.015625        0.015483
+     computational rate (gflops) for factor  =        8.662099        8.741712
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30497,10 +30565,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002409
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006775
-     time (cpu & wall) for numeric factor    =        0.015625        0.016131
-     computational rate (gflops) for factor  =        8.662099        8.390645
+     time (cpu & wall) for value input       =        0.000000        0.002166
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006522
+     time (cpu & wall) for numeric factor    =        0.015625        0.016513
+     computational rate (gflops) for factor  =        8.662099        8.196188
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30554,10 +30622,8 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001590
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006368
-     time (cpu & wall) for numeric factor    =        0.015625        0.014795
-     computational rate (gflops) for factor  =        8.662099        9.147919
+     time (cpu & wall) for value input       =        0.000000        0.002160
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006553
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30611,10 +30677,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002226
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006477
-     time (cpu & wall) for numeric factor    =        0.015625        0.016021
-     computational rate (gflops) for factor  =        8.662099        8.447782
+     time (cpu & wall) for value input       =        0.000000        0.002161
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006462
+     time (cpu & wall) for numeric factor    =        0.015625        0.014932
+     computational rate (gflops) for factor  =        8.662099        9.064232
+     time (cpu & wall) for numeric solve     =        0.015625        0.002717
+     computational rate (gflops) for solve   =        3.058974       17.593576
+     effective I/O rate (GB/sec) for solve   =       11.396471       65.546380
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30668,10 +30737,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002487
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006189
-     time (cpu & wall) for numeric factor    =        0.015625        0.014876
-     computational rate (gflops) for factor  =        8.662099        9.098171
+     time (cpu & wall) for value input       =        0.000000        0.003270
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.010852
+     time (cpu & wall) for numeric factor    =        0.015625        0.022169
+     computational rate (gflops) for factor  =        8.662099        6.105298
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30725,10 +30794,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002441
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006707
-     time (cpu & wall) for numeric factor    =        0.015625        0.015128
-     computational rate (gflops) for factor  =        8.662099        8.946675
+     time (cpu & wall) for value input       =        0.000000        0.001632
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006332
+     time (cpu & wall) for numeric factor    =        0.015625        0.016406
+     computational rate (gflops) for factor  =        8.662099        8.249643
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30779,13 +30848,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001693
+     time (cpu & wall) for structure input   =        0.000000        0.001685
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002159
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.008721
-     time (cpu & wall) for numeric factor    =        0.015625        0.015613
-     computational rate (gflops) for factor  =        8.662099        8.668757
+     time (cpu & wall) for value input       =        0.000000        0.001875
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006463
+     time (cpu & wall) for numeric factor    =        0.015625        0.014912
+     computational rate (gflops) for factor  =        8.662099        9.076511
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30839,10 +30908,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002370
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006952
-     time (cpu & wall) for numeric factor    =        0.015625        0.014841
-     computational rate (gflops) for factor  =        8.662099        9.119934
+     time (cpu & wall) for value input       =        0.000000        0.001543
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009806
+     time (cpu & wall) for numeric factor    =        0.031250        0.021865
+     computational rate (gflops) for factor  =        4.331050        6.190072
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30896,10 +30965,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002216
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006785
-     time (cpu & wall) for numeric factor    =        0.015625        0.015584
-     computational rate (gflops) for factor  =        8.662099        8.684721
+     time (cpu & wall) for value input       =        0.000000        0.001709
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006333
+     time (cpu & wall) for numeric factor    =        0.015625        0.014860
+     computational rate (gflops) for factor  =        8.662099        9.108028
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -30953,10 +31022,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002329
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006615
-     time (cpu & wall) for numeric factor    =        0.015625        0.014904
-     computational rate (gflops) for factor  =        8.662099        9.081322
+     time (cpu & wall) for value input       =        0.000000        0.001939
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006660
+     time (cpu & wall) for numeric factor    =        0.031250        0.019848
+     computational rate (gflops) for factor  =        4.331050        6.818987
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31010,10 +31079,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002474
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006537
-     time (cpu & wall) for numeric factor    =        0.015625        0.015203
-     computational rate (gflops) for factor  =        8.662099        8.902305
+     time (cpu & wall) for value input       =        0.015625        0.001941
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006560
+     time (cpu & wall) for numeric factor    =        0.015625        0.017748
+     computational rate (gflops) for factor  =        8.662099        7.625946
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31067,10 +31136,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002215
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006497
-     time (cpu & wall) for numeric factor    =        0.015625        0.016538
-     computational rate (gflops) for factor  =        8.662099        8.183799
+     time (cpu & wall) for value input       =        0.000000        0.001785
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006394
+     time (cpu & wall) for numeric factor    =        0.015625        0.014850
+     computational rate (gflops) for factor  =        8.662099        9.114284
+     time (cpu & wall) for numeric solve     =        0.015625        0.002935
+     computational rate (gflops) for solve   =        3.058974       16.285552
+     effective I/O rate (GB/sec) for solve   =       11.396471       60.673226
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31124,13 +31196,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002022
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006366
-     time (cpu & wall) for numeric factor    =        0.015625        0.015237
-     computational rate (gflops) for factor  =        8.662099        8.882732
-     time (cpu & wall) for numeric solve     =        0.015625        0.002502
-     computational rate (gflops) for solve   =        3.058974       19.101778
-     effective I/O rate (GB/sec) for solve   =       11.396471       71.165315
+     time (cpu & wall) for value input       =        0.000000        0.001899
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006685
+     time (cpu & wall) for numeric factor    =        0.015625        0.014804
+     computational rate (gflops) for factor  =        8.662099        9.142790
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31184,10 +31253,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002239
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006565
-     time (cpu & wall) for numeric factor    =        0.015625        0.015469
-     computational rate (gflops) for factor  =        8.662099        8.749623
+     time (cpu & wall) for value input       =        0.000000        0.001649
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006408
+     time (cpu & wall) for numeric factor    =        0.015625        0.018899
+     computational rate (gflops) for factor  =        8.662099        7.161392
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31241,10 +31310,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002094
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006276
-     time (cpu & wall) for numeric factor    =        0.031250        0.016636
-     computational rate (gflops) for factor  =        4.331050        8.135688
+     time (cpu & wall) for value input       =        0.000000        0.001891
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006213
+     time (cpu & wall) for numeric factor    =        0.015625        0.019150
+     computational rate (gflops) for factor  =        8.662099        7.067713
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31298,10 +31367,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002710
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007932
-     time (cpu & wall) for numeric factor    =        0.015625        0.015017
-     computational rate (gflops) for factor  =        8.662099        9.013105
+     time (cpu & wall) for value input       =        0.000000        0.002371
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006555
+     time (cpu & wall) for numeric factor    =        0.031250        0.019023
+     computational rate (gflops) for factor  =        4.331050        7.114899
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31355,8 +31424,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002166
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006262
+     time (cpu & wall) for value input       =        0.015625        0.003309
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.010401
+     time (cpu & wall) for numeric factor    =        0.031250        0.022027
+     computational rate (gflops) for factor  =        4.331050        6.144490
+     time (cpu & wall) for numeric solve     =        0.015625        0.002374
+     computational rate (gflops) for solve   =        3.058974       20.136699
+     effective I/O rate (GB/sec) for solve   =       11.396471       75.021003
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31410,10 +31484,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002538
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006855
-     time (cpu & wall) for numeric factor    =        0.015625        0.015802
-     computational rate (gflops) for factor  =        8.662099        8.565074
+     time (cpu & wall) for value input       =        0.000000        0.001657
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009747
+     time (cpu & wall) for numeric factor    =        0.015625        0.021394
+     computational rate (gflops) for factor  =        8.662099        6.326261
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31467,13 +31541,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002157
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006403
-     time (cpu & wall) for numeric factor    =        0.015625        0.014912
-     computational rate (gflops) for factor  =        8.662099        9.076328
-     time (cpu & wall) for numeric solve     =        0.015625        0.002688
-     computational rate (gflops) for solve   =        3.058974       17.778117
-     effective I/O rate (GB/sec) for solve   =       11.396471       66.233904
+     time (cpu & wall) for value input       =        0.000000        0.002125
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006827
+     time (cpu & wall) for numeric factor    =        0.015625        0.015285
+     computational rate (gflops) for factor  =        8.662099        8.854837
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31527,10 +31598,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002219
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006526
-     time (cpu & wall) for numeric factor    =        0.015625        0.015655
-     computational rate (gflops) for factor  =        8.662099        8.645279
+     time (cpu & wall) for value input       =        0.000000        0.001584
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006262
+     time (cpu & wall) for numeric factor    =        0.015625        0.014904
+     computational rate (gflops) for factor  =        8.662099        9.081139
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31584,10 +31655,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.001573
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007301
-     time (cpu & wall) for numeric factor    =        0.015625        0.017414
-     computational rate (gflops) for factor  =        8.662099        7.772078
+     time (cpu & wall) for value input       =        0.000000        0.002104
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006750
+     time (cpu & wall) for numeric factor    =        0.015625        0.021208
+     computational rate (gflops) for factor  =        8.662099        6.381924
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31641,10 +31712,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002214
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006540
-     time (cpu & wall) for numeric factor    =        0.015625        0.016190
-     computational rate (gflops) for factor  =        8.662099        8.359653
+     time (cpu & wall) for value input       =        0.015625        0.002385
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008064
+     time (cpu & wall) for numeric factor    =        0.015625        0.014766
+     computational rate (gflops) for factor  =        8.662099        9.165761
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31698,10 +31769,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002222
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006239
-     time (cpu & wall) for numeric factor    =        0.015625        0.015135
-     computational rate (gflops) for factor  =        8.662099        8.942360
+     time (cpu & wall) for value input       =        0.015625        0.002041
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006207
+     time (cpu & wall) for numeric factor    =        0.015625        0.016170
+     computational rate (gflops) for factor  =        8.662099        8.370148
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31755,10 +31826,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002322
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006504
-     time (cpu & wall) for numeric factor    =        0.015625        0.014958
-     computational rate (gflops) for factor  =        8.662099        9.048295
+     time (cpu & wall) for value input       =        0.000000        0.002051
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006315
+     time (cpu & wall) for numeric factor    =        0.015625        0.014795
+     computational rate (gflops) for factor  =        8.662099        9.148352
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31812,10 +31883,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002202
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006364
-     time (cpu & wall) for numeric factor    =        0.015625        0.015291
-     computational rate (gflops) for factor  =        8.662099        8.851362
+     time (cpu & wall) for value input       =        0.015625        0.002169
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008685
+     time (cpu & wall) for numeric factor    =        0.031250        0.020797
+     computational rate (gflops) for factor  =        4.331050        6.507862
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31869,10 +31940,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001742
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007062
-     time (cpu & wall) for numeric factor    =        0.015625        0.015582
-     computational rate (gflops) for factor  =        8.662099        8.686170
+     time (cpu & wall) for value input       =        0.000000        0.002329
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.009340
+     time (cpu & wall) for numeric factor    =        0.015625        0.022441
+     computational rate (gflops) for factor  =        8.662099        6.031242
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31923,13 +31994,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001518
-     time (cpu & wall) for ordering          =        0.046875        0.038233
-     time (cpu & wall) for other matrix prep =        0.000000        0.007802
-     time (cpu & wall) for value input       =        0.015625        0.001757
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006357
-     time (cpu & wall) for numeric factor    =        0.015625        0.015897
-     computational rate (gflops) for factor  =        8.596843        8.450016
+     time (cpu & wall) for structure input   =        0.000000        0.001661
+     time (cpu & wall) for ordering          =        0.046875        0.049145
+     time (cpu & wall) for other matrix prep =        0.015625        0.011353
+     time (cpu & wall) for value input       =        0.000000        0.001604
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006293
+     time (cpu & wall) for numeric factor    =        0.015625        0.015602
+     computational rate (gflops) for factor  =        8.596843        8.609572
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -31983,10 +32054,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002420
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006552
-     time (cpu & wall) for numeric factor    =        0.015625        0.016044
-     computational rate (gflops) for factor  =        8.596843        8.372383
+     time (cpu & wall) for value input       =        0.015625        0.003525
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.009889
+     time (cpu & wall) for numeric factor    =        0.031250        0.023219
+     computational rate (gflops) for factor  =        4.298422        5.785262
+     time (cpu & wall) for numeric solve     =        0.015625        0.002676
+     computational rate (gflops) for solve   =        3.416198       19.943247
+     effective I/O rate (GB/sec) for solve   =       12.727341       74.300281
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32040,10 +32114,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002250
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006781
-     time (cpu & wall) for numeric factor    =        0.015625        0.016428
-     computational rate (gflops) for factor  =        8.596843        8.176680
+     time (cpu & wall) for value input       =        0.015625        0.002241
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006687
+     time (cpu & wall) for numeric factor    =        0.015625        0.016306
+     computational rate (gflops) for factor  =        8.596843        8.237756
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32097,10 +32171,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002626
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006595
-     time (cpu & wall) for numeric factor    =        0.015625        0.018340
-     computational rate (gflops) for factor  =        8.596843        7.323992
+     time (cpu & wall) for value input       =        0.000000        0.001832
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.008747
+     time (cpu & wall) for numeric factor    =        0.031250        0.019809
+     computational rate (gflops) for factor  =        4.298422        6.781111
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32151,13 +32225,13 @@
      number of processes used                =               4
      number of threads per process used      =               1
      number of cores used                    =               4
-     time (cpu & wall) for structure input   =        0.000000        0.001789
-     time (cpu & wall) for ordering          =        0.046875        0.038953
-     time (cpu & wall) for other matrix prep =        0.000000        0.008390
-     time (cpu & wall) for value input       =        0.000000        0.001598
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006570
-     time (cpu & wall) for numeric factor    =        0.015625        0.017055
-     computational rate (gflops) for factor  =        9.477771        8.683044
+     time (cpu & wall) for structure input   =        0.000000        0.001618
+     time (cpu & wall) for ordering          =        0.031250        0.040028
+     time (cpu & wall) for other matrix prep =        0.031250        0.008386
+     time (cpu & wall) for value input       =        0.000000        0.002190
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006455
+     time (cpu & wall) for numeric factor    =        0.031250        0.018345
+     computational rate (gflops) for factor  =        4.738886        8.072509
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32211,10 +32285,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002288
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006958
-     time (cpu & wall) for numeric factor    =        0.015625        0.018307
-     computational rate (gflops) for factor  =        9.477771        8.089398
+     time (cpu & wall) for value input       =        0.000000        0.001715
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006607
+     time (cpu & wall) for numeric factor    =        0.015625        0.016673
+     computational rate (gflops) for factor  =        9.477771        8.882089
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32268,13 +32342,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001826
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006545
-     time (cpu & wall) for numeric factor    =        0.015625        0.018193
-     computational rate (gflops) for factor  =        9.477771        8.139999
-     time (cpu & wall) for numeric solve     =        0.015625        0.002925
-     computational rate (gflops) for solve   =        3.799802       20.296008
-     effective I/O rate (GB/sec) for solve   =       14.156490       75.614523
+     time (cpu & wall) for value input       =        0.000000        0.001600
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006584
+     time (cpu & wall) for numeric factor    =        0.015625        0.026838
+     computational rate (gflops) for factor  =        9.477771        5.517908
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32328,8 +32399,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001608
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006612
+     time (cpu & wall) for value input       =        0.000000        0.001619
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006542
+     time (cpu & wall) for numeric factor    =        0.031250        0.018985
+     computational rate (gflops) for factor  =        4.738886        7.800214
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32383,10 +32456,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002225
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006783
-     time (cpu & wall) for numeric factor    =        0.015625        0.017419
-     computational rate (gflops) for factor  =        9.477771        8.501842
+     time (cpu & wall) for value input       =        0.000000        0.001911
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007053
+     time (cpu & wall) for numeric factor    =        0.015625        0.016824
+     computational rate (gflops) for factor  =        9.477771        8.802055
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32440,10 +32513,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002180
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006758
-     time (cpu & wall) for numeric factor    =        0.015625        0.016822
-     computational rate (gflops) for factor  =        9.477771        8.803520
+     time (cpu & wall) for value input       =        0.000000        0.002106
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006999
+     time (cpu & wall) for numeric factor    =        0.015625        0.016748
+     computational rate (gflops) for factor  =        9.477771        8.842208
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32497,10 +32570,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002238
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006643
-     time (cpu & wall) for numeric factor    =        0.015625        0.016828
-     computational rate (gflops) for factor  =        9.477771        8.799963
+     time (cpu & wall) for value input       =        0.000000        0.002255
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006925
+     time (cpu & wall) for numeric factor    =        0.031250        0.021113
+     computational rate (gflops) for factor  =        4.738886        7.014237
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32554,10 +32627,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002220
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006728
-     time (cpu & wall) for numeric factor    =        0.015625        0.019115
-     computational rate (gflops) for factor  =        9.477771        7.747126
+     time (cpu & wall) for value input       =        0.000000        0.001898
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006595
+     time (cpu & wall) for numeric factor    =        0.015625        0.016930
+     computational rate (gflops) for factor  =        9.477771        8.747153
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32611,10 +32684,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001831
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006611
-     time (cpu & wall) for numeric factor    =        0.015625        0.016930
-     computational rate (gflops) for factor  =        9.477771        8.747412
+     time (cpu & wall) for value input       =        0.000000        0.002075
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007765
+     time (cpu & wall) for numeric factor    =        0.015625        0.025669
+     computational rate (gflops) for factor  =        9.477771        5.769313
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32668,13 +32741,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.001710
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.008788
-     time (cpu & wall) for numeric factor    =        0.015625        0.018144
-     computational rate (gflops) for factor  =        9.477771        8.162027
-     time (cpu & wall) for numeric solve     =        0.015625        0.002784
-     computational rate (gflops) for solve   =        3.799802       21.324586
-     effective I/O rate (GB/sec) for solve   =       14.156490       79.446578
+     time (cpu & wall) for value input       =        0.000000        0.002102
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006662
+     time (cpu & wall) for numeric factor    =        0.031250        0.023819
+     computational rate (gflops) for factor  =        4.738886        6.217209
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32728,8 +32798,13 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002918
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006874
+     time (cpu & wall) for value input       =        0.000000        0.001892
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.007035
+     time (cpu & wall) for numeric factor    =        0.015625        0.017167
+     computational rate (gflops) for factor  =        9.477771        8.626445
+     time (cpu & wall) for numeric solve     =        0.015625        0.002377
+     computational rate (gflops) for solve   =        3.799802       24.978717
+     effective I/O rate (GB/sec) for solve   =       14.156490       93.060358
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32783,10 +32858,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002956
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007247
-     time (cpu & wall) for numeric factor    =        0.015625        0.018564
-     computational rate (gflops) for factor  =        9.477771        7.977063
+     time (cpu & wall) for value input       =        0.000000        0.002165
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.007224
+     time (cpu & wall) for numeric factor    =        0.031250        0.026616
+     computational rate (gflops) for factor  =        4.738886        5.564037
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32840,10 +32915,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002215
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.006637
-     time (cpu & wall) for numeric factor    =        0.015625        0.017477
-     computational rate (gflops) for factor  =        9.477771        8.473626
+     time (cpu & wall) for value input       =        0.015625        0.001823
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006466
+     time (cpu & wall) for numeric factor    =        0.015625        0.022459
+     computational rate (gflops) for factor  =        9.477771        6.593860
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32897,10 +32972,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002229
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007666
-     time (cpu & wall) for numeric factor    =        0.015625        0.017956
-     computational rate (gflops) for factor  =        9.477771        8.247530
+     time (cpu & wall) for value input       =        0.000000        0.002156
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.006802
+     time (cpu & wall) for numeric factor    =        0.015625        0.022375
+     computational rate (gflops) for factor  =        9.477771        6.618585
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -32954,10 +33029,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002228
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.007054
-     time (cpu & wall) for numeric factor    =        0.031250        0.018307
-     computational rate (gflops) for factor  =        4.738886        8.089398
+     time (cpu & wall) for value input       =        0.000000        0.001830
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006447
+     time (cpu & wall) for numeric factor    =        0.015625        0.016768
+     computational rate (gflops) for factor  =        9.477771        8.831714
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -33011,10 +33086,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.015625        0.002338
-     time (cpu & wall) for matrix distrib.   =        0.000000        0.006455
-     time (cpu & wall) for numeric factor    =        0.015625        0.017551
-     computational rate (gflops) for factor  =        9.477771        8.437946
+     time (cpu & wall) for value input       =        0.000000        0.003605
+     time (cpu & wall) for matrix distrib.   =        0.015625        0.010288
+     time (cpu & wall) for numeric factor    =        0.015625        0.025739
+     computational rate (gflops) for factor  =        9.477771        5.753510
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
@@ -33068,10 +33143,10 @@
      time (cpu & wall) for structure input   =        0.000000        0.000000
      time (cpu & wall) for ordering          =        0.000000        0.000000
      time (cpu & wall) for other matrix prep =        0.000000        0.000000
-     time (cpu & wall) for value input       =        0.000000        0.002232
-     time (cpu & wall) for matrix distrib.   =        0.015625        0.007045
-     time (cpu & wall) for numeric factor    =        0.015625        0.017895
-     computational rate (gflops) for factor  =        9.477771        8.275645
+     time (cpu & wall) for value input       =        0.000000        0.001918
+     time (cpu & wall) for matrix distrib.   =        0.000000        0.006668
+     time (cpu & wall) for numeric factor    =        0.031250        0.022903
+     computational rate (gflops) for factor  =        4.738886        6.466029
 
      i/o stats: unit-Core          file length             amount transferred
                                  words       mbytes          words       mbytes
